@@ -63,6 +63,14 @@ paste into the website.
 - **Hand-made sheets don't work.** Tested: passing a 2x2 sheet as the first
   frame renders the grid for several seconds and animates each cell. Always
   use individual full-bleed keyframes — they work well.
+- **⚠️ MCP `more_pictures` bug (tested Nov 2026):** the MCP stitches the
+  first frame and `more_pictures` into one 2x2 reference sheet, the same as
+  the website, but then **uses the sheet itself as the opening frame**. The
+  video opens on the 2x2 grid for about 2 seconds, zooms blurrily into one
+  cell, and the opening line plays over the grid. Until Supergen fixes this,
+  make multi-reference scenes on the website (+ More Images), or use a
+  single `picture` with no `more_pictures`. `my_videos` also showed
+  `voices: []` for a render whose result said `voices: 1`.
 - **Reference slots in the MCP:** both video tools take `picture` (@1, the
   first frame) plus `more_pictures` (up to 3 more: picture_ids, `pic_` ids or
   https links) for @2–@4. Use these for new multi-reference scenes.
