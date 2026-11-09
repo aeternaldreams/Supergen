@@ -55,14 +55,28 @@ paste into the website.
   `reuse_video` still keeps a past video's stitched sheet for retakes.
 - **Getting keyframes to the MCP:** `picture` and `more_pictures` take a
   `make_picture` id (`img_...`), an uploaded id (`pic_...`) or an https link.
-  - Preferred (private): `upload_pictures` (free) opens an upload box. In
-    Claude Code it also returns upload addresses the tool can POST local
-    files to. They come back as `pic_` ids; `my_pictures` lists them.
-    *Untested from Claude Code yet.*
+  - Preferred (private): `upload_pictures` (free) returns one-time upload
+    addresses (valid 20 minutes). **Tested and working from Claude Code:**
+    POST the raw image bytes, not a multipart form:
+    `curl -sS -X POST -H "Content-Type: image/jpeg" --data-binary @frame.jpg "<url>"`
+    → `{"picture_id": "pic_...", ...}`. Gotchas:
+    - The cloud session's network must allow `api.supergen.video`. Use
+      the personal "Supergen" environment, which allows it.
+    - A multipart (`-F file=@...`) POST fails with "isn't a picture" AND
+      uses up the address. Call `upload_pictures` again for a new one.
+    - `my_pictures` lists uploaded `pic_` ids.
   - Fallback (public): commit the file to `keyframes/<project>/` in this
     public repo, push, and pass
     `https://raw.githubusercontent.com/aeternaldreams/Supergen/main/keyframes/<project>/<file>`.
     Anything committed here is publicly visible.
+- **Letterbox bars:** Gemini/Nano Banana edits often add thin black bars
+  (about 12–17px) top and bottom, even when told not to. Crop them locally
+  with PIL (find rows whose mean brightness is near 0, then crop to 16:9)
+  instead of re-editing. A crop costs nothing and can't change faces.
+- **Plan the first frame's hands around the script:** check what each hand
+  must do (hold a prop, pick something up, swap gloves) and pose the frame
+  so the first action is free. Don't add props like pens that the scene
+  doesn't need; the model may drop, duplicate or morph them.
 - **Physical continuity:** keep prop states identical across panels (e.g. the
   sleeping bag sealed at the bottom in panel 3 so it matches panel 4).
 - **Spatial continuity:** isolate backgrounds with opposing eyelines
