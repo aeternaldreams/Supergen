@@ -24,6 +24,20 @@ paste into the website.
 - Videos take a few minutes: poll with `check_video`. Watch links last
   30 minutes; videos stay in the member's library.
 - If a picture is slow, resume it with `picture_job` — never start a new one.
+- **The id `make_*_video` returns (`vid_...`) is not the library id.** If
+  `check_video` says it "can't find" the video (this happens after the MCP
+  reconnects), get the 12-character id from `my_videos` and call
+  `check_video` with that. Watch links are direct MP4s. From a cloud session
+  you can `curl` them and pull frames with ffmpeg to review the beats (use
+  `silencedetect` for dialogue timing).
+- **The content check is not consistent.** The same picture and words failed
+  once ("didn't pass our content check... outfit or a moment that reads as
+  too intimate", no charge) and then passed on an identical retry. A failed
+  check costs nothing, so retry once before rewriting. Shirtless characters
+  and innuendo (fertility sample, shoulder-length glove, "buy me dinner
+  first") did pass.
+- A Super Seed passed through the MCP shows as `style: null` in
+  `my_videos`; it's unclear whether it was applied.
 
 ## 1. Reference images and slot mechanics
 
@@ -137,6 +151,11 @@ tagged with the speaker number:
   has the 4th line, the line fires early at 12s and the silent shot is pushed
   to 16s. Keep the final reaction shot non-verbal, or swap the two segments
   in post.
+- **Confirmed fix (Nov 2026):** give the silent beat its own timestamp
+  block that says "Complete silence, no one speaks", and tie the last line
+  to a physical cue ("Right after the snap, Gary says..."). In a 20s single
+  locked-off shot this held the silence from about 12.4 to 15.8s and the
+  last line landed at about 19–20s. Clips come out about 21.5s long.
 - Music videos with own audio: "singing in precise synchronization with the
   supplied vocal: '<lyric>'", plus "Keep the original audio unchanged" and
   "no added voices".
