@@ -1,6 +1,6 @@
 ---
 name: supergen-video-prompting
-description: Playbook for building supergen.video scenes (Super Animation and Super Live Action) — reference-image setup, dialogue pacing, prompt templates, styles (Super Seeds), direction mode and credit costs. Use whenever planning, prompting or generating Supergen pictures or videos, through the Supergen MCP tools or for pasting into the supergen.video website.
+description: Playbook for building supergen.video scenes (Super Animation and Super Live Action) — reference-image setup, character sheets, character voices and own audio, dialogue pacing, prompt templates, styles (Super Seeds), direction mode and credit costs. Use whenever planning, prompting or generating Supergen pictures or videos, through the Supergen MCP tools or for pasting into the supergen.video website.
 ---
 
 # Supergen video prompting
@@ -13,7 +13,7 @@ paste into the website.
 ## 0. Session start and credits
 
 - Check the Supergen tool schemas: the owner is adding the website's missing
-  options to the MCP, so section 6 may be out of date.
+  options to the MCP, so section 6 may be out of date (last checked 2026-11-09).
 - `my_account` (free): balance and prices. `my_videos` (free): past prompts
   and settings — read them for continuity before writing a sequel or retake.
 - Tell the member the cost and get a yes before `make_picture`,
@@ -49,21 +49,59 @@ paste into the website.
 - **Hand-made sheets don't work.** Tested: passing a 2x2 sheet as the first
   frame renders the grid for several seconds and animates each cell. Always
   use individual full-bleed keyframes — they work well.
-- `reuse_video` keeps a past video's stitched sheet, so it is the reliable
-  way to reuse a multi-reference setup through the MCP.
-- **Getting keyframes to the MCP:** `picture` needs a direct https image
-  link. Images the member uploads in a Claude Code chat arrive as local files
-  with no link, so commit them to `keyframes/<project>/` in this (public)
-  repo, push, and pass
-  `https://raw.githubusercontent.com/aeternaldreams/Supergen/main/keyframes/<project>/<file>`.
-  Anything committed here is publicly visible.
+- **Reference slots in the MCP:** both video tools take `picture` (@1, the
+  first frame) plus `more_pictures` (up to 3 more: picture_ids, `pic_` ids or
+  https links) for @2–@4. Use these for new multi-reference scenes.
+  `reuse_video` still keeps a past video's stitched sheet for retakes.
+- **Getting keyframes to the MCP:** `picture` and `more_pictures` take a
+  `make_picture` id (`img_...`), an uploaded id (`pic_...`) or an https link.
+  - Preferred (private): `upload_pictures` (free) opens an upload box. In
+    Claude Code it also returns upload addresses the tool can POST local
+    files to. They come back as `pic_` ids; `my_pictures` lists them.
+    *Untested from Claude Code yet.*
+  - Fallback (public): commit the file to `keyframes/<project>/` in this
+    public repo, push, and pass
+    `https://raw.githubusercontent.com/aeternaldreams/Supergen/main/keyframes/<project>/<file>`.
+    Anything committed here is publicly visible.
 - **Physical continuity:** keep prop states identical across panels (e.g. the
   sleeping bag sealed at the bottom in panel 3 so it matches panel 4).
 - **Spatial continuity:** isolate backgrounds with opposing eyelines
   (180-degree rule) so the model doesn't paste Character A into the
   background behind Character B.
-- For character designs, start from a `character_sheet`, `cast_sheet` or
-  `cast_and_place` picture.
+- **Character and set design with `make_picture`** (5 XCE each). `kind`:
+  - `character_sheet`: design sheet for one character
+  - `cast_sheet`: several characters together
+  - `cast_and_place`: the cast plus their setting
+  - `background`: a place with no people (good for @2–@4 location refs)
+  - `storyboard`: a shot-by-shot board for planning
+  - `plain` (default): one picture, e.g. a clean full-bleed keyframe
+
+  `look`: auto, photo (live action) or anime. `shape`: match the video.
+  Sheets are multi-panel, so never use one as the first frame (see above).
+  Make the sheet first, then a clean `plain` keyframe of the same character
+  for @1. Passing the sheet in `more_pictures` as an identity reference
+  should work but is *untested*.
+
+## 1b. Voices and own audio (both video tools)
+
+- **`voices`**: up to 3 entries `{name, audio}`. `audio` is an https link to
+  2–20 seconds of that character talking. Each character speaks in the voice
+  from their sample.
+  - `name` must match the character's name as written in `description`
+    (e.g. `Walt` → "Walt (Speaker 1) whispers: ...").
+  - Samples attached in a chat go in `voice_file_1..3`, in the same order as
+    `voices`.
+  - From Claude Code, a sample needs a link: commit it to
+    `voices/<project>/` in this public repo and pass the raw GitHub link.
+    Only use voices the member is happy to make public and has the right to
+    use.
+- **`audio` / `audio_file`**: the member's own track (MP3, WAV, M4A, AAC,
+  OGG, FLAC or MP4). The video follows it (music, voices). Up to 20 seconds.
+  **Own audio overrides `voices`.** Don't send both.
+- `reuse_video` can keep a past video's voices and audio (`keep_voices`,
+  `keep_audio`, both default true).
+- *Untested:* how closely voice cloning matches, and whether the 2.5
+  words/second and 4-line limits from section 2 change with voices.
 
 ## 2. Dialogue and pacing
 
@@ -156,7 +194,8 @@ Throughout: synchronize visible singing to the actual supplied audio, preserving
 | super | Wild camera, more cuts and angles | Chases, fights, sudden scares, intense moments |
 | off | Camera holds still | CCTV / found-footage looks, static wides holding on something unsettling |
 
-Where `direction` isn't available, describe the camera in the scene text
+`direction` is on `make_animation_video` and `reuse_video` only. For Live
+Action, or wherever it isn't available, describe the camera in the scene text
 ("static shot", "slow push-in") — a request, not a guaranteed setting.
 
 ### Styles (Super Seeds, from `list_styles`)
@@ -199,19 +238,23 @@ direction super → Raw Merge, Top Tier Reality or Readable Sakuga.
 | Normal | `quality: "480p"` (made at 576p) |
 | HD / Upscale to 1080p | `quality: "720p"` (made at Normal, upscaled to 1080p) |
 | 16:9 etc. | `shape` (videos also allow 21:9) |
-| Direction | `direction` — `reuse_video` only |
-| Style / Super Seed | `seed` — `reuse_video` only |
-| + More Images (reference) | not in MCP — one keyframe per new video (see section 1) |
-| + Add Scene Audio | not in MCP — `reuse_video` can keep a past video's audio (`keep_audio`) |
+| Direction | `direction`: `make_animation_video` and `reuse_video` (not Live Action) |
+| Style / Super Seed | `seed`: all video tools (code or style name) |
+| + More Images (reference) | `more_pictures` (up to 3) / `picture_file_2..4` |
+| + Add Scene Audio | `audio` (https link) / `audio_file` |
+| Character voices | `voices` (up to 3) / `voice_file_1..3` |
 
-Other tools: `make_picture` (`kind`: plain, character_sheet, cast_sheet,
-cast_and_place, background, storyboard; `look`: auto, photo, anime),
-`make_live_action_video` (plans the scene ~1 min first, default 10s),
-`reuse_video` (same picture, words, voices, audio and settings with any
-changed; `keep_voices`, `keep_audio`), and `post_to_community` (only when
-the member asks).
+Other tools:
+- `make_picture`: see section 1. `picture_job` resumes a slow picture.
+- `make_live_action_video`: plans the scene for about a minute first.
+  Default 10s. `make_animation_video` defaults to 5s.
+- `reuse_video`: same picture, words, voices, audio and settings with any of
+  them changed (`keep_voices`, `keep_audio`).
+- `upload_pictures` and `my_pictures`: the member's own photos (free).
+- `my_videos` and `my_account`: history, balance and prices (free).
+- `list_styles`: current Super Seeds (free).
+- `post_to_community`: only when the member asks.
 
-Until reference slots arrive in the MCP: build multi-shot scenes as pictures +
-prompt blocks for the member to paste into the website, use `reuse_video` to
-retake past multi-reference scenes, and run 5-second single-image pickups
-directly through the MCP.
+Multi-shot, multi-reference scenes with voices or audio can now be made
+entirely through the MCP; the website is no longer required. Confirm the
+cost first.
