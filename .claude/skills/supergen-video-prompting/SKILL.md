@@ -210,6 +210,25 @@ tagged with the speaker number:
 - End with a "Throughout:" or "No ..." line listing what must not happen
   (extra cuts, dissolves, slow motion, extra people, subtitles, watermarks).
 
+- **Mentioning something off-screen brings it on-screen.** "Looking at
+  someone off-screen" plus "a poncho rustling off-screen" made a stranger
+  in a poncho walk into a 5s close-up. Instead write "X is the only person
+  in the shot" and give an eyeline ("eyes fixed slightly downward toward
+  the left edge of the frame").
+- **Write reactions as face movements, not emotion words.** "Smug half-smile"
+  came out as a warm, charmed grin. "One eyebrow lifts high, one corner of
+  his mouth curls into a lopsided smirk, mouth stays closed, one slow nod"
+  gave exactly the smug button.
+- **Assemble the master edit from several takes.** Keep the best take, swap
+  in shots from other takes for weak moments (mute their audio and lay
+  room tone under them), and render cheap 5s single-picture pickups for
+  missing beats. To make a pickup match on the cut, start it from the
+  previous shot's last frame: crop it, enhance it in GPT Images ("keep
+  everything identical"), and use that as its first picture. ffmpeg handles
+  the rest: whip pans (slideleft xfade plus horizontal blur and a filtered
+  noise whoosh), slowing a shot down instead of freezing it, and sound
+  stings.
+
 ## 4. Prompt templates
 
 These follow the member's proven structure. Fill the <angle brackets>.
