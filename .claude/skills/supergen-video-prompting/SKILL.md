@@ -147,9 +147,20 @@ paste into the website.
   drawer and takes out X". Tested: the poncho and goggles came out of the
   drawer cleanly, with no morphing. A prop pulled "from his coat pocket" or
   from off-frame gets made up or morphs.
-- Even with "complete silence, no one speaks", the model may fill a silent
-  beat with loud foley (drawer, plastic). List only the sounds you want in
-  that beat.
+- **Silent beats turn into gibberish (tested Nov 2026).** Both renders that
+  used a voice sample filled their dialogue-free stretch with fast,
+  unintelligible pseudo-English: 8s of prop business in one, and a 3s stare
+  in the other, even though that one described the beat as "only the hum of
+  the fluorescent lights". The two renders without a voice sample held a
+  3.4s silence cleanly. **Untested idea:** voice-sample mode makes the audio
+  model fill gaps. Until that's confirmed:
+  - keep dialogue-free stretches to about 1.5–2s;
+  - or fill them with a specific, non-verbal sound made by a character in
+    the frame (a snort, a sigh, a cough);
+  - and test the same prompt without `voices` to compare.
+- **A line must be spoken by a character in the frame.** When the last shot
+  showed only the doctor, Gary's line was lip-synced onto the doctor. Make
+  sure whoever speaks is visible in that shot.
 
 ## 2. Dialogue and pacing
 
