@@ -45,11 +45,18 @@ paste into the website.
   > one world; the boxes, borders and the grid are never shown in the video.)
 
   For 2 images it reads "@1 (image 1) = the left box. @2 (image 2) = the
-  right box." Untested idea: passing a hand-made sheet as `picture` with this
-  note appended may reproduce multi-reference through the MCP — test with a
-  cheap 5s 480p clip before relying on it.
+  right box."
+- **Hand-made sheets don't work.** Tested: passing a 2x2 sheet as the first
+  frame renders the grid for several seconds and animates each cell. Always
+  use individual full-bleed keyframes — they work well.
 - `reuse_video` keeps a past video's stitched sheet, so it is the reliable
   way to reuse a multi-reference setup through the MCP.
+- **Getting keyframes to the MCP:** `picture` needs a direct https image
+  link. Images the member uploads in a Claude Code chat arrive as local files
+  with no link, so commit them to `keyframes/<project>/` in this (public)
+  repo, push, and pass
+  `https://raw.githubusercontent.com/aeternaldreams/Supergen/main/keyframes/<project>/<file>`.
+  Anything committed here is publicly visible.
 - **Physical continuity:** keep prop states identical across panels (e.g. the
   sleeping bag sealed at the bottom in panel 3 so it matches panel 4).
 - **Spatial continuity:** isolate backgrounds with opposing eyelines
@@ -194,7 +201,7 @@ direction super → Raw Merge, Top Tier Reality or Readable Sakuga.
 | 16:9 etc. | `shape` (videos also allow 21:9) |
 | Direction | `direction` — `reuse_video` only |
 | Style / Super Seed | `seed` — `reuse_video` only |
-| + More Images (reference) | not in MCP — one picture per new video (see section 1) |
+| + More Images (reference) | not in MCP — one keyframe per new video (see section 1) |
 | + Add Scene Audio | not in MCP — `reuse_video` can keep a past video's audio (`keep_audio`) |
 
 Other tools: `make_picture` (`kind`: plain, character_sheet, cast_sheet,
