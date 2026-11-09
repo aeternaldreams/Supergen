@@ -128,8 +128,20 @@ paste into the website.
   **Own audio overrides `voices`.** Don't send both.
 - `reuse_video` can keep a past video's voices and audio (`keep_voices`,
   `keep_audio`, both default true).
-- *Untested:* how closely voice cloning matches, and whether the 2.5
-  words/second and 4-line limits from section 2 change with voices.
+- **Tested (Nov 2026):** a 5.6s clip of a character's lines, cut from an
+  earlier Supergen render, was accepted (`voices: 1` in the result). The
+  render took about 17 minutes, against about 5–10 without a voice sample,
+  so expect longer waits. Also say the accent in the text ("deep, raspy
+  American accent"): without it, one take gave the character a British
+  accent.
+- **Props that appear later:** keep them out of sight in a closed container
+  that is in the frame (a cart drawer), then write "pulls open its top
+  drawer and takes out X". Tested: the poncho and goggles came out of the
+  drawer cleanly, with no morphing. A prop pulled "from his coat pocket" or
+  from off-frame gets made up or morphs.
+- Even with "complete silence, no one speaks", the model may fill a silent
+  beat with loud foley (drawer, plastic). List only the sounds you want in
+  that beat.
 
 ## 2. Dialogue and pacing
 
