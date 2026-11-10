@@ -229,6 +229,27 @@ tagged with the speaker number:
   noise whoosh), slowing a shot down instead of freezing it, and sound
   stings.
 
+- **5s Live Action pickups stay on script for about 2.5s (tested Nov 2026,
+  Top Tier Reality, four pickups).** Each came back 6.6s long, and after
+  about 2.7s cut to unrelated content: a person on the hood, a second
+  driver, even the seed's own example scene (a hunter and a giant beast).
+  Plan each pickup around one action that finishes inside 2.5s, and trim
+  the rest.
+- **Small faces smear.** Normal quality renders at 1024x576; a face about
+  60px tall in a wide shot is redrawn badly from frame 0 and doesn't act.
+  Put acting in a close-up pickup where the face fills a third of the
+  frame, and keep wide shots of that character short.
+- **Do camera tricks in the edit.** A snap zoom out from a close-up to a
+  wide is two separate clips joined with ffmpeg `zoompan` (4x to 1x over 6
+  frames, centred on the face) plus a whoosh. The model never has to
+  invent what is outside the close-up.
+- **Chase scenes:** state where the pursuers are in every shot ("the yellow
+  car leads, the cruisers follow behind"), and prefer cameras looking back
+  at the lead car. Avoid "flash", "bright" or "explosive" for sparks (they
+  cause full-frame white flashes) and "flies through the air in slow
+  motion" (the car hovers). The model ignores engine-sound requests, so
+  add engine, screech and a low rumble bed in the mix.
+
 ## 4. Prompt templates
 
 These follow the member's proven structure. Fill the <angle brackets>.
