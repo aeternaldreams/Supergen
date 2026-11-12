@@ -250,6 +250,20 @@ tagged with the speaker number:
   motion" (the car hovers). The model ignores engine-sound requests, so
   add engine, screech and a low rumble bed in the mix.
 
+- **Style seeds can pollute a render (Supergen developer, Nov 2026).** The
+  developer advised leaving seeds off for now. With Top Tier Reality, every
+  5s pickup cut away to unrelated content at about 2.7s. With no seed, a
+  one-shot "car passes, box thrown, box skids up the walkway" render stayed
+  on script for all 6.6s, and so did the developer's own reruns of our
+  close-up, mirror and porch shots. It is not a complete fix: a no-seed
+  toss retry still cut to a face close-up at 2s. Default to no seed, and
+  add one only to test it against a no-seed take.
+- **One continuous shot can beat two joined pickups.** A locked camera,
+  one object moving in a straight line toward the lens, and everything
+  else leaving the frame is something the model holds well. Say where the
+  object travels ("up the centre of the walkway, staying on the concrete")
+  and that pursuers "leave the frame, still chasing", or they linger.
+
 ## 4. Prompt templates
 
 These follow the member's proven structure. Fill the <angle brackets>.
