@@ -264,6 +264,14 @@ tagged with the speaker number:
   object travels ("up the centre of the walkway, staying on the concrete")
   and that pursuers "leave the frame, still chasing", or they linger.
 
+- **Too many beats in one render get merged or dropped (tested Nov 2026).**
+  A 15s, no-seed render with seven timestamped shots stayed coherent but
+  made only four: it skipped the fast middle beats (the jump and an insert
+  close-up), stretched one shot to 6s, and invented an extra (a talking cop
+  in the dashcam view). Keep a single render to three or four beats, and
+  build denser action from pickups. Even a weak long render can give
+  usable shots: its walkway toss replaced the pickup version in the edit.
+
 ## 4. Prompt templates
 
 These follow the member's proven structure. Fill the <angle brackets>.
