@@ -54,7 +54,7 @@ CAL: (still holding her) "What's the worst that could happen?"
 KALLISTA: (deadpan, completely sincere) "Uh... you could die?"
 Cal blinks, stunned. A beat. He doesn't let go.
 CAL: "...Okay. But besides that?"
-Static crackles between their gloves. She laughs for real for the first time.
+She laughs for real for the first time.
 
 **TITLE CARD:** She writes songs about heartbreak...
 **TITLE CARD:** ...this winter, she might finally write a love song.
@@ -100,3 +100,6 @@ To get closer to 1:30, cut M2 or M3 first, then shorten M6, which brings it to ~
 - **Cast roll:** 5-second single-image pickups, one per character. Dusty's is the only one with a spoken line.
 - **Stinger:** 5-second pickup. Bossa nova and "WOO!" added in the edit, not generated.
 - Title and name cards: from Claude, overlaid in the edit.
+
+## Prompting note: no static effects
+Keep "static", "crackle" and "spark" out of every Supergen prompt. Models tend to overdo them (visible lightning, glowing sparks) and it looks corny. The bra on Cal's back is explained by the dialogue alone. If a small crackle sound is wanted, add it quietly in the edit.
