@@ -45,12 +45,8 @@ Attach: the Cal sheet.
 > A woman in her mid-twenties with sleek glossy chestnut-brown hair in a perfectly smooth shoulder-length cut, flawless poreless skin, very symmetrical features, large calm brown eyes. Posture perfectly upright. Outfit: perfectly pressed camel wool coat, cream turtleneck, tailored taupe trousers, spotless nude boots; every item is neat and wrinkle-free. Expression: pleasant, polite and completely neutral, eyes wide open, not blinking. [cast sheet look]
 (Keep it subtle: she should read as "slightly too perfect", not robotic.)
 
-### 6. Adrian Vale: new winter outfit
-Attach: Adrian identity shots 1 and 3.
-> The man from the reference images, keeping his face, pale skin, spiky black hair with choppy fringe, subtle smoky dark eyeliner and small gold cross earrings exactly the same. New outfit: a long black wool double-breasted military-style greatcoat with silver buttons, worn open over a black fine-knit turtleneck, slim black trousers, black Chelsea boots, and a very long oxblood-red scarf draped dramatically over one shoulder. Expression: brooding and self-serious, chin slightly lowered. [cast sheet look]
-Alternates if you want a different feel:
-- An oxblood velvet blazer over a black silk shirt open at the collar, with a thin silver chain.
-- A black velvet frock coat over a charcoal high-neck shirt, with black leather gloves.
+### 6. Adrian Vale: LOCKED
+Black wool double-breasted military-style greatcoat with silver buttons, worn open over a black fine-knit turtleneck, slim black trousers, black Chelsea boots. No scarf: it was too much and could tangle in Supergen motion. Same face, spiky black hair with choppy fringe, smoky eyeliner and small cross earrings as his identity shots.
 
 ### 7. Chase (flash only)
 > A cocky, handsome hockey player in his mid-twenties with tousled sandy-blond hair, deep dimples and a big confident grin. Wearing a plain dark green hockey jersey with no logos or lettering, hockey pants, gloves tucked under one arm, skates on. [cast sheet look]
@@ -95,3 +91,46 @@ Attach: a real product photo of the Yamaha PSR-SX920 (from Yamaha's site or a st
 ### S10. Snowy field (cast roll)
 > A quiet open snowy field at the edge of a small town at golden hour, pine trees behind, soft falling snow, warm backlight. [trailer look]
 (Cal's woodchopping shot: the same field with a chopping block and a stack of split logs.)
+
+---
+
+## STEP 3: START FRAMES, COLD OPEN AND LAUNDROMAT (16:9)
+These are the first frames for Supergen. Attach the listed references every time.
+- **Couch wardrobe (the "now" scenes):** Kallista in an oversized charcoal knit sweater; Becca in a cozy burgundy knit; Milly in her pressed cream turtleneck.
+- **Flash and laundromat wardrobe:** Kallista in Outfit A, the black ribbed mock-neck.
+- **Flashes in the edit:** generate the couch dialogue as continuous clips and drop the flashes in between them in the edit. The white flashes themselves are added in the edit as well.
+- End every prompt with the [trailer look] block.
+
+### F1. Couch two-shot (Clip 1: "So... something kind of weird happened today" through "Probably named Chase")
+Attach: Kallista close-up, Becca close-up, sitting room set (version 3 or 4).
+> Medium two-shot in the sitting room from the reference. Kallista (platinum hair, oversized charcoal knit sweater) is curled up on the left end of the sofa with her legs tucked under her, holding a glass of red wine, looking slightly down, hesitant. Becca (auburn waves, burgundy knit) sits on the right end facing her, holding a whole bottle of red wine, leaning in with wide curious eyes. The fireplace glows behind and between them, Christmas tree lights soft and out of focus. Eye-level camera, framed from the knees up. [trailer look]
+
+### F2. Three-shot with Milly (Clip 4: "until the bossa nova" through "...The laundromat")
+Attach: Kallista, Becca and Milly close-ups, sitting room set.
+> Wider three-shot of the same sitting room. Kallista and Becca on the sofa as before. To the right, Milly (sleek chestnut hair, pressed cream turtleneck) sits perfectly upright in the armchair, knees together, holding a full glass of red wine she hasn't touched, looking straight ahead with a calm, polite, unblinking expression. Fire glowing behind. [trailer look]
+(Clip 5, "That's adorable!" / "My bra was stuck to his back.", can reuse F1.)
+
+### F3. Flash 1: ice rink
+Attach: Kallista Outfit A (full body) + outdoor layer, Chase full body, rink set.
+> Kallista in her charcoal wool coat and dark grey scarf sits on the wooden bench at the edge of the outdoor rink, bent forward lacing up a white figure skate. In the background on the ice, Chase in his plain green hockey jersey skates fast toward her with a cocky grin. Twinkle lights, dusk, light snow. Camera low, at bench height. [trailer look]
+
+### F4. Flash 2: café cup
+Attach: barista close-up, Kallista Outfit A, café set.
+> Over-the-shoulder shot from behind Kallista's shoulder (platinum hair, charcoal coat) at the café counter. The man-bun barista faces her across the counter with a soft flirty smile, holding up a white paper coffee cup turned toward her. Written on the cup in black marker: "CALLISTUH" with a small hand-drawn heart. The cup is in sharp focus. Warm morning light. [trailer look]
+
+### F5. Flash 3: music shop
+Attach: Kallista Outfit A, Adrian full body, music shop set, real PSR-SX920 photo.
+> Wide two-shot in the music shop. The Yamaha PSR-SX920 arranger keyboard stands on an X-stand in the center, panel matching the reference photo exactly. Kallista (black ribbed mock-neck, charcoal coat open) stands at the left end, studying the panel, one finger hovering over a key. Adrian (black double-breasted greatcoat, black turtleneck) has just arrived at the right end, leaning down with one elbow resting on the right side of the panel and his chin on his hand, gazing at her with a brooding, velvety look. Warm afternoon light. [trailer look]
+(The stinger reuses this set at night: Adrian alone, hunched over the panel, lit by the keyboard screen and a desk lamp.)
+
+### F6. Laundromat: the reveal (Clip L1: "Um... excuse me. You have something" through "It's... mine.")
+Attach: Kallista Outfit A, Cal close-up + full body, laundromat set.
+> Medium shot in the laundromat. In the foreground left, Kallista (black ribbed mock-neck, platinum hair) holds a basket of warm laundry at an open dryer, looking over at Cal with an awkward, uncertain expression. In the mid-ground right, Cal (red-and-black buffalo-check flannel) stands at the folding counter with his back half turned to camera, folding a towel. A black lace bra clings flat to the back of his flannel between his shoulder blades. Warm winter daylight through the windows. [trailer look]
+
+### F7. Laundromat: holding it up (Clip L2: "I'd like to say..." through "Not with one this nice", then she leaves)
+Attach: Kallista Outfit A, Cal close-up, laundromat set.
+> Medium two-shot in profile, Kallista on the left and Cal on the right facing each other by the folding counter. Cal holds the black lace bra up between them by one strap at arm's length, his face frozen in polite, mortified gentleman mode. Kallista stares at it, deadpan, one hand starting to reach for it. [trailer look]
+
+### F8. Laundromat: towel gag (5s silent pickup)
+Attach: Cal close-up, laundromat set.
+> Close medium shot of Cal at the folding counter, holding a half-folded towel, gazing off toward the door with a dazed, smitten little smile. The laundromat softly out of focus behind him. [trailer look]
