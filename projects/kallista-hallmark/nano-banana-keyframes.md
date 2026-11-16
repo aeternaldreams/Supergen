@@ -1,8 +1,9 @@
 # HOLIDAY RESERVATIONS: Nano Banana prompts, cast and sets (round 1)
 
 ## How to use
-- Make everything at **16:9**.
-- **Step 1, cast sheets:** one per character on a plain light-grey studio backdrop. Each sheet shows a front close-up, a 3/4 view and a full-body view. These are reference pictures only; never use a sheet as a Supergen first frame.
+- **Cast pictures: portrait (9:16 or 3:4)**, one view per image (a front close-up plus a full-body shot is ideal). Portrait keeps facial and wardrobe detail that 16:9 squeezes out. Pick clean versions with no baked-in text or labels.
+- **Sets and start frames: 16:9.**
+- **Step 1, cast pictures:** plain light-grey studio backdrop. These are reference pictures only; never use one as a Supergen first frame.
 - **Step 2, sets:** empty locations with no people, in the trailer's look.
 - **Step 3, scene keyframes (next round):** attach the cast sheet(s) and the set, and compose the first frame of each Supergen clip.
 - For Kallista and Adrian, attach their identity shots. Everyone else is generated from text; once you have a face you like, attach that sheet in every later prompt.
@@ -12,11 +13,11 @@
 > Photorealistic cinematic still from a cozy small-town holiday romance movie. Warm, soft, glowing light, gentle highlights, creamy shallow depth of field, rich but soft colors (warm reds, evergreen, cream, wood tones), light film grain, 35mm look. Natural skin texture. No text, no logos, no watermark.
 
 **Cast sheet look (paste at the end of every cast sheet prompt):**
-> Character reference sheet, 16:9, three views side by side on a plain light-grey studio backdrop: front head-and-shoulders close-up, 3/4 waist-up view, full-body standing view. Soft even studio lighting, photorealistic, natural skin texture, the same person and outfit in all three views. No text, no labels, no logos.
+> Portrait character reference photo, single view, on a plain light-grey studio backdrop. [Front head-and-shoulders close-up | Full-body standing view.] Soft even studio lighting, photorealistic, natural skin texture. No text, no labels, no name cards, no logos.
 
 ---
 
-## STEP 1: CAST SHEETS
+## STEP 1: CAST PICTURES (portrait)
 
 ### 1. Kallista Vane: Outfit A (flashes + laundromat)
 Attach: identity shots 1 and 2.
