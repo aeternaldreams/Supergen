@@ -52,3 +52,21 @@ KALLISTA is the woman on the bench: pale skin, a longer face with defined cheekb
 3.5–5 seconds: Kallista stares up at him, flat and completely unimpressed, ice still in her eyebrows. Chase keeps grinning.
 The few skaters far behind them stay soft and out of focus in the background, gliding slowly.
 Sound: Chase's line over quiet outdoor rink ambience and the faint scrape of skates. No music, no new people, no subtitles, no watermarks.
+
+---
+## Revision 2: one clip from a front-facing start frame
+The two-clip cut didn't match: hand positions and Chase's posture jumped at the cut, and the timing felt off. New plan: a single 5s clip that starts on Kallista facing camera, with Chase skating into frame.
+
+### Start frame (Nano Banana)
+Attach: Kallista identity shots 1 and 2, the Kallista coat portrait, the rink set picture.
+> A medium shot of Kallista, the woman from the Kallista references, sitting on the wooden bench at the edge of the outdoor rink from the rink reference, at dusk with string lights and light falling snow. The camera is on the ice at seated eye level, at a three-quarter angle facing her, so her face is toward the camera. She has the same face: a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, and straight sleek pale platinum-blonde hair worn down with a center part. She wears a knee-length charcoal wool coat over a black ribbed mock-neck and a dark grey chunky knit scarf, and is leaning forward slightly, tying the laces of a white figure skate, eyes down on the laces, her face clearly visible. She fills the left half of the frame, framed from the knees up. The right half of the frame is open ice stretching away toward the lit gazebo, with a few small skaters far in the background. No one else near her. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.
+
+### Supergen (5s, Normal, 16:9, no seed)
+Picture: the start frame. Extra picture (optional): the Chase portrait, so his face matches when he enters.
+> Create a 5-second cinematic live-action romantic comedy shot in 16:9, beginning directly from the supplied first frame: an outdoor small-town ice rink at dusk with twinkle lights. One continuous shot, the camera stays where it is, no cuts. Preserve Kallista's face, hair and wardrobe, the rink and the lighting exactly as in the first frame.
+> KALLISTA is the woman on the bench: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, straight sleek pale platinum-blonde hair, a charcoal wool coat and dark grey knit scarf. Reserved and dry; she reacts with her eyes and small, contained movements. Her mouth stays closed; she does not speak. CHASE (Speaker 1) is a cocky young hockey player: tousled sandy-blond hair, deep dimples, a plain dark green hockey jersey, black gloves, no helmet.
+> 0–1.2 seconds: Kallista ties her skate laces, eyes down. Chase skates fast into the frame from the right side, heading straight for her.
+> 1.2–2 seconds: Right in front of her, Chase turns his skates sideways in a hard hockey stop, and his blades throw a big spray of shaved ice onto Kallista's coat, scarf and hair. She jerks upright and throws both hands up, palms out, eyes wide.
+> 2–3.5 seconds: Chase stops beside her, leans down with a cocky dimpled grin and says in a smooth, confident drawl: "Hey..."
+> 3.5–5 seconds: Kallista slowly lowers her hands, ice in her hair, and gives him a flat, completely unimpressed stare, mouth closed. Chase keeps grinning, mouth closed.
+> Sound: skate blades carving the ice, the hard scrape of the hockey stop and a whoosh of spraying ice, then Chase's line, over quiet outdoor rink ambience. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm string-light glow against a cool blue dusk, shallow depth of field and organic film grain. No music, no new people, no subtitles, no watermarks.
