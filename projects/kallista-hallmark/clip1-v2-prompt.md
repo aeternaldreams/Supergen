@@ -7,7 +7,8 @@
 - Becca: [teasing] Mm-hm. The ice rink. [playful] Hockey player.
 
 **Supergen setup:**
-- **Picture:** couch two-shot `pic_8a577cd51f8f`
+- **Picture:** corrected couch two-shot `pic_1619a74c7520` (was `pic_8a577cd51f8f`)
+- **Optional extra picture:** Kallista close-up with the warm hair grade `pic_7c4e584ce91e`
 - **Audio:** `voices/holiday-reservations/clip1_dialogue_v2_15s.mp3` (0.2s lead-in, faint room tone, padded to 15.0s)
 - **Settings:** 15s, Normal quality, 16:9, no seed
 
@@ -23,7 +24,7 @@
 ## Prompt
 Create a 15-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: two best friends sharing a quiet, intimate late-night conversation on a sofa in a cozy bed-and-breakfast sitting room. It should feel real and unperformed: relaxed, close, easy eye contact, the comfortable rhythm of two women who have known each other forever. Preserve their faces, hair, sweaters, the sofa, the Christmas tree, the frosted windows and the warm lamp and firelight exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm practical light, soft halation on the tree lights, shallow depth of field and organic film grain.
 
-CHARACTERS: KALLISTA (Speaker 1) is the woman on the left, with the softer, lower voice: early-to-mid twenties, pale skin, straight sleek platinum-blonde hair worn down past the shoulders with a center part, pale blue-grey eyes, an oversized charcoal knit sweater and black leggings, sitting cross-legged, holding a glass of red wine. A dark dream-pop songwriter: reserved, introspective, dry deadpan humor; her emotions show in her eyes and small glances. Never bubbly, never loud. BECCA (Speaker 2) is the woman on the right, with the brighter, higher voice: late twenties, long wavy auburn hair, freckles, a burgundy cable-knit sweater, holding a bottle of red wine by its neck. Kallista's best friend: warm, playful and teasing; her energy shows in her eyes and smile, with relaxed body language and small, loose gestures. Never theatrical, never performing for the camera.
+CHARACTERS: KALLISTA (Speaker 1) is the woman on the left, with the softer, lower voice. Keep her face exactly as in the first frame: early-to-mid twenties, pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (platinum catching the warm lamplight, never golden) worn down past the shoulders with a center part. She wears an oversized charcoal knit sweater and black leggings, sits cross-legged and holds a glass of red wine. A dark dream-pop songwriter: reserved, introspective, emotionally restrained, with dry deadpan humor. She speaks softly and moves little and deliberately; her emotions show in her eyes, a delayed glance, a slow breath, an almost-smile she catches and hides. Never bubbly, never loud, never flirty-giggly, no big gestures. BECCA (Speaker 2) is the woman on the right, with the brighter, higher voice: late twenties, long wavy auburn hair, freckles, a burgundy cable-knit sweater, holding a bottle of red wine by its neck. Kallista's best friend: warm, playful and teasing; her energy shows in her eyes and smile, with relaxed body language and small, loose gestures. Never theatrical, never performing for the camera.
 
 Camera: keep the two-shot, or if you cut, always cut to the woman who is speaking so her face is on camera while she talks. Only the woman who is speaking moves her lips.
 0.5–3.9 seconds: Kallista gives a small, embarrassed half-laugh, turns the wine glass in her fingers and glances down: "So... something weird happened today."
