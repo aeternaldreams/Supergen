@@ -99,14 +99,24 @@ These are the first frames for Supergen. Attach the listed references every time
 - **Flashes in the edit:** generate the couch dialogue as continuous clips and drop the flashes in between them in the edit. The white flashes themselves are added in the edit as well.
 - End every prompt with the camera line.
 
-### F1. Couch two-shot (Clip 1: "So... something kind of weird happened today" through "Probably named Chase")
-Attach: Kallista close-up, Becca close-up, sitting room set (version 3 or 4).
-> Medium two-shot in the sitting room from the reference. Kallista (platinum hair, oversized charcoal knit sweater) is curled up on the left end of the sofa with her legs tucked under her, holding a glass of red wine, looking slightly down, hesitant. Becca (auburn waves, burgundy knit) sits on the right end facing her, holding a whole bottle of red wine, leaning in with wide curious eyes. The fireplace glows behind and between them, Christmas tree lights soft and out of focus. Eye-level camera, framed from the knees up. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.
+### Method: edit the set picture instead of generating a new one
+Composing from references makes Nano Banana rebuild the room, so the furniture moves and the camera drifts. To lock the geometry:
+1. Open the chosen set picture in Flow's edit mode ("What do you want to change?") and attach the cast portraits. The edit keeps the room's pixels and only adds people. This makes the wide master shot.
+2. For closer shots, crop the master with Flow's crop tool. A crop keeps the geometry perfectly. If it looks soft, run one more edit: "Keep the composition exactly the same; add fine detail and sharpness."
+3. Attach Kallista's front close-up (identity shot 1), not the coat picture. The coat picture pulls in the wrong outfit and loosens her face and hair.
 
-### F2. Three-shot with Milly (Clip 4: "until the bossa nova" through "...The laundromat")
-Attach: Kallista, Becca and Milly close-ups, sitting room set.
-> Wider three-shot of the same sitting room. Kallista and Becca on the sofa as before. To the right, Milly (sleek chestnut hair, pressed cream turtleneck) sits perfectly upright in the armchair, knees together, holding a full glass of red wine she hasn't touched, looking straight ahead with a calm, polite, unblinking expression. Fire glowing behind. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.
-(Clip 5, "That's adorable!" / "My bra was stuck to his back.", can reuse F1.)
+### F2 (make first). Wide master three-shot. Edit the sitting-room set picture
+Attach: Kallista close-up (identity shot 1), Becca portrait, Milly portrait.
+> Keep this exact room, camera position, lens, lighting and every piece of furniture exactly where it is. Only add three people, in scale with the furniture:
+> On the beige sofa, at its left end nearest the coffee table: Kallista, the woman from the Kallista reference, with the same face, sleek straight platinum-blonde hair with a center part, and pale skin. She wears an oversized charcoal knit sweater, black leggings and thick grey wool socks. She is curled up with her legs tucked under her, holding a glass of red wine, turned toward the other end of the sofa, looking slightly down, hesitant.
+> On the same sofa, at its right end: Becca, the woman from the Becca reference, with the same face, auburn wavy hair and freckles, no hat and no scarf. She wears a burgundy cable-knit sweater and jeans. She sits angled toward Kallista, leaning in with wide, curious eyes, holding the wine bottle by its neck.
+> In the armchair on the left: Milly, the woman from the Milly reference, in a pressed cream turtleneck. She sits perfectly upright, knees together, holding a full glass of red wine she hasn't touched, looking straight ahead with a calm, polite, unblinking expression.
+> Remove the bottle from the coffee table; leave one wine glass on it. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.
+(Used for Clip 4: "until the bossa nova" through "...The laundromat".)
+
+### F1. Couch two-shot: crop of F2
+Crop F2 in Flow to 16:9 around the sofa, so Kallista and Becca fill the frame with the fireplace or tree behind them. Used for Clip 1 and Clip 5.
+For Kallista's deadpan close-ups, crop further onto her, or edit F2 with: "Keep everything identical; reframe as a medium close-up on Kallista on the sofa."
 
 ### F3. Flash 1: ice rink
 Attach: Kallista Outfit A (full body) + outdoor layer, Chase full body, rink set.
