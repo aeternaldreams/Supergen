@@ -114,6 +114,15 @@ Attach: Kallista close-up (identity shot 1), Becca portrait, Milly portrait.
 > Remove the bottle from the coffee table; leave one wine glass on it. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.
 (Used for Clip 4: "until the bossa nova" through "...The laundromat".)
 
+### Fixing character drift: one person per edit pass
+Once the room and poses look right, keep that image and fix faces one person at a time. With several people in one edit, Nano Banana splits its attention and every face drifts a little.
+- **References:** use tight head-and-shoulders crops with the hair fully visible. Make an indoor Becca reference first by editing her portrait: "Remove the hat and scarf; show her full auburn wavy hair; keep her face identical."
+- **Kallista pass** (attach identity shots 1 and 2): "Change only the woman with platinum-blonde hair on the sofa. Make her face and hair match the reference woman exactly: same face shape, eyes, nose and lips; platinum-blonde hair worn down, straight and sleek, center part, falling just past her shoulders. Keep her pose, sweater, wine glass, the lighting and everything else in the image exactly the same."
+- **Becca pass** (attach the indoor Becca reference): the same wording for "the woman with auburn hair holding the bottle".
+- **Milly pass**, if needed.
+- **Cleanup pass:** "Remove the wine bottle standing on the coffee table. Change nothing else."
+- Small faces in a wide shot drift most, in Nano Banana and in Supergen. Use the tighter crops for dialogue clips.
+
 ### F1. Couch two-shot: crop of F2
 Crop F2 in Flow to 16:9 around the sofa, so Kallista and Becca fill the frame with the fireplace or tree behind them. Used for Clip 1 and Clip 5.
 For Kallista's deadpan close-ups, crop further onto her, or edit F2 with: "Keep everything identical; reframe as a medium close-up on Kallista on the sofa."
