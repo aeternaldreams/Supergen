@@ -4,12 +4,12 @@
 - **Cast pictures: portrait (9:16 or 3:4)**, one view per image (a front close-up plus a full-body shot is ideal). Portrait keeps facial and wardrobe detail that 16:9 squeezes out. Pick clean versions with no baked-in text or labels.
 - **Sets and start frames: 16:9.**
 - **Step 1, cast pictures:** plain light-grey studio backdrop. These are reference pictures only; never use one as a Supergen first frame.
-- **Step 2, sets:** empty locations with no people, in the trailer's look.
+- **Step 2, sets:** empty locations with no people, in the shared film look.
 - **Step 3, scene keyframes (next round):** attach the cast sheet(s) and the set, and compose the first frame of each Supergen clip.
 - For Kallista and Adrian, attach their identity shots. Everyone else is generated from text; once you have a face you like, attach that sheet in every later prompt.
 - Keep "static", "spark" and "crackle" out of every prompt.
 
-**Camera block:** every set and start-frame prompt below already ends with the same camera line, so they share one look. Don't use bracket tags like "Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.": Nano Banana takes the word "trailer" literally (mobile-home shells).
+**Camera block:** every set and start-frame prompt below already ends with the same camera line, so they all share one look. Avoid shorthand tags in prompts: Nano Banana took the old "trailer look" tag literally and drew mobile-home shells.
 
 **Studio block:** same idea for cast pictures; each one ends with a studio camera line. Add "front head-and-shoulders close-up" or "full-body standing view" to choose the framing.
 
