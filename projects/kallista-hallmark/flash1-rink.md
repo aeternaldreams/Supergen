@@ -41,12 +41,14 @@ KALLISTA is the platinum-blonde woman in a charcoal wool coat seated on the benc
 0–1.5 seconds: Chase skates fast straight toward the bench. Kallista keeps lacing her skate, eyes down.
 1.5–2.5 seconds: Right in front of her, Chase turns his skates sideways in a hard hockey stop, and his blades throw a big wall of shaved ice and snow straight at Kallista. She snaps upright and throws both arms up in front of her face.
 2.5–5 seconds: Shaved ice settles over her hair, scarf and coat; she stays frozen with her arms up.
-Sound: blades carving the ice, the hard scrape of the hockey stop and a whoosh of spraying ice over quiet outdoor rink ambience. No dialogue, no music, no extra people, no subtitles, no watermarks.
+In the far background a few small skaters glide slowly around the rink near the gazebo and stay in the background the whole time.
+Sound: blades carving the ice, the hard scrape of the hockey stop and a whoosh of spraying ice over quiet outdoor rink ambience. No dialogue, no music, no new people, no subtitles, no watermarks.
 
 ### Clip B prompt (Supergen, 5s)
 Create a 5-second cinematic live-action romantic comedy shot in 16:9, beginning directly from the supplied first frame. One continuous shot, no cuts. Preserve both faces, the ice dusting her hair, the wardrobe, the rink and the lighting exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm string-light glow against a cool blue dusk, shallow depth of field and organic film grain.
 KALLISTA is the woman on the bench: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, straight sleek pale platinum-blonde hair dusted with ice. Reserved and dry; she reacts with her eyes. She does not speak. CHASE (Speaker 1) is the cocky hockey player standing beside the bench: tousled sandy-blond hair, deep dimples, a plain dark green jersey.
-0–1.5 seconds: Kallista blinks once, slowly lowers her arms, a few flakes of ice sliding off her hair.
+0–1.5 seconds: Kallista blinks once, wide-eyed, then slowly lowers her raised hands, a few flakes of ice sliding off her hair.
 1.5–3.5 seconds: Chase leans in slightly with a cocky dimpled grin and says in a smooth, confident drawl: "Hey..."
 3.5–5 seconds: Kallista stares up at him, flat and completely unimpressed, ice still in her eyebrows. Chase keeps grinning.
-Sound: Chase's line over quiet outdoor rink ambience and the faint scrape of skates. No music, no extra people, no subtitles, no watermarks.
+The few skaters far behind them stay soft and out of focus in the background, gliding slowly.
+Sound: Chase's line over quiet outdoor rink ambience and the faint scrape of skates. No music, no new people, no subtitles, no watermarks.
