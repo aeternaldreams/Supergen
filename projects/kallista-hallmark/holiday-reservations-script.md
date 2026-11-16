@@ -1,4 +1,4 @@
-# HOLIDAY RESERVATIONS: full trailer script (draft 5)
+# HOLIDAY RESERVATIONS: full trailer script (draft 6)
 
 A DPC (Deep Prompt Channel) original. No narrator: the story is told through dialogue, Claude title cards and a soft acoustic song bed.
 
@@ -71,7 +71,7 @@ She almost smiles, catches herself, and leaves. Cal watches her go and folds the
 - **Milly Alwood:** the third friend and the Debbie Downer. A subtle Tilly Norwood parody.
 - **Cal Whitaker:** carpenter at Hearthstone Carpentry. Sweet, a little awkward.
 - **Marcus Bell** (was Dusty): Cal's coworker at Hearthstone Carpentry. Light-skinned Black man, handsome, easy confidence, opinions about everything. ("Bell" is a quiet holiday nod.)
-- **Adrian Vale:** cameo in the music shop flash and the stinger (your existing avatar).
+- **Adrian Vale:** cameo in the music shop flash and the stinger (your existing avatar). Same hair, pale skin, smoky eyeliner and cross earrings; new winter outfit for this trailer (see keyframe prompts).
 - **Flash-only:** Chase (hockey player), the man-bun barista.
 
 ## Kallista in this story
@@ -85,7 +85,7 @@ Lines marked (new) are written for this trailer; they are not existing Kallista 
 
 ## Wardrobe
 - **Outfit A (cold open flashes + real laundromat, locked):** black ribbed mock-neck sweater (identity shot 1). Same outfit in every flash, because she's the one telling the story; only the guy changes.
-- **Couch scenes (cold open + M4):** cozy evening version, e.g. an oversized charcoal knit, so the couch reads as "now" and the flashes read as "that day".
+- **Couch scenes (cold open + M3):** cozy evening version, e.g. an oversized charcoal knit, so the couch reads as "now" and the flashes read as "that day".
 - **Montage (different days):** rotate within her palette (black, charcoal, grey) so the days read as days: the charcoal turtleneck (identity shot 2), a dark cardigan, Outfit A again. Outdoors: the same charcoal wool coat and dark grey scarf throughout. One coat across a winter trip is normal and helps continuity.
 - Hair is always the same: platinum, straight, worn down, just past the shoulders.
 - No slip dresses (those belong to her sultrier music videos).
@@ -118,8 +118,12 @@ BECCA: "It's nine degrees."
 MILLY: (flat, doesn't blink) "I give it... ninety minutes."
 (IYKYK: the runtime of every one of these movies.)
 
-**M4: B&B FRONT YARD, DAY (~4s), Milly beat, no dialogue**
-Becca and Kallista flop backward into fresh snow and make messy snow angels, laughing. Milly lies down stiffly beside them, arms flat at her sides, moves her arms and legs exactly twice, and stands up without using her hands. Her snow angel is perfectly symmetrical, crisp as a cookie-cutter stamp. Becca and Kallista sit up and stare at it.
+**M4: B&B FRONT YARD, DAY (~5s), Milly's late laugh**
+The carpentry crew is on a break. Becca has brought out a tray of cocoa; Kallista, Milly, Cal and Marcus stand around holding mugs. Cal's porch step is still unfinished behind them.
+MARCUS: (nodding at Cal) "Four days. Same porch step."
+Everyone laughs. Cal ducks his head; Kallista hides a smile behind her mug. The laughter fades out completely. A beat of silence.
+MILLY: (flat, a full beat late) "Ha. Ha."
+She stops instantly. Everyone looks at her.
 
 **M5: TOWN SQUARE HOLIDAY FAIR, DUSK (~6s), the emotional turn**
 Snow falls. Kallista plays a few notes on an old, out-of-tune upright piano left out for the fair. Cal walks up behind her.
@@ -182,7 +186,7 @@ To trim: shorten M2 (Marcus) to his first line only, and tighten the laundromat 
 - **Clip A (5s):** M1 (2 lines), porch.
 - **Clip B (10s):** M2 (4 lines), side yard.
 - **Clip B2 (10s):** M3 (4 lines), sitting room.
-- **Clip F (5s):** M4, silent, snow angels.
+- **Clip F (5–6s):** M4 (2 lines plus group laughter), front yard. End on everyone looking at Milly (non-verbal).
 - **Clip C (10s):** M5 (2 lines). Slow, emotional, Golden Hour seed.
 - **Clip D (10–15s):** M6 (4 lines, the max). End on the silent laugh (non-verbal last shot, per the speech-queue rule).
 - **Clip E (5s):** M7, silent, one image.
@@ -194,9 +198,9 @@ To trim: shorten M2 (Marcus) to his first line only, and tighten the laundromat 
 Keep "static", static "crackle" and "spark" out of every Supergen prompt (the fireplace crackle in the cold open is fine). Models tend to overdo them (visible lightning, glowing sparks) and it looks corny. The bra on Cal's back is explained by the dialogue alone. If a small crackle sound is wanted, add it quietly in the edit.
 
 ## Milly Alwood: awkward-moment options (subtle uncanny, never a robot joke)
-Already in: unblinking flat delivery, the untouched wine, "Statistically...", "ninety minutes", the symmetrical snow angel, no snow landing on her, the late smile in the cast roll.
+Already in: unblinking flat delivery, the untouched wine, "Statistically...", "ninety minutes", the late laugh (M4), no snow landing on her, the late smile in the cast roll.
 Extras to drop in where there's room:
-1. **Late laugh:** Becca makes a joke, everyone laughs, the laugh ends, and Milly laughs alone a full beat later: "Ha. Ha." Then stops instantly.
+1. **Snow angel:** Milly makes a perfectly symmetrical snow angel next to Becca and Kallista's messy ones and stands up without using her hands.
 2. **The hug:** Becca hugs her; Milly pats her back exactly three times, perfectly evenly spaced.
 3. **Hometown:** Cal: "So where are you from?" Milly: "...The Valley." (Silicon Valley wink.)
 4. **The cocoa:** she lifts the mug, "sips", sets it down. The level hasn't changed. (Echoes the untouched wine.)
