@@ -4,7 +4,7 @@ Paste each character's block into the CHARACTERS section of every Supergen promp
 
 **KALLISTA VANE**: early-to-mid twenties, pale, straight sleek platinum-blonde hair worn down past the shoulders with a center part, blue-grey eyes. A dark dream-pop songwriter: reserved, introspective, emotionally restrained, dry deadpan humor. Speaks softly and economically. Moves little and deliberately; her emotions show in her eyes, a delayed glance, a slow breath, an almost-smile she catches and hides. Never bubbly, never loud, never flirty-giggly, no big gestures, no partying.
 
-**BECCA HARTLEY**: late twenties, long wavy auburn hair, freckles, bright open face. Kallista's best friend and a hopeless romantic who has seen every holiday romance movie. Warm, animated and talkative: gasps, wide eyes, leans in, talks with her hands. Big-hearted, never mean.
+**BECCA HARTLEY**: late twenties, long wavy auburn hair, freckles, bright open face. Kallista's best friend and a hopeless romantic who has seen every holiday romance movie. Warm, playful and genuinely delighted; her energy shows mostly in her eyes and smile, with relaxed, natural body language and small, loose gestures. Never theatrical, never performing for the camera, never mean.
 
 **MILLY ALWOOD**: mid twenties, sleek glossy chestnut-brown bob, flawless, very symmetrical features, perfectly pressed neutral clothes. Sits and stands perfectly upright. Flat, even voice; pleasant, polite expression; rarely blinks; reacts a beat late. Subtly too perfect, never robotic or mechanical.
 
