@@ -1,14 +1,16 @@
-# Static Cling: montage, cast roll and ending (draft 1)
+# Kallista Vane holiday trailer: montage, cast roll and ending (draft 2)
 
 Picks up right after the title cards "This winter... / ...love was in the last place she'd look."
 The acoustic song bed carries straight through; dialogue sits on top of it.
 
-## Working title options
-1. **STATIC CLING** (recommended: pays off the laundromat, sounds exactly like a real one)
-2. Love on Spin Cycle
-3. Tumble Dry, Low
+## Working title options (undecided)
+The title should be about Kallista's reservations, not only the meet-cute.
+1. **Holiday Reservations**: her B&B booking and her guard against love. Tagline: "She made a reservation. She has several."
+2. **Mistletoe & Misgivings**
+3. **Love, Subsequently**: a nod to her song "Subsequent Consequence"
+4. **The Worst That Could Happen**
 
-Use a made-up network for the end card (e.g. "Hearthmark Channel"), not the real logo, so it reads as parody and not as an official trailer.
+Network: **DPC, the Deep Prompt Channel** (a play on Deep Prompt Cinema).
 
 ---
 
@@ -48,8 +50,11 @@ The music swells here.
 **M6: SIDEWALK OUTSIDE THE LAUNDROMAT, NIGHT (~5s)**
 Kallista slips on ice (callback to the rink); Cal catches her by the arms. They hold the moment.
 KALLISTA: "I don't do... falling."
-CAL: (gently) "Little late for that."
-Static crackles between their gloves. They both look down. She laughs for real for the first time.
+CAL: (still holding her) "What's the worst that could happen?"
+KALLISTA: (deadpan, completely sincere) "Uh... you could die?"
+Cal blinks, stunned. A beat. He doesn't let go.
+CAL: "...Okay. But besides that?"
+Static crackles between their gloves. She laughs for real for the first time.
 
 **TITLE CARD:** She writes songs about heartbreak...
 **TITLE CARD:** ...this winter, she might finally write a love song.
@@ -65,8 +70,8 @@ Static crackles between their gloves. They both look down. She laughs for real f
 | Dusty points the hammer at camera: "Don't overthink it, Cal." | DUSTY |
 | Milly stands in falling snow; not one flake lands on her. Smiles one beat too late and holds it way too long. | and introducing MILLY ALWOOD |
 
-**MAIN TITLE CARD:** STATIC CLING
-**END CARD:** Premieres December 12 · Hearthmark Channel (made-up network)
+**MAIN TITLE CARD:** (title TBD)
+**END CARD:** Premieres December 12 · DPC: the Deep Prompt Channel
 
 ## STINGER (~3s, after the end card)
 Cut back to the music shop. It's night and the shop is closed. Adrian Vale is alone at the keyboard, still jabbing buttons. The bossa nova is still playing.
@@ -91,7 +96,7 @@ To get closer to 1:30, cut M2 or M3 first, then shorten M6, which brings it to ~
 - **Clip A (15s):** M1 + M2 (4 lines). Café and porch are different setups, so hard cut at ~6s.
 - **Clip B (10s):** M3 + M4 (4 lines). The Dusty and Milly lines are short and fit.
 - **Clip C (10s):** M5 (2 lines). Slow, emotional, Golden Hour seed.
-- **Clip D (10s):** M6 (2 lines). End on the silent laugh (non-verbal last shot, per the speech-queue rule).
+- **Clip D (10–15s):** M6 (4 lines, the max). End on the silent laugh (non-verbal last shot, per the speech-queue rule).
 - **Cast roll:** 5-second single-image pickups, one per character. Dusty's is the only one with a spoken line.
 - **Stinger:** 5-second pickup. Bossa nova and "WOO!" added in the edit, not generated.
 - Title and name cards: from Claude, overlaid in the edit.
