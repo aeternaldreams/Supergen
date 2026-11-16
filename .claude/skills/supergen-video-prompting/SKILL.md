@@ -164,6 +164,7 @@ paste into the website.
   - or fill them with a specific, non-verbal sound made by a character in
     the frame (a snort, a sigh, a cough);
   - and test the same prompt without `voices` to compare.
+- **Own audio keeps its timing, but "no cuts" isn't guaranteed (tested 2026-11-16).** A 15s Live Action render with a padded ElevenLabs dialogue track (0.2s lead-in, faint room tone) kept the audio sample-accurate, and each line went to the right speaker. Supergen still added over-the-shoulder coverage around 4s and 7s although the prompt said "ONE continuous shot... No cuts" twice. Its cuts did put each speaker's face on camera for their own line. The main character's face drifted in the new angles. Render time: about 17 minutes.
 - **A line must be spoken by a character in the frame.** When the last shot
   showed only the doctor, Gary's line was lip-synced onto the doctor. Make
   sure whoever speaks is visible in that shot.
