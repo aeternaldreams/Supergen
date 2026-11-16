@@ -71,6 +71,12 @@ paste into the website.
   make multi-reference scenes on the website (+ More Images), or use a
   single `picture` with no `more_pictures`. `my_videos` also showed
   `voices: []` for a render whose result said `voices: 1`.
+  **Update 2026-11-16:** a 15s Live Action render with `picture` plus 3
+  `more_pictures` (`pic_` uploads) opened cleanly on the first frame, with
+  no grid. The bug may be fixed; still check frame 0 of every multi-picture
+  render. That render took about 20 minutes. Its cuts came out as
+  over-the-shoulder shots rather than clean close-ups, and the main
+  character's face drifted in the new angles.
 - **Reference slots in the MCP:** both video tools take `picture` (@1, the
   first frame) plus `more_pictures` (up to 3 more: picture_ids, `pic_` ids or
   https links) for @2–@4. Use these for new multi-reference scenes.
