@@ -1,6 +1,6 @@
 ---
 name: supergen-video-prompting
-description: Playbook for building supergen.video scenes (Super Animation and Super Live Action) — reference-image setup, dialogue pacing, prompt templates, styles (Super Seeds), direction mode and credit costs. Use whenever planning, prompting or generating Supergen pictures or videos, through the Supergen MCP tools or for pasting into the supergen.video website.
+description: Playbook for building supergen.video scenes (Super Animation and Super Live Action) — reference-image setup, character sheets, character voices and own audio, dialogue pacing, prompt templates, styles (Super Seeds), direction mode and credit costs. Use whenever planning, prompting or generating Supergen pictures or videos, through the Supergen MCP tools or for pasting into the supergen.video website.
 ---
 
 # Supergen video prompting
@@ -13,7 +13,7 @@ paste into the website.
 ## 0. Session start and credits
 
 - Check the Supergen tool schemas: the owner is adding the website's missing
-  options to the MCP, so section 6 may be out of date.
+  options to the MCP, so section 6 may be out of date (last checked 2026-11-09).
 - `my_account` (free): balance and prices. `my_videos` (free): past prompts
   and settings — read them for continuity before writing a sequel or retake.
 - Tell the member the cost and get a yes before `make_picture`,
@@ -24,6 +24,20 @@ paste into the website.
 - Videos take a few minutes: poll with `check_video`. Watch links last
   30 minutes; videos stay in the member's library.
 - If a picture is slow, resume it with `picture_job` — never start a new one.
+- **The id `make_*_video` returns (`vid_...`) is not the library id.** If
+  `check_video` says it "can't find" the video (this happens after the MCP
+  reconnects), get the 12-character id from `my_videos` and call
+  `check_video` with that. Watch links are direct MP4s. From a cloud session
+  you can `curl` them and pull frames with ffmpeg to review the beats (use
+  `silencedetect` for dialogue timing).
+- **The content check is not consistent.** The same picture and words failed
+  once ("didn't pass our content check... outfit or a moment that reads as
+  too intimate", no charge) and then passed on an identical retry. A failed
+  check costs nothing, so retry once before rewriting. Shirtless characters
+  and innuendo (fertility sample, shoulder-length glove, "buy me dinner
+  first") did pass.
+- A Super Seed passed through the MCP shows as `style: null` in
+  `my_videos`; it's unclear whether it was applied.
 
 ## 1. Reference images and slot mechanics
 
@@ -49,21 +63,104 @@ paste into the website.
 - **Hand-made sheets don't work.** Tested: passing a 2x2 sheet as the first
   frame renders the grid for several seconds and animates each cell. Always
   use individual full-bleed keyframes — they work well.
-- `reuse_video` keeps a past video's stitched sheet, so it is the reliable
-  way to reuse a multi-reference setup through the MCP.
-- **Getting keyframes to the MCP:** `picture` needs a direct https image
-  link. Images the member uploads in a Claude Code chat arrive as local files
-  with no link, so commit them to `keyframes/<project>/` in this (public)
-  repo, push, and pass
-  `https://raw.githubusercontent.com/aeternaldreams/Supergen/main/keyframes/<project>/<file>`.
-  Anything committed here is publicly visible.
+- **⚠️ MCP `more_pictures` bug (tested Nov 2026):** the MCP stitches the
+  first frame and `more_pictures` into one 2x2 reference sheet, the same as
+  the website, but then **uses the sheet itself as the opening frame**. The
+  video opens on the 2x2 grid for about 2 seconds, zooms blurrily into one
+  cell, and the opening line plays over the grid. Until Supergen fixes this,
+  make multi-reference scenes on the website (+ More Images), or use a
+  single `picture` with no `more_pictures`. `my_videos` also showed
+  `voices: []` for a render whose result said `voices: 1`.
+- **Reference slots in the MCP:** both video tools take `picture` (@1, the
+  first frame) plus `more_pictures` (up to 3 more: picture_ids, `pic_` ids or
+  https links) for @2–@4. Use these for new multi-reference scenes.
+  `reuse_video` still keeps a past video's stitched sheet for retakes.
+- **Getting keyframes to the MCP:** `picture` and `more_pictures` take a
+  `make_picture` id (`img_...`), an uploaded id (`pic_...`) or an https link.
+  - Preferred (private): `upload_pictures` (free) returns one-time upload
+    addresses (valid 20 minutes). **Tested and working from Claude Code:**
+    POST the raw image bytes, not a multipart form:
+    `curl -sS -X POST -H "Content-Type: image/jpeg" --data-binary @frame.jpg "<url>"`
+    → `{"picture_id": "pic_...", ...}`. Gotchas:
+    - The cloud session's network must allow `api.supergen.video`. Use
+      the personal "Supergen" environment, which allows it.
+    - A multipart (`-F file=@...`) POST fails with "isn't a picture" AND
+      uses up the address. Call `upload_pictures` again for a new one.
+    - `my_pictures` lists uploaded `pic_` ids.
+  - Fallback (public): commit the file to `keyframes/<project>/` in this
+    public repo, push, and pass
+    `https://raw.githubusercontent.com/aeternaldreams/Supergen/main/keyframes/<project>/<file>`.
+    Anything committed here is publicly visible.
+- **Letterbox bars:** Gemini/Nano Banana edits often add thin black bars
+  (about 12–17px) top and bottom, even when told not to. Crop them locally
+  with PIL (find rows whose mean brightness is near 0, then crop to 16:9)
+  instead of re-editing. A crop costs nothing and can't change faces.
+- **Plan the first frame's hands around the script:** check what each hand
+  must do (hold a prop, pick something up, swap gloves) and pose the frame
+  so the first action is free. Don't add props like pens that the scene
+  doesn't need; the model may drop, duplicate or morph them.
 - **Physical continuity:** keep prop states identical across panels (e.g. the
   sleeping bag sealed at the bottom in panel 3 so it matches panel 4).
 - **Spatial continuity:** isolate backgrounds with opposing eyelines
   (180-degree rule) so the model doesn't paste Character A into the
   background behind Character B.
-- For character designs, start from a `character_sheet`, `cast_sheet` or
-  `cast_and_place` picture.
+- **Character and set design with `make_picture`** (5 XCE each). `kind`:
+  - `character_sheet`: design sheet for one character
+  - `cast_sheet`: several characters together
+  - `cast_and_place`: the cast plus their setting
+  - `background`: a place with no people (good for @2–@4 location refs)
+  - `storyboard`: a shot-by-shot board for planning
+  - `plain` (default): one picture, e.g. a clean full-bleed keyframe
+
+  `look`: auto, photo (live action) or anime. `shape`: match the video.
+  Sheets are multi-panel, so never use one as the first frame (see above).
+  Make the sheet first, then a clean `plain` keyframe of the same character
+  for @1. Passing the sheet in `more_pictures` as an identity reference
+  should work but is *untested*.
+
+## 1b. Voices and own audio (both video tools)
+
+- **`voices`**: up to 3 entries `{name, audio}`. `audio` is an https link to
+  2–20 seconds of that character talking. Each character speaks in the voice
+  from their sample.
+  - `name` must match the character's name as written in `description`
+    (e.g. `Walt` → "Walt (Speaker 1) whispers: ...").
+  - Samples attached in a chat go in `voice_file_1..3`, in the same order as
+    `voices`.
+  - From Claude Code, a sample needs a link: commit it to
+    `voices/<project>/` in this public repo and pass the raw GitHub link.
+    Only use voices the member is happy to make public and has the right to
+    use.
+- **`audio` / `audio_file`**: the member's own track (MP3, WAV, M4A, AAC,
+  OGG, FLAC or MP4). The video follows it (music, voices). Up to 20 seconds.
+  **Own audio overrides `voices`.** Don't send both.
+- `reuse_video` can keep a past video's voices and audio (`keep_voices`,
+  `keep_audio`, both default true).
+- **Tested (Nov 2026):** a 5.6s clip of a character's lines, cut from an
+  earlier Supergen render, was accepted (`voices: 1` in the result). The
+  render took about 17 minutes, against about 5–10 without a voice sample,
+  so expect longer waits. Also say the accent in the text ("deep, raspy
+  American accent"): without it, one take gave the character a British
+  accent.
+- **Props that appear later:** keep them out of sight in a closed container
+  that is in the frame (a cart drawer), then write "pulls open its top
+  drawer and takes out X". Tested: the poncho and goggles came out of the
+  drawer cleanly, with no morphing. A prop pulled "from his coat pocket" or
+  from off-frame gets made up or morphs.
+- **Silent beats turn into gibberish (tested Nov 2026).** Both renders that
+  used a voice sample filled their dialogue-free stretch with fast,
+  unintelligible pseudo-English: 8s of prop business in one, and a 3s stare
+  in the other, even though that one described the beat as "only the hum of
+  the fluorescent lights". The two renders without a voice sample held a
+  3.4s silence cleanly. **Untested idea:** voice-sample mode makes the audio
+  model fill gaps. Until that's confirmed:
+  - keep dialogue-free stretches to about 1.5–2s;
+  - or fill them with a specific, non-verbal sound made by a character in
+    the frame (a snort, a sigh, a cough);
+  - and test the same prompt without `voices` to compare.
+- **A line must be spoken by a character in the frame.** When the last shot
+  showed only the doctor, Gary's line was lip-synced onto the doctor. Make
+  sure whoever speaks is visible in that shot.
 
 ## 2. Dialogue and pacing
 
@@ -85,6 +182,11 @@ tagged with the speaker number:
   has the 4th line, the line fires early at 12s and the silent shot is pushed
   to 16s. Keep the final reaction shot non-verbal, or swap the two segments
   in post.
+- **Confirmed fix (Nov 2026):** give the silent beat its own timestamp
+  block that says "Complete silence, no one speaks", and tie the last line
+  to a physical cue ("Right after the snap, Gary says..."). In a 20s single
+  locked-off shot this held the silence from about 12.4 to 15.8s and the
+  last line landed at about 19–20s. Clips come out about 21.5s long.
 - Music videos with own audio: "singing in precise synchronization with the
   supplied vocal: '<lyric>'", plus "Keep the original audio unchanged" and
   "no added voices".
@@ -107,6 +209,68 @@ tagged with the speaker number:
   interpolate or morph between the reference images."
 - End with a "Throughout:" or "No ..." line listing what must not happen
   (extra cuts, dissolves, slow motion, extra people, subtitles, watermarks).
+
+- **Mentioning something off-screen brings it on-screen.** "Looking at
+  someone off-screen" plus "a poncho rustling off-screen" made a stranger
+  in a poncho walk into a 5s close-up. Instead write "X is the only person
+  in the shot" and give an eyeline ("eyes fixed slightly downward toward
+  the left edge of the frame").
+- **Write reactions as face movements, not emotion words.** "Smug half-smile"
+  came out as a warm, charmed grin. "One eyebrow lifts high, one corner of
+  his mouth curls into a lopsided smirk, mouth stays closed, one slow nod"
+  gave exactly the smug button.
+- **Assemble the master edit from several takes.** Keep the best take, swap
+  in shots from other takes for weak moments (mute their audio and lay
+  room tone under them), and render cheap 5s single-picture pickups for
+  missing beats. To make a pickup match on the cut, start it from the
+  previous shot's last frame: crop it, enhance it in GPT Images ("keep
+  everything identical"), and use that as its first picture. ffmpeg handles
+  the rest: whip pans (slideleft xfade plus horizontal blur and a filtered
+  noise whoosh), slowing a shot down instead of freezing it, and sound
+  stings.
+
+- **5s Live Action pickups stay on script for about 2.5s (tested Nov 2026,
+  Top Tier Reality, four pickups).** Each came back 6.6s long, and after
+  about 2.7s cut to unrelated content: a person on the hood, a second
+  driver, even the seed's own example scene (a hunter and a giant beast).
+  Plan each pickup around one action that finishes inside 2.5s, and trim
+  the rest.
+- **Small faces smear.** Normal quality renders at 1024x576; a face about
+  60px tall in a wide shot is redrawn badly from frame 0 and doesn't act.
+  Put acting in a close-up pickup where the face fills a third of the
+  frame, and keep wide shots of that character short.
+- **Do camera tricks in the edit.** A snap zoom out from a close-up to a
+  wide is two separate clips joined with ffmpeg `zoompan` (4x to 1x over 6
+  frames, centred on the face) plus a whoosh. The model never has to
+  invent what is outside the close-up.
+- **Chase scenes:** state where the pursuers are in every shot ("the yellow
+  car leads, the cruisers follow behind"), and prefer cameras looking back
+  at the lead car. Avoid "flash", "bright" or "explosive" for sparks (they
+  cause full-frame white flashes) and "flies through the air in slow
+  motion" (the car hovers). The model ignores engine-sound requests, so
+  add engine, screech and a low rumble bed in the mix.
+
+- **Style seeds can pollute a render (Supergen developer, Nov 2026).** The
+  developer advised leaving seeds off for now. With Top Tier Reality, every
+  5s pickup cut away to unrelated content at about 2.7s. With no seed, a
+  one-shot "car passes, box thrown, box skids up the walkway" render stayed
+  on script for all 6.6s, and so did the developer's own reruns of our
+  close-up, mirror and porch shots. It is not a complete fix: a no-seed
+  toss retry still cut to a face close-up at 2s. Default to no seed, and
+  add one only to test it against a no-seed take.
+- **One continuous shot can beat two joined pickups.** A locked camera,
+  one object moving in a straight line toward the lens, and everything
+  else leaving the frame is something the model holds well. Say where the
+  object travels ("up the centre of the walkway, staying on the concrete")
+  and that pursuers "leave the frame, still chasing", or they linger.
+
+- **Too many beats in one render get merged or dropped (tested Nov 2026).**
+  A 15s, no-seed render with seven timestamped shots stayed coherent but
+  made only four: it skipped the fast middle beats (the jump and an insert
+  close-up), stretched one shot to 6s, and invented an extra (a talking cop
+  in the dashcam view). Keep a single render to three or four beats, and
+  build denser action from pickups. Even a weak long render can give
+  usable shots: its walkway toss replaced the pickup version in the edit.
 
 ## 4. Prompt templates
 
@@ -156,7 +320,8 @@ Throughout: synchronize visible singing to the actual supplied audio, preserving
 | super | Wild camera, more cuts and angles | Chases, fights, sudden scares, intense moments |
 | off | Camera holds still | CCTV / found-footage looks, static wides holding on something unsettling |
 
-Where `direction` isn't available, describe the camera in the scene text
+`direction` is on `make_animation_video` and `reuse_video` only. For Live
+Action, or wherever it isn't available, describe the camera in the scene text
 ("static shot", "slow push-in") — a request, not a guaranteed setting.
 
 ### Styles (Super Seeds, from `list_styles`)
@@ -199,21 +364,24 @@ direction super → Raw Merge, Top Tier Reality or Readable Sakuga.
 | Normal | `quality: "480p"` (made at 576p) |
 | HD / Upscale to 1080p | `quality: "720p"` (made at Normal, upscaled to 1080p) |
 | 16:9 etc. | `shape` (videos also allow 21:9) |
-| Direction | `direction` — `reuse_video` only |
-| Style / Super Seed | `seed` — on `make_*_video` and `reuse_video` |
-| Image to Video + MORE IMAGES | `picture` (first frame) + `more_pictures` (up to 3 ids/links) or `picture_file_2..4` |
-| + Add Scene Audio | `audio` / `audio_file` (the video follows it; up to 20s) |
-| Character voices | `voices` (up to 3, `{name, audio}`) / `voice_file_1..3`; the name must match the description. Ignored if scene audio is given |
-| Reference to Video (no first frame, @1–@4 refs) | not in MCP (checked 2026-11-16) — website only |
+| Direction | `direction`: `make_animation_video` and `reuse_video` (not Live Action) |
+| Style / Super Seed | `seed`: all video tools (code or style name) |
+| + More Images (reference) | `more_pictures` (up to 3) / `picture_file_2..4` |
+| + Add Scene Audio | `audio` (https link) / `audio_file` |
+| Character voices | `voices` (up to 3) / `voice_file_1..3` |
+| Reference to Video (no first frame, @1–@4 refs) | not in MCP (checked 2026-11-16): website only |
 
-Other tools: `make_picture` (`kind`: plain, character_sheet, cast_sheet,
-cast_and_place, background, storyboard; `look`: auto, photo, anime),
-`make_live_action_video` (plans the scene ~1 min first, default 10s),
-`reuse_video` (same picture, words, voices, audio and settings with any
-changed; `keep_voices`, `keep_audio`), and `post_to_community` (only when
-the member asks).
+Other tools:
+- `make_picture`: see section 1. `picture_job` resumes a slow picture.
+- `make_live_action_video`: plans the scene for about a minute first.
+  Default 10s. `make_animation_video` defaults to 5s.
+- `reuse_video`: same picture, words, voices, audio and settings with any of
+  them changed (`keep_voices`, `keep_audio`).
+- `upload_pictures` and `my_pictures`: the member's own photos (free).
+- `my_videos` and `my_account`: history, balance and prices (free).
+- `list_styles`: current Super Seeds (free).
+- `post_to_community`: only when the member asks.
 
-Until reference slots arrive in the MCP: build multi-shot scenes as pictures +
-prompt blocks for the member to paste into the website, use `reuse_video` to
-retake past multi-reference scenes, and run 5-second single-image pickups
-directly through the MCP.
+Multi-shot, multi-reference scenes with voices or audio can now be made
+entirely through the MCP; the website is no longer required. Confirm the
+cost first.
