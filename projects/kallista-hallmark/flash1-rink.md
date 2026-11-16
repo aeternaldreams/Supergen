@@ -20,6 +20,6 @@ CHARACTERS: KALLISTA is the woman seated on the bench in the left foreground: ea
 
 0–1.5 seconds: Chase skates fast straight toward the bench. Kallista keeps lacing her skate, eyes down.
 1.5–2.5 seconds: Right in front of her, Chase turns his skates sideways in a hard hockey stop, and his blades throw a big wall of shaved ice and snow straight into Kallista's face and coat. Kallista's arms fly up to shield her face and she flinches backward against the bench, eyes squeezed shut, ice dusting her hair and scarf.
-2.5–5 seconds: Chase stands still beside the bench, leans on his stick and grins down at her with deep dimples, and says in a smooth, cocky drawl: "Hey..." Kallista slowly lowers her arms, ice in her hair, and stares up at him, flat and completely unimpressed.
+2.5–5 seconds: Chase stands still beside the bench, gloved hands on his hips, and grins down at her with deep dimples, and says in a smooth, cocky drawl: "Hey..." Kallista slowly lowers her arms, ice in her hair, and stares up at him, flat and completely unimpressed.
 
 Sound: blades carving the ice, the hard scrape of the hockey stop and a whoosh of spraying ice, a soft gasp from Kallista, then Chase's line over quiet outdoor rink ambience. No music, no extra people, no subtitles, no watermarks.
