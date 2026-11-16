@@ -200,9 +200,11 @@ direction super → Raw Merge, Top Tier Reality or Readable Sakuga.
 | HD / Upscale to 1080p | `quality: "720p"` (made at Normal, upscaled to 1080p) |
 | 16:9 etc. | `shape` (videos also allow 21:9) |
 | Direction | `direction` — `reuse_video` only |
-| Style / Super Seed | `seed` — `reuse_video` only |
-| + More Images (reference) | not in MCP — one keyframe per new video (see section 1) |
-| + Add Scene Audio | not in MCP — `reuse_video` can keep a past video's audio (`keep_audio`) |
+| Style / Super Seed | `seed` — on `make_*_video` and `reuse_video` |
+| Image to Video + MORE IMAGES | `picture` (first frame) + `more_pictures` (up to 3 ids/links) or `picture_file_2..4` |
+| + Add Scene Audio | `audio` / `audio_file` (the video follows it; up to 20s) |
+| Character voices | `voices` (up to 3, `{name, audio}`) / `voice_file_1..3`; the name must match the description. Ignored if scene audio is given |
+| Reference to Video (no first frame, @1–@4 refs) | not in MCP (checked 2026-11-16) — website only |
 
 Other tools: `make_picture` (`kind`: plain, character_sheet, cast_sheet,
 cast_and_place, background, storyboard; `look`: auto, photo, anime),
