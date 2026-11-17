@@ -132,3 +132,10 @@ Supergen directs the cuts from 3 references and the line, at about 66 XCE instea
 
 **Edit:** white flash → 0–1.5 entrance (*tick... tick...* starts under it) → line → bossa nova **BOOM** at 6.2 on "dark—" → panic → Kallista → **"WOO!"** → white flash. Mute the clip's audio after 6.4s.
 **Fallback:** if Supergen ignores the cuts or drifts a face, retake only the weak shot as a 5s pickup from its own frame (the Shot A, B and E prompts above).
+
+**Result:** `ae52c5fdb83d` (vid_41acc8b3ae6d4214), about 66 XCE.
+- Shot 1, entrance (0–1.25s): good. Adrian glides in, his hair and coat read right at this size, and Kallista holds.
+- Shot 2, close-up (1.25–8.2s): **Adrian's identity failed.** Supergen did not use @2's composition (windows behind him, arms folded instead of chin on hand) and drew a different man: tanned skin, brown eyes, flatter hair, light eyeliner, two earrings per ear. The line is lip-synced. The panic hands come at about 7.4–8.2s.
+- Shot 3, Kallista (8.2–9.9s): usable. Her face is a little more mature than Frame C, but she's recognisable.
+- Supergen moved the audio about 0.25s earlier (speech starts at 1.37s) and trimmed the end to 9.875s.
+- Lesson: **reference pictures (`more_pictures`) don't hold a face in a close-up; only the first frame does.** Use references for wide shots and quick entrances only.
