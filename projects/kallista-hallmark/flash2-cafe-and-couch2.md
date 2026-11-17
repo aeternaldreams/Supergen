@@ -35,14 +35,16 @@ Becca: [lighting up, delighted] Ooh, the music shop! [dreamy] Some broody musici
 ```
 Send the file and I'll measure the timings, pad it to 15s and finish the prompt below.
 
-## E. Couch clip 2: Supergen prompt (timings filled in after measuring)
+## E. Couch clip 2: Supergen prompt
+Audio: `voices/holiday-reservations/couch2_dialogue_15s.mp3` (1.5s of room tone added at the start, padded to 15.0s).
+Measured: Becca 1.5–6.6s, Kallista "Nobody does that." 6.8–8.0s, Becca 8.3–12.2s, silence 12.2–15s.
 Start frame: the corrected couch two-shot `pic_1619a74c7520`. 15s, Normal, 16:9, no seed, scene audio = padded dialogue track.
 > Create a 15-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: two best friends sharing a quiet, intimate late-night conversation on a sofa in a cozy bed-and-breakfast sitting room. It should feel real and unperformed: relaxed, close, easy eye contact. Preserve their faces, hair, sweaters, the sofa, the Christmas tree, the frosted windows and the warm lamp and firelight exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm practical light, soft halation on the tree lights, shallow depth of field and organic film grain.
 > CHARACTERS: [Kallista and Becca blocks from clip1-v2-prompt.md, unchanged]
 > Camera: keep the two-shot, or if you cut, always cut to the woman who is speaking so her face is on camera while she talks. Only the woman who is speaking moves her lips.
 > 0–1.5 seconds: Complete silence, no one speaks. Kallista looks at Becca and gives a slow, dead-eyed shake of her head, mouth closed.
-> [t1–t2] seconds: Becca perks up, points at Kallista with the bottle hand and leans in, conspiratorial and delighted: "The coffee shop! He spelled your name wrong on purpose... so you'd have to talk to him."
-> [t3–t4] seconds: Kallista takes a slow sip of wine, lowers the glass and says, flat and deadpan: "Nobody does that."
-> [t5–t6] seconds: Becca's face lights up and she sits up straight: "Ooh, the music shop! Some broody musician."
-> [t6–15] seconds: Kallista closes her eyes and sinks slightly into the sofa, mouth closed.
+> 1.5–6.6 seconds: Becca perks up, points at Kallista with the bottle hand and leans in, conspiratorial and delighted: "The coffee shop! He spelled your name wrong on purpose... so you'd have to talk to him."
+> 6.8–8.0 seconds: Kallista takes a slow sip of wine, lowers the glass and says, flat and deadpan: "Nobody does that."
+> 8.3–12.2 seconds: Becca's face lights up and she sits up straight: "Ooh, the music shop! Some broody musician."
+> 12.2–15 seconds: Complete silence, no one speaks. Kallista closes her eyes and sinks slightly into the sofa, mouth closed.
 > Throughout: keep the supplied audio unchanged and add no voices or music. No extra people, no subtitles, no watermarks.
