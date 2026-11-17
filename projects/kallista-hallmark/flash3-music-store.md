@@ -2,6 +2,7 @@
 
 ## Sequence in the edit (about 6–7s)
 1. **WHITE FLASH** out of couch clip 2 (Becca: "...Some broody musician.").
+1b. **Shot E, entrance (~1.5s, muted):** a wide, front-on shot. Kallista studies the SX920 panel; Adrian glides in from the right edge and plants his elbow on the panel. *tick... tick...* starts.
 2. **Shot A, Adrian (~4.5s, lip-synced):** Kallista's point of view. Adrian leans on the PSR-SX920, chin on hand: "You play? ...Perhaps we could make something... beautifully dark—". A quiet count-in *tick... tick...* runs under the line (added in the edit).
 3. **Hard cut on "dark—"**, and the bossa nova **BOOM**s in (added in the edit).
 4. **Shot B, panic (~2s, muted):** Adrian jerks upright and stabs at buttons.
@@ -9,12 +10,20 @@
 6. Optional: a final 0.5s of Shot B, then the **"WOO!"** lands right on the white flash.
 7. **WHITE FLASH** into couch clip 3: "He was perfect... until the bossa nova."
 
-Cost: Shot A and Shot B are 5s Normal clips at 30–36 XCE each, **60–72 XCE in total**, which leaves about 115–125 XCE. Shot C is a still with a slow push-in in the edit, so it costs nothing in Supergen.
+Total about 9s: E 1.5s + A 4.5s + B 2s + C 1.2s.
+Cost: E, A and B are 5s Normal clips at 30–36 XCE each, **90–108 XCE in total** out of the 120 left. If credits run short, drop E and open on Shot A; the entrance is then implied. Shot C is a still with a slow push-in in the edit, so it costs nothing in Supergen.
 
 ---
 
 ## 1. Start frames (Nano Banana, 16:9)
 Before you start: check that the PSR-SX920 product photo isn't mirrored. "YAMAHA" should read correctly.
+
+### Frame E: wide entrance master, without Adrian
+Adrian's face has to come from somewhere when he walks in from out of frame, so it comes from **reference pictures** (Supergen's `more_pictures`), not from frame 0. The shot is wide, so his face is small and moving and any drift barely shows. The next cut (Shot A) puts him in frame 0, which locks his face for the close-up.
+Make the music store set (S6 in `nano-banana-keyframes.md`) first if you don't have it yet. Then edit it, attaching **the S6 set picture first**, then Kallista identity shots 1 and 2 and the PSR-SX920 photo:
+> Keep this store, lighting and style. Reframe as a wide, eye-level shot facing straight into the keyboard department. In the center of the frame, the Yamaha PSR-SX920 stands on a black X-stand, seen from the front of the instrument (its back toward the camera, the player's side facing away), with a row of other arranger keyboards on stands receding behind it. Kallista, the woman from the Kallista references, stands behind the keyboard on its left half, facing the camera, looking down at the control panel with one finger hovering over a key. Same face: a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) worn down with a center part. She wears a fitted black ribbed mock-neck sweater under an open charcoal wool coat and a dark grey chunky knit scarf. The right half of the keyboard and the open floor to its right are clear, with plenty of room for someone to step in. Warm afternoon light through tall windows with snow outside. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.
+
+Shot A is the reverse angle from her side of the keyboard. Adrian stays on screen-right in both, so the cut matches.
 
 ### Frame A: Adrian, Kallista's point of view
 Attach, in this order: **Adrian's front close-up identity shot first** (it sets a front-facing layout), then his full-body shot, then the PSR-SX920 photo.
@@ -43,6 +52,15 @@ One voice: British male, low, velvety, unhurried (Text to Speech v3, or Text to 
 Send the file and I'll measure it, add 0.3s of room tone at the start, pad it to 5.0s, commit it to `voices/holiday-reservations/` and fill in the timestamps below.
 
 ---
+
+## 2b. Shot E: Supergen prompt (5s, Normal, 16:9, no seed, no audio)
+First frame: Frame E. More pictures: Adrian's front close-up identity shot and his full-body greatcoat shot (uploaded to Supergen, as `pic_` ids).
+> Create a 5-second cinematic live-action romantic comedy shot in 16:9, beginning directly from the supplied first frame: a woman with platinum-blonde hair studying an arranger keyboard in a small-town music store. One continuous wide shot, locked camera, no cuts. Keep her face, the keyboard and the store exactly as in the first frame. Animate the scene naturally; do not interpolate or morph between the reference pictures. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm afternoon window light, shallow depth of field and organic film grain.
+> KALLISTA is the woman behind the keyboard: reserved and deadpan; she moves very little.
+> 0–1.5 seconds: ADRIAN, the man from the reference pictures (pale skin, spiky black hair with a choppy fringe, subtle smoky eyeliner, small gold cross earrings, a long black double-breasted greatcoat open over a black turtleneck, no scarf), glides in from the right edge of the frame with slow, self-important strides, his coat swinging, and smoothly sets one elbow down on the right end of the keyboard's panel, chin on his hand, gazing at her with a brooding look.
+> 1.5–5 seconds: He holds the pose, perfectly still and very pleased with himself. Kallista keeps looking down at the panel, unimpressed, and does not look up.
+> Sound: quiet music store ambience. No dialogue, no music, no other people, no subtitles, no watermarks.
+Use 0 to the moment his elbow lands (about 1.5–2s), then cut to Shot A.
 
 ## 3. Shot A: Supergen prompt (5s, Normal, 16:9, no seed, scene audio = padded line)
 Timestamps are placeholders until the audio is measured.
