@@ -77,6 +77,12 @@ paste into the website.
   render. That render took about 20 minutes. Its cuts came out as
   over-the-shoulder shots rather than clean close-ups, and the main
   character's face drifted in the new angles.
+  **Update 2026-11-17 (Holiday Reservations music store):** extra pictures put
+  Supergen in reference-to-video mode. A close-up meant to match a reference
+  picture redrew the actor's face (wrong skin, eyes and hair) and ignored that
+  picture's composition. Close-ups that need a held face must start from their
+  own first frame, with no `more_pictures`. Keep references for wide shots and
+  quick entrances only.
 - **Reference slots in the MCP:** both video tools take `picture` (@1, the
   first frame) plus `more_pictures` (up to 3 more: picture_ids, `pic_` ids or
   https links) for @2–@4. Use these for new multi-reference scenes.
