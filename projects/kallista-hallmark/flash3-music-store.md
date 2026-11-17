@@ -110,3 +110,25 @@ Attach: the GPT Kallista close-up, then Kallista identity shot 1.
 ### References for Shot E (Supergen `more_pictures`)
 - **Face:** the corrected Frame A, not the old music-video headshot. The headshot's ruffled white shirt and vinyl jacket could pull the wrong wardrobe in, and Frame A has his face front-on, in costume and in this store's light.
 - **Wardrobe:** the full-body greatcoat shot.
+
+---
+
+## FINAL PLAN: one 10s directed clip (replaces separate Shots E, A, B and C)
+Supergen directs the cuts from 3 references and the line, at about 66 XCE instead of 90–108.
+- First frame @1: `keyframes/holiday-reservations/music_E_kallista_wide.png`
+- More pictures: @2 `music_A_adrian_pov.png` (Adrian's close-up, his face and wardrobe), @3 `music_C_kallista_stare.png`
+- Audio: `voices/holiday-reservations/music_adrian_10s.mp3` (raw take: `adrian_line_raw.mp3`, ElevenLabs v4). 1.4s of silence at the start, padded to 10.0s.
+- Measured: "You play?" 1.62–2.30s, "Perhaps we could make something..." 3.20–4.76s, "beautifully dark—" 5.26–6.20s, silence 6.4–10s.
+- 10s, Normal, 16:9, no seed.
+
+> Create a 10-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame (@1): a woman with platinum-blonde hair studying an arranger keyboard in a small-town music store. Exactly THREE shots with two clean HARD CUTS. References define each shot's composition, faces, wardrobe and setting. Animate the scenes naturally; do not interpolate or morph between the reference images. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm afternoon window light, shallow depth of field and organic film grain.
+> CHARACTERS: KALLISTA is the woman at the keyboard (@1, @3): pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) with a center part, a charcoal wool coat and a dark grey chunky knit scarf. Reserved and deadpan; she moves very little and never speaks. ADRIAN (Speaker 1, @2) has a low, velvety British voice: pale skin, spiky black hair with a choppy fringe, smoky eyeliner, small gold cross earrings, a long black double-breasted greatcoat over a black turtleneck, no scarf. A self-serious, brooding frontman, until things go wrong. Keep both faces exactly as in the references.
+> 0–1.5 seconds, SHOT 1, match @1: wide shot, locked camera. Kallista looks down at the keyboard panel. Adrian glides in from the right edge of the frame with slow, self-important strides, his coat swinging, and smoothly sets one elbow down on the right end of the keyboard, chin on his hand. Silence.
+> AT EXACTLY 1.5 SECONDS: HARD CUT to the close-up composition in @2.
+> 1.5–8.0 seconds, SHOT 2, match @2: close-up of Adrian leaning on the keyboard, elbow on the panel, chin on his hand, gazing straight into the lens. He raises his eyebrows slightly and speaks low and slow: "You play?" He leans a little closer and lowers his voice to an intimate murmur: "Perhaps we could make something... beautifully dark—" At 6.3 seconds he jerks upright off his elbow in alarm, eyes suddenly wide, and jabs at the buttons on the panel with both hands, quick and clumsy, his eyes darting across the panel, mouth tight.
+> AT EXACTLY 8.0 SECONDS: HARD CUT to the close-up composition in @3.
+> 8.0–10 seconds, SHOT 3, match @3: close-up of Kallista, completely still, watching him with a flat, unimpressed, unblinking stare, mouth closed. Hold this shot to the end without a fade.
+> Throughout: keep the supplied audio unchanged; add no other voices, music or dialogue. Only Adrian speaks. No additional cuts, dissolves, slow motion, subtitles or watermarks.
+
+**Edit:** white flash → 0–1.5 entrance (*tick... tick...* starts under it) → line → bossa nova **BOOM** at 6.2 on "dark—" → panic → Kallista → **"WOO!"** → white flash. Mute the clip's audio after 6.4s.
+**Fallback:** if Supergen ignores the cuts or drifts a face, retake only the weak shot as a 5s pickup from its own frame (the Shot A, B and E prompts above).
