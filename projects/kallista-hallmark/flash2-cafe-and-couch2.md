@@ -48,3 +48,26 @@ Start frame: the corrected couch two-shot `pic_1619a74c7520`. 15s, Normal, 16:9,
 > 8.3–12.2 seconds: Becca's face lights up and she sits up straight: "Ooh, the music store! Some broody musician."
 > 12.2–15 seconds: Complete silence, no one speaks. Kallista closes her eyes and sinks slightly into the sofa, mouth closed.
 > Throughout: keep the supplied audio unchanged and add no voices or music. No extra people, no subtitles, no watermarks.
+
+---
+
+## F. Couch clip 2, v2 retake (10s): fixing Becca's face drift
+**Why:** the v1 start frame had Becca turned in three-quarter profile toward Kallista, so Supergen had to invent the hidden half of her face. It drifted away from couch clip 1, worst in its Becca close-up. The v2 frame shows both women front-on and fully lit.
+
+**Shortened to 10s (60–72 XCE instead of 90–108):** Becca's music-store line was never lip-synced in v1, and the rough cut already plays it over Kallista's reaction. v2 renders only the two synced lines plus a 3s silent reaction. In the edit, Becca's "Ooh, the music store! Some broody musician." (8.3–12.2s of `couch2_dialogue_15s.mp3`) goes over that reaction.
+
+- Start frame: `keyframes/holiday-reservations/couch2_front_v2.png`
+- Audio: `voices/holiday-reservations/couch2_dialogue_v2_10s.mp3`, cut from the v1 track (1.0–8.1s) and padded to 10.0s.
+- Measured: Becca 0.56–5.62s, Kallista 5.83–6.95s, silence 6.95–10s.
+- 10s, Normal, 16:9, no seed.
+
+> Create a 10-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: two best friends sharing a quiet late-night conversation on a sofa in a cozy bed-and-breakfast sitting room. It should feel real and unperformed. Preserve their faces, hair, sweaters, the sofa, the Christmas tree, the frosted windows and the warm lamp and firelight exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm practical light, soft halation on the tree lights, shallow depth of field and organic film grain.
+> CHARACTERS: KALLISTA (Speaker 1) is the woman on the left, with the softer, lower voice. Keep her face exactly as in the first frame: early-to-mid twenties, pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) worn down past the shoulders with a center part. She wears an oversized charcoal knit sweater and black leggings, sits cross-legged and holds a glass of red wine. A dark dream-pop songwriter: reserved, deadpan, emotionally restrained; she moves little and deliberately, and her emotions show in her eyes. Never bubbly, never loud, no big gestures. BECCA (Speaker 2) is the woman on the right, with the brighter, higher voice. Keep her face exactly as in the first frame: late twenties, long wavy auburn hair, light freckles across her nose and cheeks, warm green-brown eyes, a burgundy cable-knit sweater and jeans, holding a bottle of red wine by its neck. Kallista's best friend: warm, playful and teasing; her energy shows in her eyes and smile, with small, loose gestures. Never theatrical.
+> Camera: hold the frontal two-shot with a very slow push-in. Both women stay facing mostly toward the camera, turning only their heads slightly toward each other, so both full faces stay visible the whole time. If you cut, always cut to the woman who is speaking, straight-on, so her face is on camera while she talks. Only the woman who is speaking moves her lips.
+> 0–0.5 seconds: Silence. Becca turns her head slightly toward Kallista with a sly smile.
+> 0.5–5.6 seconds: Becca leans in a little, points the bottle toward Kallista and says, conspiratorial and delighted: "The coffee shop! He spelled your name wrong on purpose... so you'd have to talk to him."
+> 5.8–7.0 seconds: Kallista takes a small sip of wine, lowers the glass and says, flat and deadpan: "Nobody does that."
+> 7.0–10 seconds: Complete silence, no one speaks. Kallista closes her eyes and sinks slightly into the sofa, mouth closed. Becca grins at her, mouth closed.
+> Throughout: keep the supplied audio unchanged and add no voices or music. No extra people, no subtitles, no watermarks.
+
+**Edit:** couch 0–5.6 (Becca) → café flash (barista + stare) → couch 5.8–7.0 ("Nobody does that.") → couch 7.0–10 under Becca's music-store line from the v1 track → white flash → Adrian.
