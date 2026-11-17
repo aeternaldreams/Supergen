@@ -139,3 +139,26 @@ Supergen directs the cuts from 3 references and the line, at about 66 XCE instea
 - Shot 3, Kallista (8.2–9.9s): usable. Her face is a little more mature than Frame C, but she's recognisable.
 - Supergen moved the audio about 0.25s earlier (speech starts at 1.37s) and trimmed the end to 9.875s.
 - Lesson: **reference pictures (`more_pictures`) don't hold a face in a close-up; only the first frame does.** Use references for wide shots and quick entrances only.
+
+---
+
+## PLAN v3: every shot from its own keyframe (no reference pictures)
+Adding `more_pictures` turns Supergen into reference-to-video mode: frame 0 is no longer locked, and faces are redrawn. So every shot now starts from its own first frame, with no extra pictures. With 54 XCE left, only Adrian's line gets a clip; everything else plays as a still or uses audio in the edit.
+
+**Edit (about 7s):**
+1. White flash, then **Frame E as a still** (~1.2s, slow push-in). Kallista at the keyboard; *tick... tick...* starts.
+2. Hard cut to **the Adrian clip** (Frame A first frame, ~5s): he is suddenly just *there*, chin on hand. "You play? ...Perhaps we could make something... beautifully dark—"
+3. **BOOM** on "dark—": he jerks upright (4.4–5.0s). The bossa nova blasts, with button beeps and the tempo speeding up, all in audio.
+4. **Frame C as a still** (~1.5s, slow push-in): Kallista's flat stare as the horns pile on, then **"WOO!"** and the white flash.
+
+### Adrian pickup: Supergen prompt (5s, Normal, 16:9, no seed, no more_pictures)
+- First frame: `keyframes/holiday-reservations/music_A_adrian_pov.png`
+- Audio: `voices/holiday-reservations/music_adrian_5s.mp3` (raw take with the long pause shortened by 0.4s)
+- Measured: "You play?" 0.22–0.90s, "Perhaps we could make something..." 1.40–2.96s, "beautifully dark—" 3.46–4.40s, silence 4.4–5.0s.
+
+> Create a 5-second cinematic live-action romantic comedy close-up in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: a brooding British musician leaning on an arranger keyboard in a small-town music store, seen from the point of view of the woman he is talking to. One continuous shot, locked camera, no cuts. Keep his face exactly as in the first frame, and keep the keyboard, its panel and the store behind him exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm afternoon light, shallow depth of field and organic film grain.
+> CHARACTER: ADRIAN (Speaker 1) is the only person who speaks, with a low, velvety British voice. Keep his face exactly as in the first frame: pale skin, spiky black hair with a choppy fringe, smoky eyeliner, small gold cross earrings, a long black double-breasted greatcoat open over a black turtleneck. A self-serious frontman: brooding, with slow, deliberate movements. He believes every word.
+> 0.2–0.9 seconds: Chin on his hand, he raises his eyebrows slightly and speaks low and slow, looking straight into the lens: "You play?"
+> 1.4–4.4 seconds: He leans a little closer, his elbow still on the panel, and lowers his voice to an intimate murmur: "Perhaps we could make something... beautifully dark—"
+> 4.4–5 seconds: Silence. He jerks upright off his elbow in alarm, eyes suddenly wide, staring down at the keyboard.
+> Throughout: keep the supplied audio unchanged; add no voices, music or sound effects. The people in the background stay small and out of focus and never speak. No extra cuts, no subtitles, no watermarks.
