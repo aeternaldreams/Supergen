@@ -86,3 +86,27 @@ Use about 0.3–2.5s, muted. The bossa nova and the "WOO!" go on top in the edit
 
 ## 5. Then
 Couch clip 3 (F1/F2 framing): "He was perfect... until the bossa nova." → Milly: "Statistically, most people meet at work." → both of them stare at Milly → Becca: "Then where?!" → "...The laundromat." These are 4 lines, so they fit in one 15s clip. Set up the ElevenLabs dialogue the same way as couch clip 2, with Milly as a third voice: flat, even, a beat late.
+
+---
+
+## Revision: fixing the GPT store frames (geography)
+The three GPT frames all show the same front windows, but they are shot from opposite sides of the keyboard. In the wide shot (camera in front of the keyboard, looking at its back), the windows are behind Kallista and Adrian. In a reverse angle from the player's side, the camera looks the other way, into the store, so the windows must not appear. Rule: **the windows appear only in the wide shot.** The close shots play against the store interior: the brick wall, the guitar wall, the upright pianos and the sheet music counter. This also means faces are lit from the front by the windows behind the camera instead of backlit.
+
+Edit each GPT frame (attach the frame being edited **first**, so it keeps the layout, faces and pose).
+
+### E. Wide entrance master: edit of the GPT two-shot (Kallista and Adrian behind the keyboard)
+Attach: the GPT two-shot, then Kallista identity shot 1.
+> Keep this exact image: the same camera position, framing, lens, lighting, store, windows and keyboard, and the woman's face, hair, coat and scarf exactly as they are. Make only these changes: remove the man in the black coat completely, and fill the space where he was with the store behind him (the brick wall, the guitar wall and the piano), so the right half of the keyboard and the floor beside it are clear and empty. The woman now looks down at the keyboard's control panel, studying it, with one finger resting on a key, and her expression is calm and absorbed. Keep everything else exactly the same. Photorealistic film still, light 35mm film grain. No text other than the existing brand name on the keyboard, no logos, no watermark.
+This is the waist-up opening shot of Kallista at the keyboard. Adrian enters from the right in Shot E.
+
+### A. Adrian's point-of-view close-up: edit of the GPT Adrian frame
+Attach: the GPT Adrian frame only.
+> Keep the man, his face, hair, eyeliner, cross earrings, greatcoat, pose and hand on his chin, the keyboard in the foreground and the camera framing exactly the same. Replace only the background: we are now looking toward the back of the store, away from the front windows, so no windows are visible anywhere. Behind him, softly out of focus: an exposed red-brick wall with a long row of acoustic and electric guitars on wall hangers, an upright piano, a wooden sheet music counter with a small brass lamp, and warm pendant lights below a pressed-tin ceiling. Soft daylight falls on his face from in front of him (from the windows behind the camera). Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, creamy shallow depth of field, light 35mm film grain, natural skin texture. No text other than the existing brand name on the keyboard, no logos, no watermark.
+
+### C. Kallista's stare: edit of the GPT Kallista close-up
+Attach: the GPT Kallista close-up, then Kallista identity shot 1.
+> Keep this woman's face, hair, coat, scarf, head angle and the camera framing exactly the same. Replace only the background: no windows anywhere. Behind her, softly out of focus: an exposed red-brick wall with acoustic guitars on wall hangers, a row of arranger keyboards on black stands, and warm pendant lights. Soft daylight falls on her face from in front of her. Change her expression to completely flat and unimpressed: a dead, unblinking stare, her brows level, her mouth closed and relaxed. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, creamy shallow depth of field, light 35mm film grain, natural skin texture. No text, no logos, no watermark.
+
+### References for Shot E (Supergen `more_pictures`)
+- **Face:** the corrected Frame A, not the old music-video headshot. The headshot's ruffled white shirt and vinyl jacket could pull the wrong wardrobe in, and Frame A has his face front-on, in costume and in this store's light.
+- **Wardrobe:** the full-body greatcoat shot.
