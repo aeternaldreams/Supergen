@@ -71,3 +71,8 @@ Start frame: the corrected couch two-shot `pic_1619a74c7520`. 15s, Normal, 16:9,
 > Throughout: keep the supplied audio unchanged and add no voices or music. No extra people, no subtitles, no watermarks.
 
 **Edit:** couch 0–5.6 (Becca) → café flash (barista + stare) → couch 5.8–7.0 ("Nobody does that.") → couch 7.0–10 under Becca's music-store line from the v1 track → white flash → Adrian.
+
+**Result:** `87c6f21670aa` (vid_992f1cfbb8fe4e57), about 66 XCE.
+- 0–~5.7s: wide two-shot from the frame. Becca's face holds (freckles, eyes, hair) and her line is lip-synced. She turns toward Kallista mid-line, which is fine at this size.
+- ~5.7–10s: Supergen cut to a closer two-shot on Kallista for "Nobody does that.", lip-synced, then her silent reaction (side-eye, closes her eyes). Her face is slightly rounder and younger in this shot than in the frame. Check it against clip 1.
+- The audio came back unchanged; the timings match the track.
