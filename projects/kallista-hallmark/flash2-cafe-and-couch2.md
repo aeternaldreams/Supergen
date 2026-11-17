@@ -3,7 +3,7 @@
 ## Sequence in the edit
 1. White flash back from the rink, then **couch clip 2, part 1:** Kallista's slow, dead-eyed head shake, then Becca: "The coffee shop! He spelled your name wrong on purpose... so you'd have to talk to him."
 2. **WHITE FLASH, café:** barista POV shot (~2s), then Kallista's dead stare at the cup (~1–1.5s). **WHITE FLASH.**
-3. **Couch clip 2, part 2:** Kallista sips wine: "Nobody does that." Becca: "Ooh, the music shop! Some broody musician." Then the Adrian flash.
+3. **Couch clip 2, part 2:** Kallista sips wine: "Nobody does that." Becca: "Ooh, the music store! Some broody musician." Then the Adrian flash.
 
 Couch clip 2 is one 15s render that gets split in the edit around the café flash.
 
@@ -45,6 +45,6 @@ Start frame: the corrected couch two-shot `pic_1619a74c7520`. 15s, Normal, 16:9,
 > 0–1.5 seconds: Complete silence, no one speaks. Kallista looks at Becca and gives a slow, dead-eyed shake of her head, mouth closed.
 > 1.5–6.6 seconds: Becca perks up, points at Kallista with the bottle hand and leans in, conspiratorial and delighted: "The coffee shop! He spelled your name wrong on purpose... so you'd have to talk to him."
 > 6.8–8.0 seconds: Kallista takes a slow sip of wine, lowers the glass and says, flat and deadpan: "Nobody does that."
-> 8.3–12.2 seconds: Becca's face lights up and she sits up straight: "Ooh, the music shop! Some broody musician."
+> 8.3–12.2 seconds: Becca's face lights up and she sits up straight: "Ooh, the music store! Some broody musician."
 > 12.2–15 seconds: Complete silence, no one speaks. Kallista closes her eyes and sinks slightly into the sofa, mouth closed.
 > Throughout: keep the supplied audio unchanged and add no voices or music. No extra people, no subtitles, no watermarks.
