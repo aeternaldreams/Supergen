@@ -245,3 +245,31 @@ Throughout: keep the supplied audio unchanged; add no music or extra voices. Onl
 - 6.5–10s: the @2 reverse angle, "...beautifully dark", then **good button-hunting on the panel** (usable).
 - 10–13.7s: Kallista close-up: a smile, then deadpan, then she tucks her hair. No hand to mouth.
 Lesson: a voice in the Character Voice slot only sets how a character sounds; the timing comes from Supergen. Put the compiled track in the scene-audio slot to lock the timing.
+
+### Website v5 prompt: written for Reference to video mode
+Reference to video mode has **no scene-audio slot** (only 3 Character Voice slots), so timing can't be locked. Timestamps become approximate shot lengths. Exact timing gets fixed in the edit.
+Fixes from render 1:
+- "gazing straight into the lens" made Adrian break the fourth wall. He now looks at Kallista, just beside the camera.
+- The entrance geography is now spelled out using the objects in the room.
+- @4 was mentioned in the prompt but never attached, so it's gone.
+- "beginning directly from the supplied first frame" conflicted with the reference-sheet note the website appends. Dropped.
+- The background people get actions, and the people behind Kallista are outside on the sidewalk.
+- The keyboard plays no music (render 1 invented a synth demo, which would sit under the lip-synced voice).
+Pictures: @1 Frame E, @2 Frame A, @3 Frame C. Voices: Voice 1 = `adrian_line_raw.mp3`, Voice 2 = `kallista_laugh_raw.mp3`.
+```
+Create a 12-second cinematic live-action romantic comedy scene in 16:9 in a small-town music store, told in five shots joined by clean hard cuts. @1 shows the store, the keyboard and Kallista; @2 shows Adrian leaning on the keyboard; @3 is Kallista's close-up. Keep both faces exactly as in the references. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm afternoon window light, shallow depth of field and organic film grain.
+
+CHARACTERS: KALLISTA (@1, @3): pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) with a center part, a charcoal wool coat and a dark grey chunky knit scarf. Reserved and deadpan; she never speaks, and her only sound is one short stifled laugh (Voice 2). ADRIAN (@2), who speaks with Voice 1, a low, velvety British voice: pale skin, spiky black hair with a choppy fringe, smoky eyeliner, small gold cross earrings, a long black double-breasted greatcoat with silver buttons over a black turtleneck. A self-serious, brooding frontman, until things go wrong. The two of them only ever look at each other; nobody ever looks into the camera.
+
+THE ROOM: the keyboard stands in the middle of the store. Kallista stands behind it at its controls, with the front windows behind her. The camera starts on the other side, looking at the keyboard's back panel.
+
+SHOT 1 (about 2 seconds), wide, matching @1, locked camera: Kallista, alone at the controls, looks down and presses a button with one finger. Adrian walks into frame from the bottom-right corner on the camera's side of the keyboard, his back to us: we see only his spiky black hair and the back of his long black greatcoat, never his face. He stops across the keyboard from her and leans one elbow on the keyboard, facing her.
+SHOT 2 (about 2 seconds), the reverse angle matching @2, seen from Kallista's side: Adrian leans across the keyboard, elbow on the panel, chin on his hand, his eyes on Kallista just beside the camera. He says, low and slow: "You play?"
+SHOT 3 (about 1 second), Kallista's close-up matching @3: she listens, her brow furrowing slightly, mouth closed, while his voice continues off screen: "Perhaps we could make..."
+SHOT 4 (about 4 seconds), back on Adrian as in @2: he leans closer and murmurs, "...something... beautifully dark—" He freezes mid-word, looks down at the keyboard under his elbow, eyes widening, then straightens up and hunts for the off switch: quick, flustered prods on the small buttons of the control panel, one hand then the other, eyes darting. His fingers never touch the piano keys.
+SHOT 5 (about 3 seconds), closer on Kallista as in @3: she covers her mouth with her hand and lets out one short, quiet, stifled laugh, then stays deadpan behind her hand. Hold to the end.
+
+BACKGROUND LIFE: through the front windows behind Kallista, people in winter coats walk past outside on the snowy sidewalk. Behind Adrian, a clerk rings up a customer at the counter and another shopper browses the accessories wall. Small, natural, continuous movements; they never look at the camera.
+
+SOUND: only the two voices, a few soft button clicks and quiet store ambience. The keyboard plays no music, and there is no music at all. No subtitles, no watermarks, no slow motion, no extra dialogue.
+```
