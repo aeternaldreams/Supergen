@@ -162,3 +162,55 @@ Adding `more_pictures` turns Supergen into reference-to-video mode: frame 0 is n
 > 1.4–4.4 seconds: He leans a little closer, his elbow still on the panel, and lowers his voice to an intimate murmur: "Perhaps we could make something... beautifully dark—"
 > 4.4–5 seconds: Silence. He jerks upright off his elbow in alarm, eyes suddenly wide, staring down at the keyboard.
 > Throughout: keep the supplied audio unchanged; add no voices, music or sound effects. The people in the background stay small and out of focus and never speak. No extra cuts, no subtitles, no watermarks.
+
+---
+
+## PLAN v4: website multi-reference scene (10s), shot by the member in the web UI
+**References:** @1 `music_E_kallista_wide.png` (first frame), @2 `music_A_adrian_pov.png`, @3 `music_C_kallista_stare.png`, @4 Adrian's full-body greatcoat shot (gives the back of the coat for the entrance).
+**Scene audio (compiled once the SFX and the laugh arrive):** Adrian's raw take placed at +2.0s, then the button mashing, then Kallista's laugh, padded to 10.0s.
+
+| Time | Shot | Audio |
+|---|---|---|
+| 0–2.0 | @1 wide, held: Kallista presses a button; Adrian enters from bottom right, back to camera, elbow on keyboard | silence |
+| 2.0 | HARD CUT to @2 | |
+| 2.2–2.9 | @2 Adrian | "You play?" |
+| 3.7 | CUT to @3 (L-cut) | |
+| 3.8–4.66 | @3 Kallista furrows her brow | "Perhaps we could make" (Adrian, off screen) |
+| 4.66 | CUT back to @2 | |
+| 4.66–6.8 | @2 Adrian | "something... beautifully dark—" |
+| 7.0–8.4 | @2 Adrian jolts upright and prods the panel buttons | button mashing SFX (≤1.4s) |
+| 8.4 | CUT to Kallista, closer than @3 | |
+| 8.6–9.4 | Kallista, hand to mouth | her short stifled laugh |
+| 9.4–10 | hold, then the white flash in the edit | |
+
+"Something" starts at about 2.66s in the raw take (4.66s in the scene), measured from a level dip. Nudge the cut if it lands a syllable early or late.
+
+### ElevenLabs: button mashing (Sound Effects, 1.5s, prompt influence high)
+```
+Flustered fingertips jabbing small hard plastic buttons on an electronic keyboard's control panel: quick uneven clicks and clacks, two soft electronic beeps, one knob twist, close-up, dry indoor room, no music, no piano notes.
+```
+### ElevenLabs: Kallista's stifled laugh (v4, her voice)
+```
+[stifling a laugh behind her hand] Hm— [short, quiet, breathy laugh through her nose] hm.
+```
+Alternates: `[trying not to laugh] Pfft— [soft, muffled giggle]` or `[a single surprised, muffled laugh behind her hand] Hah.` Keep it under 1s: dry, private, a crack in the deadpan, never a giggle fit.
+
+### Website prompt (Image to Video + More Images, 10s, Normal, 16:9, no seed, scene audio = the compiled track)
+See the chat copy, or below.
+```
+Create a 10-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame (@1): a woman with platinum-blonde hair at an arranger keyboard in a small-town music store. Clean hard cuts between camera setups, exactly as timed below. References define each shot's composition, faces, wardrobe and setting. Animate the scenes naturally; do not interpolate or morph between the reference images. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm afternoon window light, shallow depth of field and organic film grain.
+
+CHARACTERS: KALLISTA (@1, @3) is the woman at the keyboard: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) with a center part, a charcoal wool coat and a dark grey chunky knit scarf. Reserved and deadpan; she moves very little. Keep her face exactly as in @1 and @3. ADRIAN (Speaker 1, @2, @4) has a low, velvety British voice: pale skin, spiky black hair with a choppy fringe, smoky eyeliner, small gold cross earrings, a long black double-breasted greatcoat with silver buttons over a black turtleneck. A self-serious, brooding frontman, until things go wrong. Keep his face exactly as in @2.
+
+0–2.0 seconds, SHOT 1, match @1, locked wide shot: Kallista looks down at the keyboard and presses a button with one finger, absorbed. Adrian walks into frame from the bottom-right corner, close to the camera, with his back to the camera: we see only the back of his long black greatcoat and his spiky black hair. He steps up to the right half of the keyboard on the side facing the camera, opposite her, and leans forward to rest one elbow on top of the keyboard. Silence.
+AT EXACTLY 2.0 SECONDS: HARD CUT to the reverse angle, matching @2.
+2.0–3.7 seconds, SHOT 2, match @2: close-up of Adrian, already leaning with his elbow on the panel and his chin on his hand, gazing straight into the lens. He speaks low and slow: "You play?"
+AT EXACTLY 3.7 SECONDS: HARD CUT to @3.
+3.7–4.7 seconds, SHOT 3, match @3: close-up of Kallista listening, mouth closed. She subtly furrows her brow, puzzled and unconvinced. She does not speak; his voice continues off screen: "Perhaps we could make..."
+AT EXACTLY 4.7 SECONDS: HARD CUT back to @2.
+4.7–8.4 seconds, SHOT 4, match @2: Adrian leans a little closer and lowers his voice to an intimate murmur: "...something... beautifully dark—" At 7.0 seconds he jolts upright in alarm, eyes wide, and hunts for the off switch: quick, flustered prods with his fingertips on the small buttons of the control panel above the keys, one hand then the other, his eyes darting across the screen. His fingers stay on the panel buttons and never play the piano keys.
+AT EXACTLY 8.4 SECONDS: HARD CUT to a closer framing of Kallista from @3.
+8.4–10 seconds, SHOT 5: close-up of Kallista. She raises a hand to cover her mouth and lets out one short, quiet, stifled laugh, her eyes crinkling for a moment, then keeps her hand there, trying to stay deadpan. Hold this shot to the end without a fade.
+
+Throughout: keep the supplied audio unchanged; add no music or extra voices. Only Adrian speaks words. No additional cuts, dissolves, slow motion, subtitles or watermarks.
+```
