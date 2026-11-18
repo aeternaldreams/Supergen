@@ -37,3 +37,9 @@ White flashes are 3 frames (0.125s) of white with silence.
 - **Room tones:** `roomtone_bnb.mp3` (−4 dB) under the couch clips, `roomtone_rink.mp3` (−4 dB), `roomtone_cafe.mp3` (−10 dB), and `roomtone_music_store.mp3` (already in the music edit).
 - **Music store:** the bossa nova #1 version.
 - **Becca's L-cut line** starts 29.53s.
+
+## v3 (46.7s): Becca's line now lip-synced
+- Becca pickup `bbc362eba079` (5s from `becca_mcu_crop.png` + `becca_musicstore_5s.mp3`, about 36 XCE): her face matches and the lip-sync is good.
+- Couch 2 ending is now: couch 2 v2 5.7–7.0 ("Nobody does that.") → **Becca 0–4.4** ("Ooh, the music store! Some broody musician.") → couch 2 v2 8.9–10.1 (Kallista closes her eyes) → white flash → music store. Hard cuts within the couch; the B&B room tone runs across all three.
+- Becca's L-cut line from the old track has been removed.
+- Flashes at 14.3, 18.08, 23.87, 27.85, 34.83 and 46.58s.
