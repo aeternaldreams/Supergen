@@ -215,14 +215,13 @@ AT EXACTLY 8.4 SECONDS: HARD CUT to a closer framing of Kallista from @3.
 Throughout: keep the supplied audio unchanged; add no music or extra voices. Only Adrian speaks words. No additional cuts, dissolves, slow motion, subtitles or watermarks.
 ```
 
-### v4 scene audio: compiled (11s); these timings replace the 10s table above
-`voices/holiday-reservations/music_scene_11s.mp3`, built from `adrian_line_raw.mp3` (+2.3s), `buttons_sfx_raw.mp3` (+15 dB, at 7.4s) and `kallista_laugh_raw.mp3` (first 1.25s only, at 9.1s).
-Measured: "You play?" 2.52–3.20s · "Perhaps we could make" 4.10–4.96s · "something... beautifully dark—" 4.96–7.10s · buttons 7.4–8.7s · laugh 9.2–10.3s · silence to 11.0s.
-Peaks: voice -6.8 dB, buttons -10.5 dB, laugh -12.7 dB.
+### v4 scene audio: compiled (12s, final); these timings replace the 10s table above
+`voices/holiday-reservations/music_scene_12s.mp3`, built from `adrian_line_raw.mp3` (+2.3s), `buttons_sfx_raw.mp3` (+15 dB, at 8.0s) and `kallista_laugh_raw.mp3` (first 1.25s only, at 9.8s).
+Measured: "You play?" 2.52–3.20s · "Perhaps we could make" 4.10–4.96s · "something... beautifully dark—" 4.96–7.10s · **a 0.85s beat** (the bossa nova hits here in the edit) · buttons 8.14–9.3s · laugh 9.9–11.0s · silence to 12.0s.
 
-**Website prompt (11s):**
+**Website prompt (12s):**
 ```
-Create an 11-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame (@1): a woman with platinum-blonde hair at an arranger keyboard in a small-town music store. Clean hard cuts between camera setups, exactly as timed below. References define each shot's composition, faces, wardrobe and setting. Animate the scenes naturally; do not interpolate or morph between the reference images. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm afternoon window light, shallow depth of field and organic film grain.
+Create a 12-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame (@1): a woman with platinum-blonde hair at an arranger keyboard in a small-town music store. Clean hard cuts between camera setups, exactly as timed below. References define each shot's composition, faces, wardrobe and setting. Animate the scenes naturally; do not interpolate or morph between the reference images. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm afternoon window light, shallow depth of field and organic film grain.
 
 CHARACTERS: KALLISTA (@1, @3) is the woman at the keyboard: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) with a center part, a charcoal wool coat and a dark grey chunky knit scarf. Reserved and deadpan; she moves very little. Keep her face exactly as in @1 and @3. ADRIAN (Speaker 1, @2, @4) has a low, velvety British voice: pale skin, spiky black hair with a choppy fringe, smoky eyeliner, small gold cross earrings, a long black double-breasted greatcoat with silver buttons over a black turtleneck. A self-serious, brooding frontman, until things go wrong. Keep his face exactly as in @2.
 
@@ -232,9 +231,9 @@ AT EXACTLY 2.3 SECONDS: HARD CUT to the reverse angle, matching @2.
 AT EXACTLY 4.0 SECONDS: HARD CUT to @3.
 4.0–5.0 seconds, SHOT 3, match @3: close-up of Kallista listening, mouth closed. She subtly furrows her brow, puzzled and unconvinced. She does not speak; his voice continues off screen: "Perhaps we could make..."
 AT EXACTLY 5.0 SECONDS: HARD CUT back to @2.
-5.0–8.8 seconds, SHOT 4, match @2: Adrian leans a little closer and lowers his voice to an intimate murmur: "...something... beautifully dark—" At 7.4 seconds he jolts upright in alarm, eyes wide, and hunts for the off switch: quick, flustered prods with his fingertips on the small buttons of the control panel above the keys, one hand then the other, his eyes darting across the screen, in time with the button clicks. His fingers stay on the panel buttons and never play the piano keys.
-AT EXACTLY 8.8 SECONDS: HARD CUT to a closer framing of Kallista from @3.
-8.8–11 seconds, SHOT 5: close-up of Kallista. At 9.2 seconds she raises a hand to cover her mouth and lets out one short, quiet, stifled laugh, her eyes crinkling for a moment, then keeps her hand there, trying to stay deadpan. Hold this shot to the end without a fade.
+5.0–9.4 seconds, SHOT 4, match @2: Adrian leans a little closer and lowers his voice to an intimate murmur: "...something... beautifully dark—" At 7.2 seconds he freezes mid-word, startled, and slowly looks down at the keyboard under his elbow, his eyes widening in horror. At 8.1 seconds he straightens up and hunts for the off switch: quick, flustered prods with his fingertips on the small buttons of the control panel above the keys, one hand then the other, his eyes darting across the screen, in time with the button clicks. His fingers stay on the panel buttons and never play the piano keys.
+AT EXACTLY 9.4 SECONDS: HARD CUT to a closer framing of Kallista from @3.
+9.4–12 seconds, SHOT 5: close-up of Kallista. At 9.9 seconds she raises a hand to cover her mouth and lets out one short, quiet, stifled laugh, her eyes crinkling for a moment, then keeps her hand there, trying to stay deadpan. Hold this shot to the end without a fade.
 
 Throughout: keep the supplied audio unchanged; add no music or extra voices. Only Adrian speaks words. No additional cuts, dissolves, slow motion, subtitles or watermarks.
 ```
