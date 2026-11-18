@@ -22,3 +22,10 @@ White flashes are 3 frames (0.125s) of white with silence.
 - Bossa nova + "WOO!" in the music store: BOOM at about 8.25s into the music store edit (the end of "dark—"); WOO around 10.6s.
 - Room tones for the B&B sitting room, the rink and the café (the couch clips are dry).
 - Couch clip 3: "He was perfect... until the bossa nova." → Milly → "...The laundromat."
+
+## Bossa nova tests (music store edit v3)
+`bossa1–4.mp3` and `woo.mp3` are in `voices/holiday-reservations/`. Each bossa nova is about 3.95s of music.
+- Bossa nova starts at 8.25s (the end of "dark—"). The first 1.5s plays at normal speed, the rest at 1.15x ("gets worse").
+- It drops 5 dB under Kallista's close-up (10.375s on) and fades out 11.45–11.67 with the white flash.
+- WOO at 9.85s (−1 dB), just before the cut to her laugh.
+- Gains for a matched mean of about −20 dB in the mix: bossa1 0, bossa2 +4.1, bossa3 +3.5, bossa4 +3.0 dB. A limiter at −0.4 dBFS on the mix.
