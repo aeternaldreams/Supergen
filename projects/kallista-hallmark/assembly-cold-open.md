@@ -31,3 +31,9 @@ White flashes are 3 frames (0.125s) of white with silence.
 - Gains for a matched mean of about −20 dB in the mix: bossa1 0, bossa2 +4.1, bossa3 +3.5, bossa4 +3.0 dB. A limiter at −0.4 dBFS on the mix.
 - Count-in: `intro_clicks.mp3` (4 ticks at 120 BPM, 0.5s apart) placed at 6.08s (−8 dB). The ticks fall at 6.26, 6.76, 7.26 and 7.75s, so the next beat is the bossa nova hit at 8.25s.
 - Flash whoosh: `flash_whoosh.mp3` (0.53s). It goes on every white flash.
+
+## v2 (44.2s): built by `scratchpad/tools/assemble.py`
+- **Flashes:** a 9-frame dip through white (2 frames fading up to white, 2 frames of solid white, 5 frames fading down), with `flash_whoosh.mp3` (−4 dB) starting 0.15s before the white frames. Barista → stare stays a hard cut.
+- **Room tones:** `roomtone_bnb.mp3` (−4 dB) under the couch clips, `roomtone_rink.mp3` (−4 dB), `roomtone_cafe.mp3` (−10 dB), and `roomtone_music_store.mp3` (already in the music edit).
+- **Music store:** the bossa nova #1 version.
+- **Becca's L-cut line** starts 29.53s.
