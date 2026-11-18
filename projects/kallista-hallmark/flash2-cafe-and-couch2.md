@@ -76,3 +76,15 @@ Start frame: the corrected couch two-shot `pic_1619a74c7520`. 15s, Normal, 16:9,
 - 0–~5.7s: wide two-shot from the frame. Becca's face holds (freckles, eyes, hair) and her line is lip-synced. She turns toward Kallista mid-line, which is fine at this size.
 - ~5.7–10s: Supergen cut to a closer two-shot on Kallista for "Nobody does that.", lip-synced, then her silent reaction (side-eye, closes her eyes). Her face is slightly rounder and younger in this shot than in the frame. Check it against clip 1.
 - The audio came back unchanged; the timings match the track.
+
+## G. Becca pickup: "Ooh, the music store! Some broody musician." (5s)
+Couch clip 2 v2 dropped this line, and in the assembly it plays over a shot where Becca is visible but not speaking. Fix: a 5s Becca close-up that lip-syncs the line, cut in after "Nobody does that."
+- Start frame: `keyframes/holiday-reservations/becca_mcu_crop.png`, cropped from `couch2_front_v2.png` and upscaled to 1280x720, so her face, hair, sweater and lighting match exactly.
+- Audio: `voices/holiday-reservations/becca_musicstore_5s.mp3` (the original take, `couch2_dialogue_15s.mp3` 8.04–12.3). Line 0.3–4.2s, silent to 5.0s.
+- Edit: couch 2 "Nobody does that." → cut to Becca 0–4.3s → cut back to Kallista closing her eyes (couch 2 v2, about 8.5–9.5s) → white flash → music store.
+
+> Create a 5-second cinematic live-action romantic comedy close-up in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: a medium close-up of a woman on a sofa in a cozy bed-and-breakfast sitting room at night, frosted windows behind her. One continuous shot, locked camera, no cuts. Keep her face exactly as in the first frame: late twenties, long wavy auburn hair, light freckles across her nose and cheeks, warm green-brown eyes, a burgundy cable-knit sweater. BECCA (Speaker 1) is the only person in the shot, with a bright, warm voice: Kallista's best friend, playful and teasing, with small, natural gestures; never theatrical. She is talking to her friend, who sits just off screen to the left, and she looks at her friend, never into the lens.
+> 0–0.3 seconds: She is still, smiling at her friend.
+> 0.3–4.2 seconds: Her face lights up and she sits up a little straighter, delighted, then her voice turns dreamy: "Ooh, the music store! Some broody musician."
+> 4.2–5 seconds: She holds a dreamy, hopeful smile, mouth closed.
+> Throughout: keep the supplied audio unchanged; add no voices or music. No other people, no subtitles, no watermarks. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm lamp and firelight, shallow depth of field and organic film grain.
