@@ -237,3 +237,11 @@ AT EXACTLY 9.4 SECONDS: HARD CUT to a closer framing of Kallista from @3.
 
 Throughout: keep the supplied audio unchanged; add no music or extra voices. Only Adrian speaks words. No additional cuts, dissolves, slow motion, subtitles or watermarks.
 ```
+
+**Website v4 render 1** (Reference to video, 12s setting, came back 13.7s; Adrian's 5.4s take used as a Character Voice, not as scene audio): **the faces held** (Adrian and Kallista both match their references). But Supergen wrote and timed its own soundtrack (a synth demo plus clicking) and re-staged the scene:
+- 0–2.6s: wide shot. Adrian walks in *behind* the keyboard beside Kallista, facing the camera, instead of on the near side with his back to us.
+- 2.7–4.4s: an invented over-the-shoulder close shot ("You play?"), with Kallista biting her lip behind him.
+- 4.5–6.5s: back to the wide; his mouth barely moves on "Perhaps we could make something".
+- 6.5–10s: the @2 reverse angle, "...beautifully dark", then **good button-hunting on the panel** (usable).
+- 10–13.7s: Kallista close-up: a smile, then deadpan, then she tucks her hair. No hand to mouth.
+Lesson: a voice in the Character Voice slot only sets how a character sounds; the timing comes from Supergen. Put the compiled track in the scene-audio slot to lock the timing.
