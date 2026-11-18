@@ -43,3 +43,5 @@ White flashes are 3 frames (0.125s) of white with silence.
 - Couch 2 ending is now: couch 2 v2 5.7–7.0 ("Nobody does that.") → **Becca 0–4.4** ("Ooh, the music store! Some broody musician.") → couch 2 v2 8.9–10.1 (Kallista closes her eyes) → white flash → music store. Hard cuts within the couch; the B&B room tone runs across all three.
 - Becca's L-cut line from the old track has been removed.
 - Flashes at 14.3, 18.08, 23.87, 27.85, 34.83 and 46.58s.
+
+## v4: barista clip audio muted (its sniff cut off abruptly); the café room tone carries the shot.
