@@ -273,3 +273,13 @@ BACKGROUND LIFE: through the front windows behind Kallista, people in winter coa
 
 SOUND: only the two voices, a few soft button clicks and quiet store ambience. The keyboard plays no music, and there is no music at all. No subtitles, no watermarks, no slow motion, no extra dialogue.
 ```
+
+**Website v5 render** (the member's best): visually near-flawless. Cuts at 2.63s (wide to reverse), 4.38s (Kallista close-up), 7.83s (Adrian) and 12.38s (Kallista, hand over mouth).
+Audio map: "You play?" 2.70–3.40 · garbled duplicate 4.6–6.75 · "Perhaps we could make something..." 7.1–8.7 (L-cut over Kallista until 7.83) · "beautifully dark—" 9.3–10.25 · stray sounds 10.3–12.25 · laugh 12.3–13.4.
+**Edit v2** (`music_flash_v2_edit.mp4`, 11.67s):
+- Removed render 3.6–5.6s at the existing cut (the end of the reverse shot and the start of Kallista's close-up), so there's no jump cut. The pause after "You play?" is now 1.7s instead of 3.7s.
+- Muted the garble and the stray sounds.
+- Buttons SFX (+15 dB) at 8.45s, as his fingers hit the panel.
+- Kept Supergen's on-screen laugh.
+- Placeholder pink-noise room tone at -50 dB under everything.
+- 3-frame fade to white at the end.
