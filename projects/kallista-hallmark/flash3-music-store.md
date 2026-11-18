@@ -283,3 +283,11 @@ Audio map: "You play?" 2.70–3.40 · garbled duplicate 4.6–6.75 · "Perhaps w
 - Kept Supergen's on-screen laugh.
 - Placeholder pink-noise room tone at -50 dB under everything.
 - 3-frame fade to white at the end.
+
+## ✅ WHAT WORKED: the website v5 prompt in Reference to video mode
+**The winning recipe is the "Website v5 prompt" above.** Its setup:
+- Supergen website, Reference to video, 12s, Normal, 16:9.
+- @1 Frame E, @2 Frame A, @3 Frame C.
+- Voice 1: Adrian's 5.4s take (`adrian_line_raw.mp3`).
+Faces held in every shot, and the entrance and reverse angles were staged correctly. The general rules are written up in the Supergen skill, section 4d.
+**The audio issue:** Supergen re-voiced the line and hallucinated a garbled second "You play?" (4.6–6.75s), along with stray sounds. Fixed in post (edit v3): muted, the pause cut out at an existing shot change, real room tone added, then the count-in, bossa nova #1 and the WOO.

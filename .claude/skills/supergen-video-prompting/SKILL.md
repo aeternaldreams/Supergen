@@ -327,6 +327,68 @@ AT EXACTLY <t> SECONDS: HARD CUT directly to the composition and room in @2.
 Throughout: synchronize visible singing to the actual supplied audio, preserving its timing and melody. Preserve <identity details>. Keep the original audio unchanged. No additional cuts, transitions, dissolves, morphing, slow motion, subtitles, added voices or extra people.
 ```
 
+### 4d. ✅ PROVEN: multi-character, multi-shot scene in website **Reference to video** mode
+
+Tested 2026-11-18 on the Holiday Reservations music store scene (Kallista +
+Adrian, 12s, 5 shots). It was the member's best result: faces held in every
+shot, the staging and reverse angles were correct, and background life was
+natural. Full prompt: `projects/kallista-hallmark/flash3-music-store.md`
+("Website v5 prompt").
+
+**Setup (website, Reference to video):**
+- @1–@3 (up to 4) are references, not a locked first frame. Use the shots
+  you want: @1 the wide/establishing frame, @2 and @3 the close-up angles.
+  Only attach images the prompt names; a prompt that mentions an @ image that
+  isn't attached confuses the model.
+- Audio: this mode has **no scene-audio slot**, only 3 Character Voice slots.
+  Put each speaker's line (or a laugh) in a voice slot and name it in the
+  prompt ("Adrian, who speaks with Voice 1"). Supergen writes and times the
+  rest of the soundtrack itself.
+- The website appends its own reference-sheet note ("Bring them together
+  into ONE scene..."). Never also write "beginning directly from the supplied
+  first frame"; the two instructions conflict.
+
+**What made it work (the prompt rules):**
+1. **Describe the room's geography with objects,** not "the side facing the
+   camera": who stands where, what is behind them, which side the camera
+   starts on ("Kallista stands behind the keyboard at its controls, with the
+   front windows behind her. The camera starts on the other side, looking at
+   the keyboard's back panel").
+2. **An entrance with the back to the camera:** "walks into frame from the
+   bottom-right corner on the camera's side of the keyboard, his back to us:
+   we see only his hair and the back of his coat, never his face."
+3. **No fourth wall:** never write "into the lens" or "at the camera" for a
+   POV or reverse angle. Write "his eyes on her just beside the camera" plus
+   "The two of them only ever look at each other; nobody ever looks into the
+   camera." Without that, the model breaks the fourth wall.
+4. **Reverse angles:** "the reverse angle matching @2, seen from <her> side".
+5. **Approximate shot lengths** ("SHOT 2 (about 2 seconds)") instead of
+   exact timestamps, since the audio can't anchor them in this mode.
+6. **An off-screen line for an L-cut:** "her brow furrows, mouth closed, while
+   his voice continues off screen: '...'". This worked.
+7. **Give props a role:** "hunts for the off switch: quick, flustered prods on
+   the small panel buttons... His fingers never touch the piano keys". That
+   stopped manic piano playing.
+8. **A BACKGROUND LIFE line:** give the extras small continuous actions and
+   put the people behind the window *outside* ("people in winter coats walk
+   past outside on the snowy sidewalk; a clerk rings up a customer").
+   Without it, extras barely move.
+9. **A SOUND line:** "only the two voices, a few soft clicks and quiet
+   ambience. The keyboard plays no music, and there is no music at all."
+   Music Supergen adds sits under the lip-synced voice and can't be removed.
+
+**Known audio issue in this mode (plan to fix it in post):**
+- Supergen **re-voices** the line from the voice sample rather than playing
+  the file, and it may **hallucinate a garbled duplicate line** (here, a
+  second "You play?" over the reaction shot). It also invents footsteps and
+  stray sounds, and leaves digital silence between lines.
+- The fix in post: map the audio and mute the duplicate and stray sounds.
+  If the mute leaves a long pause, cut it out at an existing shot change (no
+  jump cut). Keep the on-screen lip-synced lines and reactions, add a real
+  room tone (about −47 dB average), and lay the music and SFX on top. See
+  `projects/kallista-hallmark/assembly-cold-open.md`.
+- Clip length can differ from the setting (12s came back 13.7s).
+
 ## 5. Direction mode and styles
 
 ### Direction
