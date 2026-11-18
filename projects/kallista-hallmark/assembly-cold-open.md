@@ -29,4 +29,5 @@ White flashes are 3 frames (0.125s) of white with silence.
 - It drops 5 dB under Kallista's close-up (10.375s on) and fades out 11.45–11.67 with the white flash.
 - WOO at 9.85s (−1 dB), just before the cut to her laugh.
 - Gains for a matched mean of about −20 dB in the mix: bossa1 0, bossa2 +4.1, bossa3 +3.5, bossa4 +3.0 dB. A limiter at −0.4 dBFS on the mix.
-- Count-in: `intro_clicks.mp3` (two ticks, 0.53s) at 7.76s (−3 dB), so the second tick lands just before the hit at 8.25s.
+- Count-in: `intro_clicks.mp3` (4 ticks at 120 BPM, 0.5s apart) placed at 6.08s (−8 dB). The ticks fall at 6.26, 6.76, 7.26 and 7.75s, so the next beat is the bossa nova hit at 8.25s.
+- Flash whoosh: `flash_whoosh.mp3` (0.53s). It goes on every white flash.
