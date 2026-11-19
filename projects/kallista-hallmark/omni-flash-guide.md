@@ -149,21 +149,36 @@ For a strictly like-for-like comparison, you can mute Omni Flash's audio and lay
 
 ---
 
-## Scene 6 (next, not yet made in either tool): Couch, "You watch way too many of these movies." → "...The laundromat." (about 12s)
-Needs the F2 three-shot with Milly (see `nano-banana-keyframes.md`).
+## Scene 6: Couch, "You watch way too many of these movies." → "...The laundromat." (12s)
+The risk here is **invented backgrounds on new angles** (the Omni Flash angled close-ups of Kallista and Becca drifted before). So every shot is told to match one of the attached camera setups exactly, and they're all frontal or three-quarter angles that already exist.
 
-| Image | File | Role |
-|---|---|---|
-| 1 | The F2 wide three-shot (Kallista, Becca, Milly) | Opening composition |
-| 2 | `keyframes/holiday-reservations/couch2_front_v2.png` | Kallista's and Becca's faces |
-| 3 | Your Milly portrait | Milly |
-| 4 | Your S1 B&B set picture | The room |
+| Image | File | Thumbnail | Role |
+|---|---|---|---|
+| 1 | `keyframes/holiday-reservations/couch3_wide_three.png` | ![](omni-flash/thumbs/couch3_wide_three.jpg) | Opening wide; the stare |
+| 2 | `keyframes/holiday-reservations/couch2_front_v2.png` | ![](omni-flash/thumbs/couch2_front_v2.jpg) | Frontal two-shot of Kallista and Becca |
+| 3 | `keyframes/holiday-reservations/milly_mcu_crop.png` | ![](omni-flash/thumbs/milly_mcu_crop.jpg) | Milly's close-up |
+| 4 | `keyframes/holiday-reservations/kallista_mcu_crop.png` | ![](omni-flash/thumbs/kallista_mcu_crop.jpg) | Kallista's close-up |
+| 5 | Your Kallista identity shot 1 | ![](omni-flash/thumbs/char_kallista_face.jpg) *stand-in* | Kallista's face |
+| 6 | Your indoor Becca portrait | ![](omni-flash/thumbs/char_becca_face.jpg) *stand-in* | Becca's face |
+| 7 | Your Milly portrait | — | Milly's face |
 
-Lines:
-- Kallista (scoffs, sets her glass down): "You watch way too many of these movies."
-- Milly (flat, not blinking, a beat late): "Statistically, most people meet at work."
-- Kallista and Becca turn and stare at Milly (a silent beat).
-- Becca (back to Kallista): "Then where?!"
-- Kallista (sinking into the sofa): "...The laundromat."
+```
+A 12-second cinematic live-action romantic comedy scene in 16:9, late at night in a cozy bed-and-breakfast sitting room: a Christmas tree, frosted windows, wood paneling, warm lamplight. Five shots joined by clean hard cuts. Use ONLY the camera setups shown in Images 1–4, each with exactly the background shown in its image: Image 1 is the wide shot of the room, Image 2 the frontal two-shot of the sofa, Image 3 Milly's close-up, Image 4 Kallista's close-up. No other angles, no profile shots, no over-the-shoulder shots.
 
-This is 4 spoken lines, the most a Supergen clip can take. The full prompt will follow once the F2 frame exists.
+Kallista (Images 2, 4 and 5) sits on the left end of the sofa in an oversized charcoal knit sweater with a glass of red wine: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair with a center part. Dry and deadpan. Becca (Images 2 and 6) sits on the right end of the sofa in a burgundy cable-knit sweater, holding a bottle of red wine: long wavy auburn hair, freckles. Warm and teasing. Milly (Images 1, 3 and 7) sits perfectly upright in the armchair to the left of the sofa in a pressed cream turtleneck, holding an untouched glass of wine: a sleek glossy chestnut-brown bob, flawless symmetrical features. Pleasant, polite, rarely blinks, a beat late. Keep all three faces exactly as in the references. Nobody looks into the camera.
+
+Shot 1 (about 3s), the two-shot from Image 2: Kallista scoffs and lowers her glass. Kallista: "You watch way too many of these movies."
+Cut to Shot 2 (about 3s), Milly's close-up from Image 3: after a beat, perfectly still, looking toward the sofa. Milly: "Statistically, most people meet at work."
+Cut to Shot 3 (about 2s), the wide shot from Image 1: complete silence. Kallista and Becca slowly turn their heads to the left and stare at Milly. Milly holds a polite, unblinking smile.
+Cut to Shot 4 (about 2s), the two-shot from Image 2: Becca snaps back to Kallista, eager and exasperated. Becca: "Then where?!"
+Cut to Shot 5 (about 2s), Kallista's close-up from Image 4: she sinks slightly into the sofa, reluctant and quiet. Kallista: "...The laundromat."
+
+Voices: Kallista has a soft, low, dry American voice, a little husky and deadpan. Becca has a bright, warm American voice, quick and teasing. Milly has a flat, even, pleasant American voice that answers a beat late. Each line is spoken once, in this order; only the woman speaking moves her lips.
+Sound: a gentle crackling fireplace and soft room hum; silence during the stare. No music.
+Look: 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm practical light, soft halation on the tree lights, shallow depth of field, film grain. No subtitles, no text, no watermark, no extra people.
+```
+
+### Scene 6b: the bra line (5s), from Image 4 alone (plus Image 5)
+```
+A 5-second cinematic live-action close-up in 16:9, matching Image 1 exactly (Kallista on the sofa, the Christmas tree and frosted window behind her). Locked camera, no cuts. Kallista: pale platinum-blonde hair, a longer face, pale blue-grey eyes, an oversized charcoal sweater, a glass of red wine; dry and deadpan; she looks to the right of the camera at her friend, never into the lens. Her friend's delighted voice comes from off screen. Becca (off screen, bright and gushing): "That's adorable!" Kallista gives a small, pained look, then says flatly: "My bra was stuck to his back." She takes a slow sip of wine. Voices: Kallista soft, low and dry; Becca bright and warm. Sound: crackling fireplace, soft room hum. No music, no subtitles, no watermark.
+```
