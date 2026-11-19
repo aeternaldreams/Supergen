@@ -45,3 +45,5 @@ White flashes are 3 frames (0.125s) of white with silence.
 - Flashes at 14.3, 18.08, 23.87, 27.85, 34.83 and 46.58s.
 
 ## v4: barista clip audio muted (its sniff cut off abruptly); the café room tone carries the shot.
+
+**Export fix (v4, rebuilt):** v2–v4 played badly in some players. The `fade=...:color=white` filter had switched the video to yuv444p (H.264 High 4:4:4), mixed with yuv420p white frames, and the index (moov) was at the end of the file. The script now forces `format=yuv420p` after the fades and `-profile:v high`, and the final pass re-encodes at constant 24 fps with `-movflags +faststart`. Always check exports with `ffprobe` for yuv420p, High profile and 24/1.
