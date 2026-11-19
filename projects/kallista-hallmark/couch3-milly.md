@@ -51,15 +51,44 @@ The same way as Becca's crop. It's for "My bra was stuck to his back.", with Bec
 
 ---
 
-## 3. Clips (Supergen, Image to video, one start frame each, scene audio)
+## 3. Clips (revised): one Reference to video scene + one locked pickup
 
-| Clip | Start frame | Length | What it covers |
-|---|---|---|---|
-| 3a | `couch2_front_v2.png` (two-shot) | 10s | Kallista's bossa nova line; Milly's line **off screen** while both women turn their heads screen-left and stare; then Becca's "Then where?!" and Kallista's "...The laundromat." |
-| 3b | M2 (Milly close-up) | 5s | Milly says her line on camera |
-| 3c | K1 (Kallista close-up) | 5s | "That's adorable!" (Becca off screen), then "My bra was stuck to his back." |
+**Dialogue** (`couch3_dialogue_raw.mp3`, 13.4s): Kallista scoff and line 0–2.8 · Milly 2.95–5.9 · Becca "Then where?!" 6.0–7.15 · Kallista "...The laundromat." 8.15–9.35 · Becca "That's adorable!" 9.5–11.15 · Kallista "My bra was stuck to his back." 11.55–13.3.
+**Voice samples for Reference to video** (in `voices/holiday-reservations/`): `voice_kallista_c3.mp3` (her two lines), `voice_milly_c3.mp3`, `voice_becca_c3.mp3`.
 
-**Edit:** two-shot (Kallista's line) → **cut to Milly** (her line) → **cut back to the two-shot** as both women stare at her (the long beat) → Becca → Kallista → cut to Kallista's close-up for the bra line → white flash → laundromat.
-**Cost:** 10s + 5s + 5s at Normal is about 120–140 XCE.
+### Clip 3a: Supergen website, Reference to video, 12s, Normal, 16:9 (lines 1–4)
+| Ref | Image | Camera setup it defines |
+|---|---|---|
+| @1 | M1 wide three-shot (to make) | Establishing wide; the stare at Milly |
+| @2 | `couch2_front_v2.png` | Frontal two-shot of Kallista and Becca |
+| @3 | M2 Milly close-up (crop of M1) | Milly's close-up |
+| @4 | `kallista_mcu_crop.png` | Kallista's close-up |
+Voice 1 = Kallista, Voice 2 = Milly, Voice 3 = Becca.
 
-The Supergen prompts will be written once the dialogue is measured.
+```
+Create a 12-second cinematic live-action romantic comedy scene in 16:9, late at night in a cozy bed-and-breakfast sitting room, told in five shots joined by clean hard cuts. Use ONLY the four camera setups shown in the references: @1 is the wide shot of the whole room, @2 the frontal two-shot of the sofa, @3 Milly's close-up, @4 Kallista's close-up. Every shot matches its reference's camera angle, framing and background exactly; invent no other angles, no profile shots and no over-the-shoulder shots. Keep every face exactly as in the references. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm lamp and firelight, soft halation on the Christmas tree lights, shallow depth of field and organic film grain.
+
+CHARACTERS: KALLISTA (@1, @2, @4), who speaks with Voice 1, sits on the left end of the sofa in an oversized charcoal knit sweater with a glass of red wine: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) with a center part. Deadpan and dry. BECCA (@1, @2), who speaks with Voice 3, sits on the right end of the sofa in a burgundy cable-knit sweater, holding a bottle of red wine: long wavy auburn hair, freckles, warm green-brown eyes. Warm, playful and teasing. MILLY (@1, @3), who speaks with Voice 2, sits perfectly upright in an armchair to the left of the sofa in a pressed cream turtleneck, holding an untouched glass of red wine: a sleek glossy chestnut-brown bob, flawless symmetrical features, large calm brown eyes; pleasant, polite, rarely blinks, reacts a beat late. Nobody ever looks into the camera.
+
+THE ROOM: the sofa faces the camera with the Christmas tree and frosted windows behind it and a lamp at its right end. Milly's armchair is to the left of the sofa, angled toward it, so when Kallista and Becca look at Milly they turn their heads to the left of the frame.
+
+SHOT 1 (about 3 seconds), the two-shot matching @2: Kallista scoffs, sets her wine glass down on her knee and says, dry and unimpressed: "You watch way too many of these movies."
+SHOT 2 (about 3 seconds), Milly's close-up matching @3: perfectly still and upright, she says pleasantly and evenly, looking toward the sofa: "Statistically, most people meet at work."
+SHOT 3 (about 2 seconds), the wide shot matching @1: silence. Kallista and Becca slowly turn their heads and stare at Milly. Milly holds a polite, unblinking smile.
+SHOT 4 (about 2 seconds), back to the two-shot matching @2: Becca snaps back to Kallista, eager and exasperated: "Then where?!"
+SHOT 5 (about 2 seconds), Kallista's close-up matching @4: she sinks slightly into the sofa and says, reluctant and quiet: "...The laundromat." Hold to the end.
+
+SOUND: only the three voices, a gentle crackling fireplace and soft room hum. No music, no other voices, no subtitles, no watermarks.
+```
+
+### Clip 3b: Supergen, Image to video (MCP or website), 5s, Normal (lines 5–6)
+First frame: `keyframes/holiday-reservations/kallista_mcu_crop.png` (the same framing as shot 5 of 3a, so the cut matches). Scene audio: `couch3b_5s.mp3` (Becca off screen 0.3–1.95, Kallista 2.4–4.15).
+```
+Create a 5-second cinematic live-action romantic comedy close-up in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: a woman on a sofa in a cozy bed-and-breakfast sitting room at night, a Christmas tree and frosted windows behind her. One continuous shot, locked camera, no cuts. Keep her face exactly as in the first frame: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair with a center part, an oversized charcoal knit sweater, a glass of red wine. KALLISTA is deadpan and dry; she looks to the right of the camera at her friend, never into the lens.
+0.3–2.0 seconds: her friend's delighted voice comes from off screen ("That's adorable!"); Kallista's mouth stays closed and she gives a small, pained look.
+2.4–4.2 seconds: Kallista says, dry and flat: "My bra was stuck to his back."
+4.2–5 seconds: she takes a slow sip of wine, mouth closed.
+Throughout: keep the supplied audio unchanged; add no voices or music. No other people, no subtitles, no watermarks. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm lamp and Christmas-tree light, shallow depth of field and organic film grain.
+```
+**Cost:** about 78 XCE for 3a (12s on the website) and about 36 XCE for 3b.
+**Edit:** 3a → 3b (the same Kallista framing) → white flash → laundromat. Clean up any garbled duplicate lines in 3a the same way as in the music store.
