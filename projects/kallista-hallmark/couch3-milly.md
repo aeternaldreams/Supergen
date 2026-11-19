@@ -135,3 +135,16 @@ SHOT 5 (about 2 seconds), Kallista's close-up matching @4: Kallista sinks slight
 SOUND: only these four spoken lines, a gentle crackling fireplace and soft room hum. Only the person speaking moves her lips. No music, no other voices, no repeated lines, no subtitles, no watermarks.
 ```
 **Fallback** if the voices or repeats still fail: the four per-shot Image to video pickups with the real audio (`couch3_p1–p4`), keeping only v1's wide stare shot.
+
+## Clip 3 v3: website Image to video + More Images, ONE scene-audio file, simple prompt (Supergen directs)
+**Audio** (the new Milly take, `voice_milly_c3_v2.mp3`):
+- `couch3_scene_4lines_12s.mp3`: Kallista 0.36–3.06 · Milly 3.80–6.47 · **the stare (silence) 6.47–8.09** · Becca 8.09–9.19 · Kallista "...The laundromat." 9.67–11.48.
+- `couch3_scene_6lines_17s.mp3`: as above, plus Becca "That's adorable!" 12.04–13.62 · Kallista "My bra was stuck to his back." 14.0–15.78.
+**Pictures:** first frame = `couch3_wide_three.png`. More images: `couch2_front_v2.png`, `milly_mcu_crop.png`, `kallista_mcu_crop.png`.
+```
+A cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning from the supplied first frame: three friends late at night in a cozy bed-and-breakfast sitting room with a Christmas tree, frosted windows and warm lamplight. The other pictures show the same room and people from closer angles; use them for the close-ups, keeping the same room and backgrounds.
+Kallista sits on the left end of the sofa: pale platinum-blonde straight hair, a longer face, pale blue-grey eyes, an oversized charcoal sweater, a glass of red wine. Dry and deadpan, with a softer, lower voice. Becca sits on the right end of the sofa: wavy auburn hair, freckles, a burgundy sweater, a bottle of red wine. Warm and teasing, with a brighter voice. Milly sits upright in the armchair on the left: a sleek chestnut-brown bob, a cream turtleneck, an untouched glass of wine. Pleasant, perfectly even, rarely blinks, with a calm, flat voice.
+Kallista scoffs at Becca's romantic guesses. Milly offers a statistic. Kallista and Becca turn and stare at Milly in silence. Becca turns back to Kallista, who admits where she really met him.
+Cut to whoever is speaking so her face is on camera while she talks; only she moves her lips. Keep the supplied audio unchanged; add no music or voices. No subtitles, no watermarks.
+```
+For the 17s version, add before the last paragraph: "Becca is delighted; Kallista flatly explains why."
