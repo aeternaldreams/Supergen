@@ -96,3 +96,14 @@ Throughout: keep the supplied audio unchanged; add no voices or music. No other 
 **Frames delivered:** `couch3_wide_three.png` (the member's wide, 1376x768) and `milly_mcu_crop.png`.
 - The wide's camera is further left than the two-shot, so the tree moves between Kallista and Becca and a second floor lamp stands by Milly. The geometry is consistent. Kallista and Becca are already looking at Milly, which suits shot 3.
 - Milly's crop is a three-quarter view looking screen-right. It's soft from the 2.3x upscale; a Nano Banana detail pass is optional.
+
+## Clip 3a result (`supergen-15c2fececddb`, website Reference to video, 13.6s)
+**Visuals: good.** The shot order matches the plan: two-shot 0–4.0 · Milly close-up 4.0–7.5 · wide stare 7.5–9.62 · two-shot 9.62–11.04 · Kallista close-up 11.04–13.63. Backgrounds match the references.
+**Audio: unusable.** Supergen re-voiced all three characters in near-identical voices (all about 160–216 Hz, ignoring the samples) and repeated lines, including speech during the silent stare.
+**Fix (`couch3a_redub_v1.mp4`):** muted the Supergen audio and placed the ElevenLabs takes shot by shot, plus the B&B room tone at −4 dB:
+- Kallista 0.1s (her scoff and line)
+- Milly 4.6s (atempo 1.15 to match her lip movement)
+- Becca 9.85s
+- Kallista 11.35s (breath + "...The laundromat.")
+- The stare (7.5–9.62) stays silent.
+**Lesson:** in Reference to video mode, Character Voice samples don't reliably carry the voice. Plan to re-dub every multi-character scene in post with the real takes.
