@@ -154,3 +154,8 @@ For the 17s version, add before the last paragraph: "Becca is delighted; Kallist
 - **Kallista close-up** `1f41eccf463b` (Image to video from `kallista_mcu_crop.png` + `couch3_p4_kallista_10s.mp3`, 66 XCE): "...The laundromat." → Becca off screen → "My bra was stuck to his back." → a sip. Supergen added a reframe at 4.42s and 6.1s; both stay on Kallista with a matching background.
 - **Assembled** `couch3_assembled_v1.mp4` (18.5s): scene 0–10.0 + close-up 0–8.5, with the B&B room tone at −4 dB.
 - **v2 (`couch3_assembled_v2.mp4`, 17.25s): Milly cutaways hide Supergen's jarring reframes** in the close-up (4.42s and 6.1s; they don't line up with a digital zoom). Edit: scene 0–10.0 → close-up 0–3.95 → **Milly** (scene 10.2–11.2, mouth closed) while Kallista starts the bra line off screen → close-up 4.95–6.04 ("...stuck to his back") → **Milly** (scene 6.45–7.65), an unblinking stare to end the scene. The close-up's audio runs continuously underneath.
+- **v3 (`couch3_assembled_v3.mp4`, 19.5s):**
+  - **Lip fix:** Kallista's dark "lipstick" in the opening two-shot (scene 0–3.5s) was toned down with `tools_lipfix.py`. In a box around her mouth, it lightens pixels that are darker and redder than her skin (lips h≈12–14°, s≈0.6, v≈0.45 against skin h≈16–20°, v≈0.6). The surrounding skin is untouched.
+  - **Stray Milly frames:** removed by cutting the scene at 9.9s (Milly starts at 9.96s).
+  - **One Milly cutaway** (scene 10.2–11.2) over the close-up's jump at 4.42s.
+  - **Ending:** Kallista from close-up 4.95 to 9.6s ("...stuck to his back", a sip, and she settles back into the sofa).
