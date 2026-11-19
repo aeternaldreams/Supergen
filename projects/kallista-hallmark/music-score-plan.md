@@ -47,3 +47,10 @@ Total 62.9s. After the button, leave silence: the stinger (62.9–65.8) plays wi
 ## Suno alternative (for the acoustic song bed / cast roll)
 Suno can't follow timestamps. Use it for a full song with lyrics, then I'll cut it to the edit the same way. Style prompt:
 `warm acoustic holiday indie-folk, female breathy vocal, fingerpicked guitar, celesta, sleigh bells, soft strings, 92 BPM, F major, cozy, hopeful, Hallmark Christmas movie`
+
+## Result: `score_mistletoe_v1.mp3` (63.0s, ElevenLabs)
+Measured loudness: steady 0–33s. Section 4 became a fade (33–40s), 41–54s is near silence (the dropout worked), the last section bursts in at 54.5s and fades out by about 61.5s. There's no hard button at the end, and section 6 began about 1.7s later than planned, so there's no tender piano under the "...love was in the last place" card.
+**Mix v1 (`preview_with_score_v1.mp4`, scratchpad):**
+- Score 0–43s at −11 dB, ducked under the preview's own audio (sidechain: threshold 0.025, ratio 8, attack 15 ms, release 450 ms), then a fade 40.5–43s.
+- Hard silence through the music store.
+- Score 54.0–63.0s placed at 54.5s, so the burst lands on the title card (55.0s), at −5 dB with no ducking.
