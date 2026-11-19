@@ -148,3 +148,8 @@ Kallista scoffs at Becca's romantic guesses. Milly offers a statistic. Kallista 
 Cut to whoever is speaking so her face is on camera while she talks; only she moves her lips. Keep the supplied audio unchanged; add no music or voices. No subtitles, no watermarks.
 ```
 For the 17s version, add before the last paragraph: "Becca is delighted; Kallista flatly explains why."
+
+## Clip 3 v3 result + fix (final)
+- **Scene** `ebd8e43548e8` (website Image to video, first frame the wide three-shot + 3 more images, the 4-line scene audio): two-shot 0–3.5 (Kallista) · Milly 3.5–7.75 · wide 7.75–10.0 (Becca's "Then where?!") · **then back on Milly 10.0–11.9 for "...The laundromat." ✗**. The audio came through unchanged (about 0.3s early).
+- **Kallista close-up** `1f41eccf463b` (Image to video from `kallista_mcu_crop.png` + `couch3_p4_kallista_10s.mp3`, 66 XCE): "...The laundromat." → Becca off screen → "My bra was stuck to his back." → a sip. Supergen added a reframe at 4.42s and 6.1s; both stay on Kallista with a matching background.
+- **Assembled** `couch3_assembled_v1.mp4` (18.5s): scene 0–10.0 + close-up 0–8.5, with the B&B room tone at −4 dB.
