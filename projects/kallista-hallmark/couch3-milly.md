@@ -59,9 +59,9 @@ The same way as Becca's crop. It's for "My bra was stuck to his back.", with Bec
 ### Clip 3a: Supergen website, Reference to video, 12s, Normal, 16:9 (lines 1–4)
 | Ref | Image | Camera setup it defines |
 |---|---|---|
-| @1 | M1 wide three-shot (to make) | Establishing wide; the stare at Milly |
+| @1 | `couch3_wide_three.png` | Establishing wide; the stare at Milly |
 | @2 | `couch2_front_v2.png` | Frontal two-shot of Kallista and Becca |
-| @3 | M2 Milly close-up (crop of M1) | Milly's close-up |
+| @3 | `milly_mcu_crop.png` (crop of the wide, upscaled and lightly sharpened) | Milly's close-up |
 | @4 | `kallista_mcu_crop.png` | Kallista's close-up |
 Voice 1 = Kallista, Voice 2 = Milly, Voice 3 = Becca.
 
@@ -92,3 +92,7 @@ Throughout: keep the supplied audio unchanged; add no voices or music. No other 
 ```
 **Cost:** about 78 XCE for 3a (12s on the website) and about 36 XCE for 3b.
 **Edit:** 3a → 3b (the same Kallista framing) → white flash → laundromat. Clean up any garbled duplicate lines in 3a the same way as in the music store.
+
+**Frames delivered:** `couch3_wide_three.png` (the member's wide, 1376x768) and `milly_mcu_crop.png`.
+- The wide's camera is further left than the two-shot, so the tree moves between Kallista and Becca and a second floor lamp stands by Milly. The geometry is consistent. Kallista and Becca are already looking at Milly, which suits shot 3.
+- Milly's crop is a three-quarter view looking screen-right. It's soft from the 2.3x upscale; a Nano Banana detail pass is optional.
