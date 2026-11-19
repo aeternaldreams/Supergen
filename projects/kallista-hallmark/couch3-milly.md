@@ -107,3 +107,31 @@ Throughout: keep the supplied audio unchanged; add no voices or music. No other 
 - Kallista 11.35s (breath + "...The laundromat.")
 - The stare (7.5–9.62) stays silent.
 **Lesson:** in Reference to video mode, Character Voice samples don't reliably carry the voice. Plan to re-dub every multi-character scene in post with the real takes.
+
+## Clip 3a v2: Reference to video retake (what went wrong in v1, and the fixes)
+The website's Character Voice tooltip says each sample should be **5–15s of one person talking**, linked by **the character's name typed under it**. The v1 samples were too short (Kallista 4.6s, Milly 3.0s, Becca 1.3s), and the prompt said "Voice 1/2/3" instead of the names.
+**New samples:**
+- `voice_kallista_long.mp3` (11.5s: clip 1 lines + her couch 3 line)
+- `voice_becca_long.mp3` (14.3s: couch 2 lines + clip 1's "Mm-hm...")
+- Milly: the member records a longer sample (text below).
+**Milly sample text (ElevenLabs, her new voice, about 8–10s):**
+`Statistically, most people meet at work. [pause] I give it... ninety minutes. [pause] Ha. Ha. [pause] The forecast says snow until Tuesday. I already alphabetized the spice rack.`
+
+**Prompt v2** (the same references @1–@4; voices named Kallista, Milly, Becca):
+```
+Create a 12-second cinematic live-action romantic comedy scene in 16:9, late at night in a cozy bed-and-breakfast sitting room, told in five shots joined by clean hard cuts. Use ONLY the four camera setups shown in the references: @1 is the wide shot of the whole room, @2 the frontal two-shot of the sofa, @3 Milly's close-up, @4 Kallista's close-up. Every shot matches its reference's camera angle, framing and background exactly; invent no other angles, no profile shots and no over-the-shoulder shots. Keep every face exactly as in the references. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm lamp and firelight, soft halation on the Christmas tree lights, shallow depth of field and organic film grain.
+
+CHARACTERS: Kallista (@1, @2, @4) sits on the left end of the sofa in an oversized charcoal knit sweater with a glass of red wine: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) with a center part. Deadpan and dry; she speaks in Kallista's voice. Becca (@1, @2) sits on the right end of the sofa in a burgundy cable-knit sweater, holding a bottle of red wine: long wavy auburn hair, freckles, warm green-brown eyes. Warm and teasing; she speaks in Becca's voice. Milly (@1, @3) sits perfectly upright in an armchair to the left of the sofa in a pressed cream turtleneck, holding an untouched glass of red wine: a sleek glossy chestnut-brown bob, flawless symmetrical features, large calm brown eyes; pleasant, polite, rarely blinks. She speaks in Milly's voice. Nobody ever looks into the camera.
+
+THE ROOM: the sofa faces the camera with the Christmas tree and frosted windows behind it. Milly's armchair is to the left of the sofa, angled toward it, so when Kallista and Becca look at Milly they turn their heads to the left of the frame.
+
+The dialogue is exactly four lines, each spoken once, in this order, and nothing else is said:
+SHOT 1 (about 3 seconds), the two-shot matching @2: Kallista scoffs, lowers her wine glass and says, dry and unimpressed: "You watch way too many of these movies."
+SHOT 2 (about 3 seconds), Milly's close-up matching @3: perfectly still and upright, Milly says pleasantly and evenly, looking toward the sofa: "Statistically, most people meet at work."
+SHOT 3 (about 2 seconds), the wide shot matching @1: complete silence; no one speaks. Kallista and Becca slowly turn their heads and stare at Milly. Milly holds a polite, unblinking smile.
+SHOT 4 (about 2 seconds), back to the two-shot matching @2: Becca snaps back to Kallista, eager and exasperated: "Then where?!"
+SHOT 5 (about 2 seconds), Kallista's close-up matching @4: Kallista sinks slightly into the sofa and says, reluctant and quiet: "...The laundromat." Hold to the end in silence.
+
+SOUND: only these four spoken lines, a gentle crackling fireplace and soft room hum. Only the person speaking moves her lips. No music, no other voices, no repeated lines, no subtitles, no watermarks.
+```
+**Fallback** if the voices or repeats still fail: the four per-shot Image to video pickups with the real audio (`couch3_p1–p4`), keeping only v1's wide stare shot.
