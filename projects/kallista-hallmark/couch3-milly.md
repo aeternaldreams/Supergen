@@ -1,4 +1,4 @@
-# Couch clip 3: "until the bossa nova" → Milly → "...The laundromat." → "My bra was stuck to his back."
+# Couch clip 3: "You watch way too many of these movies." → Milly → "...The laundromat." → "My bra was stuck to his back."
 
 ## The background problem, and how we avoid it
 Every time a model makes a new angle on its own (Supergen reference mode, or Omni Flash's angled close-ups), it invents a new room. So **every start frame for this scene comes from pixels we already have:**
@@ -6,6 +6,9 @@ Every time a model makes a new angle on its own (Supergen reference mode, or Omn
 - **Close-ups:** crops of that same frame, like Becca's music-store close-up (`becca_mcu_crop.png`), which matched perfectly.
 - **Milly:** she's the only new element. Her frame comes from **widening the existing frame** to reveal her armchair, not from building a new room. Her close-up is then a crop of that wider frame.
 - **Supergen:** each clip uses **one start frame and no reference pictures** (Image to video), the setup that has held both faces and backgrounds every time.
+
+## Why the line changed
+Becca's guesses (the rink, the café, the music store) are her **imaginings**, not things that happened. So Kallista doesn't remember them; she **scoffs** at Becca's fantasy. That also sets up the real answer, the laundromat, as the unglamorous truth. Alternatives considered: "[scoffs] Where do you come up with these?" and "[scoffs] That's not a guy. That's a playlist."
 
 ## Geography (keep it consistent)
 - Kallista sits on the left end of the sofa and Becca on the right. Milly is in an upright armchair **off to the left of the sofa** (screen-left), per the original F2 layout.
@@ -18,7 +21,7 @@ Every time a model makes a new angle on its own (Supergen reference mode, or Omn
 **Milly's voice:** no custom design needed. Pick a stock library voice that's smooth, mid-pitched, pleasant and very even (American female, conversational), and save it to My Voices so her montage lines match later. Use high stability and low style, so the flatness comes from her delivery, not from a robotic voice. Choose one that sounds clearly different from Kallista (low, husky) and Becca (bright).
 
 ```
-Kallista: [flat, deadpan] He was perfect... [short pause] until the bossa nova.
+Kallista: [scoffs, dry, unimpressed] You watch way too many of these movies.
 Milly: [pleasant, perfectly even, no emotion at all] Statistically, most people meet at work.
 Becca: [snapping back to Kallista, eager, exasperated] Then where?!
 Kallista: [reluctant, quiet, sinking] ...The laundromat.

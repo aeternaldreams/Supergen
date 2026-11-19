@@ -38,7 +38,7 @@ BECCA: Ooh, the music shop! Some broody musician.
 ADRIAN: (British, low and velvety) You play? (tick... tick...) Perhaps we could make something... beautifully dark—
 BOOM. A full cheesy bossa nova beat blasts in and cuts off "together." Adrian jolts upright and panics, his eyes darting all over the panel as he jabs buttons, twists knobs and slides faders. Every touch makes it worse: the tempo speeds up, a horn section joins in and a "WOO!" fires. Kallista just watches. **WHITE FLASH.**
 
-KALLISTA: (deadpan, sips wine) He was perfect... until the bossa nova.
+KALLISTA: (scoffs, sets her glass down) You watch way too many of these movies.
 MILLY: (flat, not blinking) Statistically, most people meet at work.
 Both of them turn and stare at Milly. A long beat.
 BECCA: (back to Kallista) Then where?!

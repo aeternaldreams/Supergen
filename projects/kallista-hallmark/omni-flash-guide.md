@@ -149,7 +149,7 @@ For a strictly like-for-like comparison, you can mute Omni Flash's audio and lay
 
 ---
 
-## Scene 6 (next, not yet made in either tool): Couch, "until the bossa nova" → "...The laundromat." (about 12s)
+## Scene 6 (next, not yet made in either tool): Couch, "You watch way too many of these movies." → "...The laundromat." (about 12s)
 Needs the F2 three-shot with Milly (see `nano-banana-keyframes.md`).
 
 | Image | File | Role |
@@ -160,7 +160,7 @@ Needs the F2 three-shot with Milly (see `nano-banana-keyframes.md`).
 | 4 | Your S1 B&B set picture | The room |
 
 Lines:
-- Kallista (deadpan, sips wine): "He was perfect... until the bossa nova."
+- Kallista (scoffs, sets her glass down): "You watch way too many of these movies."
 - Milly (flat, not blinking, a beat late): "Statistically, most people meet at work."
 - Kallista and Becca turn and stare at Milly (a silent beat).
 - Becca (back to Kallista): "Then where?!"
