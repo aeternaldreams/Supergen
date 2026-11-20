@@ -76,3 +76,4 @@ Keep this exact Victorian bed-and-breakfast, porch, snow and morning light. Refr
 Shots: wide 0–1.62 (he nails the tread flat) · a quick swish 1.62–1.8 → over Cal's shoulder on Kallista 1.8–4.54 ("Are you following me?") · reverse on Cal 4.54–10.1 (hammer held up, "I was hired... in August", then her sip). The new keyframe has a modern Hearthstone pickup.
 **Mix (`m1_porch_mix_v1.mp4`):** `sfx_hammer_strike.mp3` (ElevenLabs SFX, the main hit 0.14–0.37, −8 dB) at 0.48s and 1.06s, matching the end of each downswing found by measuring motion around his hands · `roomtone_porch_winter.mp3` (ElevenLabs SFX, 15s, −2 dB).
 **576p softness:** Supergen's Normal quality, not the keyframe. Upscale the final keepers to 1080p once the cut is locked.
+- **1080p upscale** (website "Upscale to 1080p"): 1920x1080, same timing frame for frame; noticeably crisper railings, garland and siding in the wide shot. Mixed: `m1_porch_1080_mix.mp4` (scratchpad).
