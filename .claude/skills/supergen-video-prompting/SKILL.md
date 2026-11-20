@@ -377,6 +377,15 @@ natural. Full prompt: `projects/kallista-hallmark/flash3-music-store.md`
    ambience. The keyboard plays no music, and there is no music at all."
    Music Supergen adds sits under the lip-synced voice and can't be removed.
 
+**Update 2026-11-20: Reference to video now accepts scene audio** (tested on
+the Holiday Reservations laundromat, job `928a49379007`): first frame @1 plus
+character close-ups @2/@3, with the full ElevenLabs dialogue as scene audio. It
+**kept both characters' identities** in new close-up angles, where Image to video
+(one frame) had invented a different-looking Kallista. This is now the preferred
+setup for multi-character dialogue: @1 = the scene's first frame, @2/@3 = each
+speaker's face, name them in the prompt ("Kallista @2", "Cal @3", "The scene
+begins on @1 exactly as shown"), and supply the full scene audio.
+
 **Known audio issue in this mode (plan to fix it in post):**
 - Supergen **re-voices** the line from the voice sample rather than playing
   the file, and it may **hallucinate a garbled duplicate line** (here, a
