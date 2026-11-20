@@ -61,3 +61,5 @@ White flashes are 3 frames (0.125s) of white with silence.
 ## v7 (81.5s): laundromat added: COLD OPEN COMPLETE
 - Laundromat one-beat `Scene7fix` (the member's website reference-mode render with `laundromat_oneshot_15s.mp3`): wide 0–2.83 ("Oh my god") · Kallista close-up 2.83–8.0 · over-the-shoulder on Cal 8.0–15 ("What?", the peel-off, "...break the ice", she snatches it back). Identities hold. Its audio is dry (no laundromat room tone yet).
 - Flashes at 14.3, 18.08, 23.87, 27.85, 34.83, 46.58, 66.21 and 81.38s.
+
+## v8: laundromat room tone (`roomtone_laundromat.mp3`, ElevenLabs Sound Effects, 15s, mixed at −15 dB to match the other locations).
