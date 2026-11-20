@@ -174,3 +174,7 @@ New lines (eleven_v4, `laundromat_L1_take4_v4.mp3`, 11.9s): "Oh my god." / "Um..
 - `laundromat_L1_v4_18s.mp3` (18s): double-take 0–1.4 · whisper 1.4–2.6 · Kallista 3.3–about 7.0 · Cal about 7.0–13.3 · **silent search 13.3–18** (pats pockets and shoulders, turns in a circle, finally reaches back and finds it).
 - `laundromat_L2_v4_15s.mp3` (15s): "It's... mine." removed (now redundant). Freeze 0–1.75 · Cal "Guess we used the same dryer" 1.75–4.4 · "I'd like to say..." 5.3–8.45 · "Has it?" 8.8–9.4 · "Not with one this nice." 9.7–11.75 · exit 11.75–15.
 - **The website maxes out at 15s**, so `laundromat_L1_v5_15s.mp3` replaces the 18s track. Double-take 0–1.15 · whisper 1.15–2.2 · Kallista 2.6–7.07 ("Um... excuse me. You have... something of mine.") · Cal "Something of yours?" 7.46–8.84 · "I think I'd remember borrowing something of yours." 9.36–12.05 · search 12.05–15. **He starts patting his pockets during his second line**, so the search runs about 9.4–15.
+
+## L1 v5 reference render `93d8bf1e589f` (the member's), salvaged
+Issues: a fast camera swing/zoom at 0.25–0.6 (kept as a comic "quirk" push-in, the member's call) and an awkward full turnaround at 11.8–13.5 (cut).
+**Part 1 edit (`laundromat_part1_v1.mp4`, 16.7s):** setup `839d446d074f` 0.4–5.0 → L1 `93d8bf1e589f` 0–12.1 (zoom to Kallista's medium for "Oh my god" / "...something of mine", over-the-shoulder on Cal 7.42–11.17 for his flirty line, wide 11.17–12.1). Next: L2 (reference mode, `laundromat_L2_v4_15s.mp3`) opens on him holding it up, which skips the search.
