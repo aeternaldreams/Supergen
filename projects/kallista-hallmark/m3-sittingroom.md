@@ -68,3 +68,8 @@ Becca says, teasing: "You're watching him again." Without turning from the windo
 
 Only the character named for each line speaks it. Milly never looks up from her book. Nobody looks into the camera. Keep all three faces and the room consistent in every shot. Sound: a crackling fire, a page turning, a teacup clinking on its saucer, soft room hum. No music, no subtitles, no text, no watermark, no extra people.
 ```
+
+## M3 render `b3fdaf66d35f` (website, Reference to video), checked by the scheduled check-in
+Clean hard cuts this time (no swishes): wide 0–2.92 (Becca line 1) · Kallista close-up 2.92–6.0 ("I'm drinking coffee", Becca's "Your mug is empty" off screen, she lowers the mug) · Becca close-up 6.0–7.92 · Milly close-up 7.92–10. Faces all hold.
+**Problem: Milly's lines are given to Becca.** Becca visibly mouths "Textbook denial" (6.0–7.9), and in Milly's own shot her mouth stays closed (she looks up from the book).
+**Fix prepared (not run, waiting on the member):** a 5s Image to video Milly pickup from `m3_milly_pickup_start.png` (the first clean frame of her shot, eyes on the book) with `m3_milly_pickup_5s.mp3` (her two lines, starting at 0.5s). Edit: wide 0–2.92 → Kallista close-up 2.92–6.0 → Milly pickup (her lines) → end.
