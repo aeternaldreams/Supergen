@@ -27,3 +27,7 @@ Cal: [shy grin, sweetly awkward] Not with one this nice.
 
 ## Take 1: `voices/holiday-reservations/laundromat_dialogue_take1.mp3` (21.8s, Text to Dialogue eleven_v3)
 Speech blocks (pauses longer than 0.3s): 0–0.47 · 1.51–2.27 · 3.94–4.92 · 6.67–8.80 · 10.19–10.64 · 11.87–12.33 · 14.02–16.13 · 17.12–17.81 · 18.44–19.78. The pauses are long, so they'll be tightened when the clip tracks are built.
+
+## Take 2: Eleven v4 (`eleven_v4`), `laundromat_dialogue_take2_v4.mp3` (16.0s)
+The same script and voices. Tighter pacing than v3 (21.8s). Pauses longer than 0.3s: 0.66–1.21 · 2.08–2.73 · 3.99–4.35 · 4.81–5.16 · 8.09–8.61 · 9.31–9.76.
+**Use `eleven_v4` for all dialogue from now on** (the member's request). Also available: `eleven_v4_turbo`.
