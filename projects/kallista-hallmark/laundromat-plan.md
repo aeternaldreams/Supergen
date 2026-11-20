@@ -178,3 +178,7 @@ New lines (eleven_v4, `laundromat_L1_take4_v4.mp3`, 11.9s): "Oh my god." / "Um..
 ## L1 v5 reference render `93d8bf1e589f` (the member's), salvaged
 Issues: a fast camera swing/zoom at 0.25–0.6 (kept as a comic "quirk" push-in, the member's call) and an awkward full turnaround at 11.8–13.5 (cut).
 **Part 1 edit (`laundromat_part1_v1.mp4`, 16.7s):** setup `839d446d074f` 0.4–5.0 → L1 `93d8bf1e589f` 0–12.1 (zoom to Kallista's medium for "Oh my god" / "...something of mine", over-the-shoulder on Cal 7.42–11.17 for his flirty line, wide 11.17–12.1). Next: L2 (reference mode, `laundromat_L2_v4_15s.mp3`) opens on him holding it up, which skips the search.
+
+## L1 FINAL: `47ad92c8be0d` (the member's favourite, website reference mode)
+Shots: wide 0–2.62 ("Oh my god") · Kallista close-up 2.62–7.5 ("Um... excuse me. You have... something of mine.") · over-the-shoulder on Cal 7.5–10.58 ("Something of yours?" ends 8.84). **Trim:** keep 0–10.58 and mute after 8.95, so Cal's second line is gone and his silent, sly reaction plays out (`laundromat_L1_fav_trim.mp4`).
+**Plan:** drop the setup shot. Couch "...The laundromat." → white flash → L1 trim → bridge → L2 (opens on him holding the bra up).
