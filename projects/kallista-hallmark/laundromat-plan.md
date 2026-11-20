@@ -31,3 +31,53 @@ Speech blocks (pauses longer than 0.3s): 0–0.47 · 1.51–2.27 · 3.94–4.92 
 ## Take 2: Eleven v4 (`eleven_v4`), `laundromat_dialogue_take2_v4.mp3` (16.0s)
 The same script and voices. Tighter pacing than v3 (21.8s). Pauses longer than 0.3s: 0.66–1.21 · 2.08–2.73 · 3.99–4.35 · 4.81–5.16 · 8.09–8.61 · 9.31–9.76.
 **Use `eleven_v4` for all dialogue from now on** (the member's request). Also available: `eleven_v4_turbo`.
+
+## Clip tracks (from take 2, v4)
+- `laundromat_L1_10s.mp3`: Kallista 0.5–4.3 ("Um... excuse me. You have something.") · Cal 4.65–8.4 ("Where? [laugh] Is it a bug?") · silence to 10.0 (he turns in circles).
+- `laundromat_L2_10s.mp3`: Kallista 0.3–0.8 ("It's... mine.") · **silent freeze 0.8–2.3** (he peels it off and holds it up) · Cal 2.5–6.2 ("I'd like to say...") · Kallista about 6.5 ("Has it?") · Cal 7.3–8.8 ("Not with one this nice.") · silence to 10.0 (her almost-smile).
+
+## Keyframes needed (none exist yet)
+Rules: one start frame per clip, both faces visible, and **every close-up is a crop of a master frame** so the room never changes. Kallista wears Outfit A (black ribbed mock-neck, open charcoal wool coat, dark grey chunky scarf). Cal wears a red-and-black buffalo-check flannel over a grey thermal henley.
+**Geography:** dryers along the left wall, a wooden folding counter on the right, front windows with snow behind the counter. Kallista works the dryers (screen-left); Cal folds at the counter (screen-right).
+
+| # | Frame | Use |
+|---|---|---|
+| S3 | Empty laundromat set (prompt in `nano-banana-keyframes.md`) | Base for L1 |
+| CAL | Cal cast portraits (front close-up + full body; `nano-banana-keyframes.md` #2 / #2b) | Identity reference |
+| **LM1** | L1 start frame: edit of S3 | Clip L1 |
+| **LM2** | L2 start frame: edit of LM1 (same room, same camera) | Clip L2 |
+| LM3 | Cal close-up: crop of LM2 | Towel gag, and Omni Flash |
+| LM4 | Kallista close-up: crop of LM2 | Omni Flash, reactions |
+
+### LM1: the reveal (edit S3, attach the set FIRST, then Kallista identity shot 1 + coat portrait, then Cal's portraits)
+> Keep this exact laundromat, camera and lighting. Add two people. In the left foreground, Kallista, the woman from the Kallista references, stands at an open front-loading dryer holding a basket of warm laundry, her body and face turned toward the camera at three-quarters as she looks across the room at Cal with an awkward, uncertain expression. Same face: a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) with a center part. She wears a fitted black ribbed mock-neck sweater, an open charcoal wool coat and a dark grey chunky knit scarf. In the mid-ground right, Cal, the man from the Cal references, stands at the wooden folding counter folding a towel, his back half turned to the camera, with his head turned over his shoulder toward her so his face shows in three-quarter profile: tousled brown hair, light stubble, warm hazel eyes. He wears a red-and-black buffalo-check flannel shirt over a grey thermal henley. A black lace bra clings flat to the back of his flannel between his shoulder blades, clearly visible. Warm winter daylight through the front windows, snow outside. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.
+
+### LM2: holding it up (edit LM1, attached FIRST, plus Cal's front close-up)
+> Keep this exact laundromat, camera position, lighting, and both people's faces, hair and clothes. Change only their poses: they now stand facing each other in the middle of the room near the folding counter, both turned at three-quarters toward the camera so both faces are clearly visible: Kallista on the left, Cal on the right. Cal holds the black lace bra up between them by one strap at arm's length, his face frozen in polite, mortified gentleman mode. Kallista stares at it, deadpan, cheeks slightly flushed, one hand starting to reach for it. Her laundry basket sits on the counter. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, creamy shallow depth of field, light 35mm film grain, natural skin texture. No text, no logos, no watermark.
+
+## Supergen prompts (Image to video, single start frame, scene audio, 10s, Normal, 16:9)
+
+### L1: start frame LM1, audio `laundromat_L1_10s.mp3`
+```
+Create a 10-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: a charming small-town laundromat on a snowy winter day. Keep both faces, the clothes, the black lace bra on his back and the room exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm winter daylight, shallow depth of field and organic film grain.
+KALLISTA (left, by the dryer) has a soft, low, dry voice: pale skin, a longer face, large pale blue-grey eyes, straight sleek pale platinum-blonde hair, a black mock-neck, a charcoal coat and a grey knit scarf. Reserved and mortified. CAL (right, at the folding counter) has a warm, boyish voice with a slight rasp: tousled brown hair, light stubble, a red-and-black buffalo-check flannel. Sweet, earnest and a little awkward.
+If you cut, always cut to whoever is speaking so their face is on camera; only the person speaking moves their lips. Nobody looks into the camera.
+0.5–4.3 seconds: Kallista hesitates, then says awkwardly: "Um... excuse me. You have something."
+4.6–8.4 seconds: Cal turns toward her, confused and friendly: "Where?" He gives a nervous laugh and pats his own shoulders: "Is it a bug?"
+8.4–10 seconds: silence. Cal turns in a slow circle trying to see his own back, like a dog chasing its tail, while Kallista watches, mouth closed.
+Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
+```
+
+### L2: start frame LM2, audio `laundromat_L2_10s.mp3`
+```
+Create a 10-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: a man and a woman facing each other in a small-town laundromat on a snowy day, the man holding up a black lace bra between them. Keep both faces, the clothes and the room exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm winter daylight, shallow depth of field and organic film grain.
+KALLISTA (left) has a soft, low, dry voice: pale skin, a longer face, large pale blue-grey eyes, straight sleek pale platinum-blonde hair, a black mock-neck, a charcoal coat and a grey knit scarf. Reserved and deadpan. CAL (right) has a warm, boyish voice with a slight rasp: tousled brown hair, light stubble, a red-and-black buffalo-check flannel. Sweet, earnest, trying very hard to be a gentleman.
+If you cut, always cut to whoever is speaking so their face is on camera; only the person speaking moves their lips. Nobody looks into the camera.
+0.3–0.8 seconds: Kallista, mortified and flat: "It's... mine."
+0.8–2.3 seconds: silence. Both freeze, staring at the bra he is holding up.
+2.5–6.2 seconds: Cal, sheepish and earnest: "I'd like to say this has never happened to me before."
+6.3–7.0 seconds: Kallista snatches the bra out of his hand and says, dry and suspicious: "Has it?"
+7.3–8.8 seconds: Cal, with a shy grin: "Not with one this nice."
+8.8–10 seconds: silence. Kallista almost smiles, catches herself, mouth closed.
+Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
+```
