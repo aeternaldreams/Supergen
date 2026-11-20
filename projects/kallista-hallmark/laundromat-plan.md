@@ -100,3 +100,8 @@ Create a 5-second cinematic live-action romantic comedy shot in 16:9, beginning 
 Sound: dryers tumbling, a soft machine hum. No dialogue, no music, no subtitles, no watermarks.
 ```
 **Edit:** LM0 (about 2.5s) → L1. The cut lands on him at the counter with the bra on his back, which matches LM1.
+
+### LM0 revision (the member's notes)
+- **Cal is alone** in the setup shot; Kallista first appears in LM1, already noticing.
+- **The logic:** Kallista is on her second load. Her bra stayed stuck inside the dryer drum when she emptied her first load. Cal used that dryer next, and his flannel comes out with her bra clinging to it. In LM1 she's *unloading* her second load from another dryer.
+- **The fix** (edit the first LM0 result, attached first): "Keep this exact image... Remove the blonde woman and her laundry basket completely, and fill the space where she stood with the same row of dryers, the window and the checkered floor behind her, so the man is the only person in the room. Change nothing else." Then crop to a medium shot of Cal.
