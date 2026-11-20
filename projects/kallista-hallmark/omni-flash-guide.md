@@ -189,6 +189,12 @@ A 5-second cinematic live-action close-up in 16:9, matching Image 1 exactly, wit
 ## Scene 7: The laundromat, the real meet-cute (two prompts, about 10s each)
 The frames are the same ones planned for Supergen (`laundromat-plan.md`). Thumbnails get added once LM1 and LM2 exist.
 
+### 7.0: The setup, fresh out of the dryer (about 4s, silent)
+Images: 1 = LM0 (Cal at the dryer), 2 = LM1, 3 = your Cal front close-up, 4 = your Cal full-body portrait.
+```
+A 4-second cinematic live-action romantic comedy shot in 16:9 in a small-town laundromat on a snowy day, matching the composition and room of Image 1 exactly. One continuous shot. Cal (Images 1, 3 and 4): tousled brown hair, light stubble, warm hazel eyes, a grey thermal henley and jeans; sweet and easygoing. He pulls his warm red-and-black buffalo-check flannel fresh out of the dryer, gives it a shake and shrugs it on, completely unaware that a black lace bra is stuck flat to the back of it, between his shoulder blades. He turns to the folding counter and starts folding a towel. In the background on the left, the platinum-blonde woman from Image 2 is busy at her dryer. Sound: dryers tumbling, a soft machine hum. No dialogue, no music, no subtitles, no watermark.
+```
+
 ### 7a: "Um... excuse me." → he turns in circles (10s)
 | Image | File | Role |
 |---|---|---|
