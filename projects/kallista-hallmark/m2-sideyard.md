@@ -94,3 +94,8 @@ Only the character named for each line speaks it. Nobody looks into the camera. 
 ```
 
 **Line change (the member's):** "...Total banger." → "[swagger, mid-chew] She's got style." (`m2_marcus_style_v4.mp3`, TTS eleven_v4, +2 dB). Track rebuilt: Marcus 0.7–6.4 · Cal 6.4–7.8 · pause 7.8–8.3 · "She's got style." 8.3–9.8.
+
+## M2 render `2fabead0b2d0` (website, Reference to video)
+Shots: wide 0–0.83 · Marcus close-up over Cal's shoulder 1.08–6.58 · Cal close-up over Marcus's shoulder 6.75–9.21 · wide 9.21–10.1. Identities, apple and lines are good. **Camera swishes** at 0.83–1.08 (6 frames) and 6.58–6.75 (4 frames), the same quirk as M1 and music-store L1.
+**Fix (`m2_sideyard_fix_v1.mp4`, scratchpad):** the swish frames are replaced with a hold of the next shot's first clean frame, giving hard cuts with the same length and audio sync. Winter tone at −2 dB.
+**Likely cause:** check the website's **Direction** setting. "Super" direction means wild camera moves and extra cuts, and one library render showed "Super mode". Set Direction to Auto or Off for dialogue scenes.
