@@ -186,3 +186,12 @@ Shots: wide 0–2.62 ("Oh my god") · Kallista close-up 2.62–7.5 ("Um... excus
 ## Insert attempt `a8d6fa933481` (5s, from `laundromat_insert_back.png`): unusable
 It breaks continuity: the crop shows Cal facing his counter, but at the end of L1 he faces Kallista. **Fix:** a new over-the-shoulder keyframe (camera behind Cal, his back with the bra in the foreground, Kallista facing him in front of her dryers), then a 5s Reference to video insert of him reaching back and peeling it off. **Lesson:** check which way each character faces at the end of the previous clip before writing an insert.
 Placeholder card: `scratchpad/card/card_wash.png` ("Love comes out / in the wash.").
+
+## ONE-BEAT VERSION (the member's rewrite): replaces L1 + insert + L2
+Audio: `laundromat_oneshot_raw.mp3` (the member's ElevenLabs v4, 12.75s) → `laundromat_oneshot_15s.mp3` (1.0s lead, padded to 15s).
+- Kallista [whisper] "Oh my god." 1.2–2.35
+- Kallista "Um... excuse me. You have my bra stuck to your back." 2.97–7.86
+- Cal [confused, warm chuckle] "What?" 8.47–10.02
+- Cal [gentle teasing] "Well... that's definitely one way to break the ice." 10.43–13.75
+- silence 13.75–15
+Prompt rule: **always name the speaker** ("Kallista says", "Cal says"), never "she" or "he" for dialogue.
