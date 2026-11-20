@@ -168,3 +168,8 @@ Every laundromat job with the sheer black lace bra was refused, twice, even afte
 
 ## Reference to video with scene audio: `928a49379007` (the member's, website)
 @1 LM1, @2 Kallista face, @3 Cal face, plus full L1 scene audio. **Identities hold** (Kallista's close-up now reads as her). Notes: it needs more breathing room, Cal finds the bra too fast (it's off his back by about 8s), and the member wants more flirtation and "...something of mine." → L1 to be rewritten as a 15s scene; all laundromat clips to be redone in this mode.
+
+## L1 v4 (more flirtation, more room)
+New lines (eleven_v4, `laundromat_L1_take4_v4.mp3`, 11.9s): "Oh my god." / "Um... excuse me. You have... something of mine." / Cal: "Something of yours? I think I'd remember borrowing something of yours."
+- `laundromat_L1_v4_18s.mp3` (18s): double-take 0–1.4 · whisper 1.4–2.6 · Kallista 3.3–about 7.0 · Cal about 7.0–13.3 · **silent search 13.3–18** (pats pockets and shoulders, turns in a circle, finally reaches back and finds it).
+- `laundromat_L2_v4_15s.mp3` (15s): "It's... mine." removed (now redundant). Freeze 0–1.75 · Cal "Guess we used the same dryer" 1.75–4.4 · "I'd like to say..." 5.3–8.45 · "Has it?" 8.8–9.4 · "Not with one this nice." 9.7–11.75 · exit 11.75–15.
