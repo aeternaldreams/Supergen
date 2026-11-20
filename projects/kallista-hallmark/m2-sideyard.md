@@ -76,9 +76,9 @@ Only the character named for each line speaks it; when Marcus speaks only Marcus
 0–0.7 seconds: Marcus takes a crunchy bite of the apple, watching Cal work.
 0.7–6.4 seconds: Marcus says, chewing, amused and dry: "Dark dream-pop." A beat. Marcus says: "That's just pop... that didn't get enough sleep."
 6.4–7.8 seconds: without looking up from the board, Cal says with a knowing half-smile: "You looked her up."
-7.8–8.8 seconds: silence. Marcus freezes mid-chew, caught.
-8.8–9.7 seconds: Marcus shrugs, points the apple at Cal and says with a smirk: "...Total banger."
-9.7–10 seconds: Cal keeps measuring, hiding a smile.
+7.8–8.3 seconds: silence. Marcus freezes mid-chew, caught.
+8.3–9.8 seconds: Marcus shrugs it off with swagger, points the apple at Cal and says mid-chew: "She's got style."
+9.8–10 seconds: Cal keeps measuring, hiding a smile.
 Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
 ```
 
@@ -88,7 +88,9 @@ A 10-second cinematic live-action romantic comedy scene in 16:9 in the snowy sid
 
 Marcus sits on the end of the sawhorse plank eating a red apple: a handsome light-skinned Black man around thirty, short tapered dark hair, a neatly trimmed beard, warm brown eyes, an olive-green canvas work jacket over a navy henley, a carpenter's pencil behind his ear. Relaxed, quick-witted and dry, always smirking; a smooth, warm, mid-to-low American voice. Cal stands at the other end measuring and marking the board with a yellow tape measure and a pencil: tousled brown hair, light stubble, a tan canvas work jacket with a sherpa collar over a red-and-black flannel. Focused and quietly confident, eyes on his work; a warm, boyish American voice with a slight rasp.
 
-Marcus takes a crunchy bite of the apple and, chewing, Marcus says, amused and dry: "Dark dream-pop. That's just pop... that didn't get enough sleep." Without looking up, Cal says with a knowing half-smile: "You looked her up." Marcus freezes mid-chew, caught, then shrugs, points the apple at Cal and Marcus says with a smirk: "...Total banger." Cal keeps measuring, hiding a smile.
+Marcus takes a crunchy bite of the apple and, chewing, Marcus says, amused and dry: "Dark dream-pop. That's just pop... that didn't get enough sleep." Without looking up, Cal says with a knowing half-smile: "You looked her up." Marcus freezes mid-chew, caught, then shrugs it off with swagger, points the apple at Cal and Marcus says mid-chew: "She's got style." Cal keeps measuring, hiding a smile.
 
 Only the character named for each line speaks it. Nobody looks into the camera. Keep both faces and the yard consistent in every shot. Sound: a pencil scratching wood, a tape measure snapping back, a soft winter breeze. No music, no subtitles, no text, no watermark, no extra people.
 ```
+
+**Line change (the member's):** "...Total banger." → "[swagger, mid-chew] She's got style." (`m2_marcus_style_v4.mp3`, TTS eleven_v4, +2 dB). Track rebuilt: Marcus 0.7–6.4 · Cal 6.4–7.8 · pause 7.8–8.3 · "She's got style." 8.3–9.8.
