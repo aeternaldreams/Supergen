@@ -33,3 +33,33 @@ Written once the audio is measured (named speakers on every line).
 
 ## Audio: take 1 (`m1_porch_take1_v4.mp3`, 4.75s) → `m1_porch_10s.mp3`
 Opening beat 0–1.5 (silent: door opens, she sees him) · Kallista "Are you following me?" 1.5–2.85 · Cal "I was hired..." 3.2–5.0 · "...in August." 5.4–6.25 · silent reaction 6.25–10.
+
+## P1 delivered: `keyframes/holiday-reservations/m1_porch_P1.png`
+Kallista stands on the porch steps (not in the doorway) in her coat and scarf with a white mug; Cal kneels at the steps with a hammer and a new board, looking up at her with a grin. The Hearthstone Carpentry truck is on the left. Face refs: the member's headshots, not crops (faces too small for crops).
+
+## Audio v2: `m1_porch_10s_v2.mp3` (more breathing room before Cal)
+Opening 0–1.67 · Kallista "Are you following me?" 1.67–2.83 · **gap 2.83–4.55** · Cal "I was hired..." 4.55–6.33 · "...in August." 6.71–7.42 · reaction 7.42–10.
+
+## Supergen (website, Reference to video, 10s): @1 P1, @2 Kallista headshot, @3 Cal headshot, scene audio `m1_porch_10s_v2.mp3`
+```
+Create a 10-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio. The scene begins on @1 exactly as shown: the front porch of a white Victorian bed-and-breakfast on a snowy winter morning, a green "Hearthstone Carpentry" pickup truck parked on the left. Keep both faces, the clothes, the porch, the truck and the snow exactly as in @1. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, soft winter morning light, shallow depth of field and organic film grain.
+Kallista @2 stands on the porch steps holding a white coffee mug: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair with a center part, a long charcoal wool coat, a black turtleneck and a dark grey chunky knit scarf. Dry, deadpan, suspicious; she has a soft, low, dry voice. Cal @3 kneels at the bottom of the steps, fitting a new step board, a hammer in his hand: tousled brown hair, light stubble, warm hazel eyes, a tan canvas work jacket with a sherpa collar over a red-and-black flannel, a leather tool belt. Sweet, a little sheepish, quick to grin; he has a warm, boyish voice with a slight rasp.
+Only the character named for each line speaks it; when Kallista speaks only Kallista's lips move, and when Cal speaks only Cal's lips move. Use only clean hard cuts between shots; never zoom or swing the camera. Nobody looks into the camera.
+0–1.7 seconds: Kallista stops on the steps, coffee in both hands, and stares down at Cal. Cal is busy lining up the new board and tapping it with his hammer.
+1.7–2.8 seconds: Kallista says, dry and suspicious: "Are you following me?"
+2.8–4.5 seconds: silence. Cal stops hammering mid-swing, freezes, and slowly looks up at Kallista.
+4.5–7.4 seconds: Cal holds up the hammer as evidence and says, sheepish with a small grin: "I was hired... in August."
+7.4–10 seconds: silence. Kallista narrows her eyes and takes a slow sip of coffee. Cal goes back to hammering the board, still grinning to himself.
+Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
+```
+
+## Omni Flash (Ingredients, simplified; attach P1 and both headshots)
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 on the front porch of a white Victorian bed-and-breakfast on a snowy winter morning, wreaths on the doors, garland on the porch rail, a green "Hearthstone Carpentry" pickup truck parked by the house.
+
+Kallista stands on the porch steps holding a white coffee mug: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair with a center part, a long charcoal wool coat, a black turtleneck and a dark grey chunky knit scarf. Dry, deadpan, suspicious; a soft, low, dry American voice, a little husky. Cal kneels at the bottom of the steps fitting a new step board, a hammer in his hand: tousled brown hair, light stubble, warm hazel eyes, a tan canvas work jacket with a sherpa collar over a red-and-black flannel, a leather tool belt. Sweet, a little sheepish, quick to grin; a warm, boyish American voice with a slight rasp.
+
+Kallista stops on the steps and stares down at Cal, who is busy hammering the new board. Kallista says, dry and suspicious: "Are you following me?" Cal stops mid-swing, freezes, and slowly looks up at Kallista. After a beat, Cal holds up the hammer as evidence and says, sheepish with a small grin: "I was hired... in August." Kallista narrows her eyes and takes a slow sip of coffee; Cal goes back to hammering, still grinning.
+
+Only the character named for each line speaks it. Nobody looks into the camera. Keep both faces and the porch consistent in every shot. Sound: a hammer tapping wood, a soft winter breeze, distant birds. No music, no subtitles, no text, no watermark, no extra people.
+```
