@@ -200,15 +200,21 @@ Plus your Kallista identity shot 1, and your Cal front close-up and full-body sh
 
 ### 7.0: Setup, fresh out of the dryer (about 4s, silent)
 Images: 1 = LM0, 2 = LM1 (for the room), 3 = Cal front close-up, 4 = Cal full body.
+**Fix for warping:** he turns his back to the camera and puts the shirt on like a jacket, so no sleeves are visible to the camera and the item stays on his back.
 ```
-A 4-second cinematic live-action romantic comedy shot in 16:9, matching the composition and room of Image 1 exactly. One continuous shot. Cal (Images 1, 3 and 4): tousled brown hair, light stubble, warm hazel eyes, a grey thermal henley and jeans; sweet and easygoing; he is the only person in the shot. He gives a polite glance across the room to the left, off screen, then shakes out his warm red-and-black buffalo-check flannel and shrugs it on, completely unaware that a black lace bra is stuck flat to the back of it, between his shoulder blades. He turns to the wooden folding counter and starts folding a towel. Sound: dryers tumbling, a soft machine hum. No dialogue, no music, no subtitles, no watermark.
+A 4-second cinematic live-action romantic comedy shot in 16:9, matching the composition and room of Image 1 exactly. One continuous shot, locked camera. Cal (Images 1, 3 and 4): tousled brown hair, light stubble, warm hazel eyes, a grey thermal henley and jeans; sweet and easygoing; he is the only person in the shot.
+0–1 second: holding his red-and-black buffalo-check flannel by the collar, he gives a polite glance across the room to the left, off screen.
+1–3 seconds: he turns his back to the camera, toward the folding counter, and puts the flannel on like a jacket: he swings it around behind his shoulders by the collar, slides his right arm into the right sleeve, then his left arm into the left sleeve, and settles it on his shoulders. The black sports bra stays stuck flat to the back of the flannel, between his shoulder blades, facing the camera the whole time; it never moves to the front.
+3–4 seconds: still with his back to the camera, he picks up a towel from the counter and starts folding it, oblivious.
+Sound: dryers tumbling, a soft machine hum. No dialogue, no music, no subtitles, no watermark.
 ```
+**Fallback:** end the shot at about 2s, as he swings the shirt behind his shoulders, and cut straight to 7a (already wearing it).
 
 ### 7a: "Oh my god." → "Where?" (10s)
 Images: 1 = LM1, 2 = LM2, 3 = LM4 (Kallista close-up), 4 = LM3 (Cal close-up), 5 = Kallista identity, 6 = Cal front close-up, 7 = Cal full body.
 ```
 A 10-second cinematic live-action romantic comedy scene in 16:9 in a small-town laundromat on a snowy winter day: retro dryers along the left wall, a wooden folding counter on the right, front windows with snow outside. Open on the composition of Image 1. Use only the room and camera setups shown in Images 1–4, keeping exactly the same backgrounds; no new angles.
-Kallista (Images 1, 3 and 5), at the dryer on the left with her laundry basket: pale skin, a longer face, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair, a black ribbed mock-neck; reserved and mortified. Cal (Images 1, 4, 6 and 7), at the counter on the right with his back half turned: tousled brown hair, light stubble, a red-and-black buffalo-check flannel with a black lace bra stuck to the back; sweet, earnest, oblivious. Nobody looks into the camera.
+Kallista (Images 1, 3 and 5), at the dryer on the left with her laundry basket: pale skin, a longer face, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair, a black ribbed mock-neck; reserved and mortified. Cal (Images 1, 4, 6 and 7), at the counter on the right with his back half turned: tousled brown hair, light stubble, a red-and-black buffalo-check flannel with a black sports bra stuck to the back; sweet, earnest, oblivious. Nobody looks into the camera.
 
 Shot 1 (about 3s), Image 1: Kallista glances at his back, looks away, then does a double-take, her eyes going wide. Kallista, whispering to herself: "Oh my god."
 Shot 2 (about 4s), Kallista's close-up from Image 3: she gathers herself. Kallista: "Um... excuse me. You have something."
@@ -222,7 +228,7 @@ Look: 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm winter dayli
 ### 7b: "It's... mine." → "Not with one this nice." (15s)
 Images: 1 = LM2, 2 = LM1, 3 = LM4, 4 = LM3, 5 = Kallista identity, 6 = Cal front close-up, 7 = Cal full body.
 ```
-A 15-second cinematic live-action romantic comedy scene in 16:9 in the same small-town laundromat. Open on the composition of Image 1: Kallista (left) and Cal (right) face each other; he holds a black lace bra up by one strap between them. Use only the camera setups shown in Images 1, 3 and 4, keeping exactly the same backgrounds; no new angles.
+A 15-second cinematic live-action romantic comedy scene in 16:9 in the same small-town laundromat. Open on the composition of Image 1: Kallista (left) and Cal (right) face each other; he holds a black sports bra up by one strap between them. Use only the camera setups shown in Images 1, 3 and 4, keeping exactly the same backgrounds; no new angles.
 Kallista (Images 1, 3 and 5): pale platinum-blonde hair, a longer face, pale blue-grey eyes, a black mock-neck, cheeks slightly flushed; deadpan. Cal (Images 1, 4, 6 and 7): tousled brown hair, light stubble, a buffalo-check flannel; trying very hard to be a gentleman. Nobody looks into the camera.
 
 Shot 1 (about 3s), the two-shot from Image 1: Kallista, mortified and flat: "It's... mine." Then both freeze in silence, staring at the bra.

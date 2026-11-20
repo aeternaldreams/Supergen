@@ -153,3 +153,6 @@ If you cut, always cut to whoever is speaking so their face is on camera; only t
 Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
 ```
 Costs: C0 about 36 XCE, C1 about 66, C2 about 99 (about 200 in total).
+
+## Prop toned down (Supergen content check)
+Every laundromat job with the sheer black lace bra was refused, twice, even after the developer said he would relax the setting. **Fix:** the member re-edits LM0, LM1 and LM2: "replace the black lace bra with a plain matte black cotton sports bra, solid opaque fabric, no lace or sheer parts; change nothing else." Then resubmit C0–C2 with "black sports bra" in the prompts. The dialogue and audio are unchanged.
