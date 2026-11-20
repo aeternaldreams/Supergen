@@ -156,3 +156,8 @@ Costs: C0 about 36 XCE, C1 about 66, C2 about 99 (about 200 in total).
 
 ## Prop toned down (Supergen content check)
 Every laundromat job with the sheer black lace bra was refused, twice, even after the developer said he would relax the setting. **Fix:** the member re-edits LM0, LM1 and LM2: "replace the black lace bra with a plain matte black cotton sports bra, solid opaque fabric, no lace or sheer parts; change nothing else." Then resubmit C0–C2 with "black sports bra" in the prompts. The dialogue and audio are unchanged.
+
+## Resubmit after the developer dropped the guardrail (original lace-bra frames)
+- **C0 setup: done, `839d446d074f`** (5s → 6.58s, about 36 XCE). The cape-swing direction worked: he turns his back to the camera, swings the flannel over his head and threads his arms, and the bra ends up on his back (slightly high, by his left shoulder blade). Then he folds a towel.
+- **C1 (L1) `vid_671083527b0e4ec8` and C2 (L2) `vid_95fb2ee928bc48a5`: still refused immediately.** Whatever still blocks them is specific to the dialogue clips (Kallista in frame with the bra, plus the dialogue audio). Reported to the member for the developer.
+- **Prompt lesson (Supergen and Omni Flash):** for putting on a shirt, write "turns his back to the camera and swings the shirt up and over his head and down behind his shoulders like a cape... the shirt never passes in front of his chest."
