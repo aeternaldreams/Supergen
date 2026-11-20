@@ -52,3 +52,8 @@ White flashes are 3 frames (0.125s) of white with silence.
 - The music store (bossa nova #1 mix) → white flash → **couch 3 v3** (`couch3_assembled_v3.mp4`, 19.5s, its own B&B room tone) → white flash (ready for the laundromat).
 - Flashes at 14.3, 18.08, 23.87, 27.85, 34.83, 46.58 and 66.21s.
 - Exported as H.264 High, yuv420p, constant 24 fps, faststart.
+
+## v6 (66.4s): audio clean-up
+- **Café bed:** now one continuous `roomtone_cafe.mp3` overlay (−10 dB) laid across the barista and stare shots after the join. Per-shot tone slices left a small gap at the cut. The stare's own clip audio is muted too.
+- **Music store:** Kallista's cough at the flash is muted (music edit dialogue from 10.97s). The two laugh bursts before it stay. Rebuilt `music_v3` and the bossa nova #1 mix.
+- **Couch 3:** the first sigh (Supergen's scene audio 9.35–9.65s) is muted; the close-up's sigh before "...The laundromat." stays (`couch3_assembled_v4.mp4`).
