@@ -18,6 +18,7 @@ For the head-to-head with the Supergen cut: the same scenes, keyframes and chara
 - **Barista:** silent (a wink only).
 - **Adrian:** a low, velvety British voice; self-serious and slow.
 - **Milly:** a flat, even, pleasant American voice that answers a beat late.
+- **Cal:** a warm, boyish American voice, gentle and mid-low with a slight rasp; earnest, a little awkward, quick to a shy laugh.
 
 ---
 
@@ -182,3 +183,50 @@ Look: 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm practical li
 ```
 A 5-second cinematic live-action close-up in 16:9, matching Image 1 exactly, with her face as in Image 2 (Kallista on the sofa, the Christmas tree and frosted window behind her). Locked camera, no cuts. Kallista: pale platinum-blonde hair, a longer face, pale blue-grey eyes, an oversized charcoal sweater, a glass of red wine; dry and deadpan; she looks to the right of the camera at her friend, never into the lens. Her friend's delighted voice comes from off screen. Becca (off screen, bright and gushing): "That's adorable!" Kallista gives a small, pained look, then says flatly: "My bra was stuck to his back." She takes a slow sip of wine. Voices: Kallista soft, low and dry; Becca bright and warm. Sound: crackling fireplace, soft room hum. No music, no subtitles, no watermark.
 ```
+
+---
+
+## Scene 7: The laundromat, the real meet-cute (two prompts, about 10s each)
+The frames are the same ones planned for Supergen (`laundromat-plan.md`). Thumbnails get added once LM1 and LM2 exist.
+
+### 7a: "Um... excuse me." → he turns in circles (10s)
+| Image | File | Role |
+|---|---|---|
+| 1 | LM1 (the reveal frame) | Opening composition; the bra on his back |
+| 2 | LM2 (the holding-it-up frame) | The room, and both faces front-on |
+| 3 | Your S3 laundromat set | The room |
+| 4 | Your Kallista identity shot 1 | Kallista's face |
+| 5 | Your Kallista coat portrait (Outfit A + outdoor layer) | Coat and scarf |
+| 6 | Your Cal front close-up | Cal's face |
+| 7 | Your Cal full-body portrait | His flannel |
+
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 in a charming small-town laundromat on a snowy winter day: retro front-loading dryers along the left wall, a wooden folding counter on the right, front windows with snow outside. Open on the composition of Image 1. Use only the room shown in Images 1–3; when you cut closer, keep exactly the same background.
+Kallista (Images 1, 4 and 5) stands at an open dryer on the left with a basket of warm laundry: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair with a center part, a black ribbed mock-neck, an open charcoal wool coat and a dark grey chunky knit scarf. Reserved and mortified. Cal (Images 1, 6 and 7) folds towels at the counter on the right: tousled brown hair, light stubble, warm hazel eyes, a red-and-black buffalo-check flannel over a grey henley. A black lace bra clings to the back of his flannel. Sweet, earnest, a little awkward. Nobody looks into the camera.
+
+Shot 1 (about 4s), the medium shot from Image 1: Kallista hesitates, then: Kallista: "Um... excuse me. You have something."
+Cut to Shot 2 (about 4s), a medium shot of Cal, same background as Image 1: he turns toward her, confused and friendly. Cal: "Where?" A nervous laugh; he pats his shoulders. Cal: "Is it a bug?"
+Shot 3 (about 2s), the wide from Image 1: he turns in a slow circle trying to see his own back, like a dog chasing its tail, while Kallista watches, mouth closed.
+
+Voices: Kallista has a soft, low, dry American voice, a little husky. Cal has a warm, boyish American voice, gentle and mid-low with a slight rasp. Only the person speaking moves their lips.
+Sound: dryers tumbling, a soft machine hum, a faint buzz from the overhead lights, quiet winter street outside. No music.
+Look: 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm winter daylight, shallow depth of field, film grain. No subtitles, no text, no watermark, no extra people.
+```
+
+### 7b: "It's... mine." → "Not with one this nice." (10s)
+The images are the same, but put **LM2 first** (it becomes Image 1) and LM1 second.
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 in the same small-town laundromat on a snowy day. Open on the composition of Image 1: Kallista (left) and Cal (right) face each other near the folding counter, both at three-quarters to the camera; he holds a black lace bra up between them by one strap. Keep exactly this room and background in every shot.
+Kallista (Images 1, 4 and 5): pale platinum-blonde hair, a longer face, pale blue-grey eyes, a black mock-neck, a charcoal coat and a grey scarf; deadpan. Cal (Images 1, 6 and 7): tousled brown hair, light stubble, a buffalo-check flannel; trying very hard to be a gentleman. Nobody looks into the camera.
+
+Shot 1 (about 2s), the two-shot from Image 1: Kallista, mortified and flat: "It's... mine." Then both freeze in silence, staring at the bra.
+Cut to Shot 2 (about 4s), a medium close-up of Cal, same background: sheepish and earnest. Cal: "I'd like to say this has never happened to me before."
+Cut to Shot 3 (about 1s), a medium close-up of Kallista, same background: she snatches the bra out of his hand. Kallista, dry and suspicious: "Has it?"
+Cut to Shot 4 (about 2s), back on Cal: a shy grin. Cal: "Not with one this nice."
+Shot 5 (about 1s), Kallista: she almost smiles, catches herself, mouth closed.
+
+Voices: Kallista has a soft, low, dry American voice, a little husky. Cal has a warm, boyish American voice, gentle and mid-low with a slight rasp. Only the person speaking moves their lips.
+Sound: dryers tumbling, a soft machine hum, quiet winter street outside. No music.
+Look: 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm winter daylight, shallow depth of field, film grain. No subtitles, no text, no watermark, no extra people.
+```
+For a like-for-like comparison with Supergen, mute Omni Flash's audio and lay in `laundromat_L1_10s.mp3` / `laundromat_L2_10s.mp3`.
