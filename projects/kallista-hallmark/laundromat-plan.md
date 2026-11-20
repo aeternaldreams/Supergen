@@ -182,3 +182,7 @@ Issues: a fast camera swing/zoom at 0.25–0.6 (kept as a comic "quirk" push-in,
 ## L1 FINAL: `47ad92c8be0d` (the member's favourite, website reference mode)
 Shots: wide 0–2.62 ("Oh my god") · Kallista close-up 2.62–7.5 ("Um... excuse me. You have... something of mine.") · over-the-shoulder on Cal 7.5–10.58 ("Something of yours?" ends 8.84). **Trim:** keep 0–10.58 and mute after 8.95, so Cal's second line is gone and his silent, sly reaction plays out (`laundromat_L1_fav_trim.mp4`).
 **Plan:** drop the setup shot. Couch "...The laundromat." → white flash → L1 trim → bridge → L2 (opens on him holding the bra up).
+
+## Insert attempt `a8d6fa933481` (5s, from `laundromat_insert_back.png`): unusable
+It breaks continuity: the crop shows Cal facing his counter, but at the end of L1 he faces Kallista. **Fix:** a new over-the-shoulder keyframe (camera behind Cal, his back with the bra in the foreground, Kallista facing him in front of her dryers), then a 5s Reference to video insert of him reaching back and peeling it off. **Lesson:** check which way each character faces at the end of the previous clip before writing an insert.
+Placeholder card: `scratchpad/card/card_wash.png` ("Love comes out / in the wash.").
