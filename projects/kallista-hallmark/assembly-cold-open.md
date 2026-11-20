@@ -57,3 +57,7 @@ White flashes are 3 frames (0.125s) of white with silence.
 - **Café bed:** now one continuous `roomtone_cafe.mp3` overlay (−10 dB) laid across the barista and stare shots after the join. Per-shot tone slices left a small gap at the cut. The stare's own clip audio is muted too.
 - **Music store:** Kallista's cough at the flash is muted (music edit dialogue from 10.97s). The two laugh bursts before it stay. Rebuilt `music_v3` and the bossa nova #1 mix.
 - **Couch 3:** the first sigh (Supergen's scene audio 9.35–9.65s) is muted; the close-up's sigh before "...The laundromat." stays (`couch3_assembled_v4.mp4`).
+
+## v7 (81.5s): laundromat added: COLD OPEN COMPLETE
+- Laundromat one-beat `Scene7fix` (the member's website reference-mode render with `laundromat_oneshot_15s.mp3`): wide 0–2.83 ("Oh my god") · Kallista close-up 2.83–8.0 · over-the-shoulder on Cal 8.0–15 ("What?", the peel-off, "...break the ice", she snatches it back). Identities hold. Its audio is dry (no laundromat room tone yet).
+- Flashes at 14.3, 18.08, 23.87, 27.85, 34.83, 46.58, 66.21 and 81.38s.
