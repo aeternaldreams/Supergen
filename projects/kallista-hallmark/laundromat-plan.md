@@ -81,3 +81,22 @@ If you cut, always cut to whoever is speaking so their face is on camera; only t
 8.8–10 seconds: silence. Kallista almost smiles, catches herself, mouth closed.
 Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
 ```
+
+## LM1 delivered: `keyframes/holiday-reservations/laundromat_LM1_reveal.png`
+Kallista is at the left dryers in her black mock-neck, without the coat (fine indoors). Cal is at the counter, looking down at his towel. The bra is clearly on his back, and pastel dryers line the right wall behind him.
+
+## LM0: setting up the gag (2–3s used from a 5s clip, silent)
+**The joke:** Cal pulls his flannel fresh out of a dryer (the one Kallista used, where her bra got left behind) and shrugs it on; the bra stays clinging to the back. (Never write "static" in Supergen prompts; use "fresh out of the dryer".)
+**Frame LM0** (edit LM1, attached first, plus Cal's front close-up):
+> Keep this exact laundromat, camera, lighting, and Kallista exactly as she is on the left. Change only the man: he now stands at the pastel-green dryer on the right wall with its round door open, facing it at three-quarters toward the camera so his face is visible, in a grey thermal henley and jeans. He is pulling a red-and-black buffalo-check flannel shirt out of the dryer drum with both hands, about to shake it out. A black lace bra is caught on the back of the flannel, partly visible. The towels sit folded on the wooden counter beside him. Same face as the Cal reference: tousled brown hair, light stubble, warm hazel eyes. Shot on ARRI Alexa Mini LF with a 35mm Cooke S4 lens at T2, photorealistic film still, warm soft practical lighting, creamy shallow depth of field, light 35mm film grain, natural skin texture. No text, no logos, no watermark.
+(Optional: crop to a medium shot of Cal afterwards, so he fills the frame.)
+
+**Supergen (Image to video, start frame LM0, 5s, Normal, 16:9, no audio):**
+```
+Create a 5-second cinematic live-action romantic comedy shot in 16:9, beginning directly from the supplied first frame: a small-town laundromat on a snowy day. One continuous shot, locked camera, no cuts. Keep his face, the room and the woman in the background exactly as in the first frame. CAL is a sweet, easygoing young man with tousled brown hair and light stubble, in a grey thermal henley.
+0–1.5 seconds: He pulls the warm red-and-black buffalo-check flannel out of the dryer and gives it one quick shake.
+1.5–3.5 seconds: He shrugs it on over his henley, one arm then the other, completely unaware that a black lace bra is stuck flat to the back of the flannel, between his shoulder blades. He turns toward the folding counter.
+3.5–5 seconds: He starts folding a towel, oblivious.
+Sound: dryers tumbling, a soft machine hum. No dialogue, no music, no subtitles, no watermarks.
+```
+**Edit:** LM0 (about 2.5s) → L1. The cut lands on him at the counter with the bra on his back, which matches LM1.
