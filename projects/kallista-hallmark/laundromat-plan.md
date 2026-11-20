@@ -105,3 +105,8 @@ Sound: dryers tumbling, a soft machine hum. No dialogue, no music, no subtitles,
 - **Cal is alone** in the setup shot; Kallista first appears in LM1, already noticing.
 - **The logic:** Kallista is on her second load. Her bra stayed stuck inside the dryer drum when she emptied her first load. Cal used that dryer next, and his flannel comes out with her bra clinging to it. In LM1 she's *unloading* her second load from another dryer.
 - **The fix** (edit the first LM0 result, attached first): "Keep this exact image... Remove the blonde woman and her laundry basket completely, and fill the space where she stood with the same row of dryers, the window and the checkered floor behind her, so the man is the only person in the room. Change nothing else." Then crop to a medium shot of Cal.
+
+## Take 3 (revised lines, eleven_v4): `laundromat_dialogue_take3_v4.mp3` (18.8s)
+Script: "Oh my god." (whisper) / "Um... excuse me. You have something." / Cal: "Where?" / "It's... mine." / Cal: "[embarrassed laugh] Guess we used the same dryer. ... I'd like to say this has never happened to me before." / "Has it?" / Cal: "Not with one this nice."
+Approximate map: whisper 0.3–1.3 · "Um... excuse me. You have something." 2.0–5.75 · "Where?" 6.1–6.6 · "It's... mine." 7.0–about 8.4 · laugh + "Guess we used the same dryer." about 8.8–11.4 · "I'd like to say..." 12.3–15.4 · "Has it?" 15.8–16.4 · "Not with one this nice." 16.7–18.75.
+The setup frame LM0 is now Cal alone (the member's image; he glances off toward Kallista, then puts the shirt on).
