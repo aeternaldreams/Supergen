@@ -1,0 +1,30 @@
+# Cast roll (5 hero shots, ~2–3s each over the song's chorus; name cards added in the edit)
+Route: Supergen Image to video via MCP (I run these), 5s each, Normal. About 36 XCE each, about 180 XCE total. Medium close-ups so faces hold. In the cast roll, characters may look at the camera (the classic trailer cast-roll beat).
+
+Shared camera line for all five keyframes:
+`Shot on ARRI Alexa Mini LF with a 50mm Cooke S4 lens at T2, photorealistic film still, warm golden-hour backlight with gentle highlight bloom, creamy shallow depth of field, rich soft colors (warm reds, evergreen, cream, wood tones), light 35mm film grain, natural skin texture. No text, no logos, no watermark.`
+
+## 1. KALLISTA VANE: the snowy field, golden hour
+Attach: Kallista identity shots 1 and 2, coat portrait, S10 field set.
+> A medium close-up of Kallista, the woman from the Kallista references, standing in a quiet snowy field at the edge of a small town at golden hour, pine trees soft and out of focus behind her, light snow falling and glowing in the warm backlight. She is turned three-quarters away from the camera, glancing back over her shoulder toward the camera with the faintest half-smile she is trying to hide. Same face: a longer face with defined cheekbones, large pale blue-grey eyes, sad slightly down-turned brows, straight sleek pale platinum-blonde hair (never golden) with a center part, hair lit at the edges by the sun. A charcoal wool coat and a dark grey chunky knit scarf. [camera line]
+**Motion:** she slowly turns her head to face the camera; the half-smile grows a little, then she catches it. Snow drifts. Locked camera, slow push-in.
+
+## 2. CAL WHITAKER: woodchopping
+Attach: Cal close-up, Cal full body, S10 field set.
+> A medium shot of Cal, the man from the Cal references, at a chopping block in a snowy clearing at golden hour, pine trees behind him, a stack of split logs beside him. He wears a red-and-black buffalo-check flannel with the sleeves rolled up to the elbows over a grey thermal henley, work gloves, jeans. He has just split a log with an axe, the two halves falling away, and he looks up toward the camera with a warm, boyish, slightly bashful grin. Same face: tousled brown hair, light stubble, warm hazel eyes. His breath fogs in the cold. [camera line]
+**Motion:** the axe comes down and splits the log; he looks up at the camera and grins. Wood chips fly; snow sparkles in the backlight.
+
+## 3. BECCA HARTLEY: the cocoa swoon
+Attach: Becca indoor portrait, S1 sitting-room set (evening).
+> A medium close-up of Becca, the woman from the Becca reference, curled up on the cozy bed-and-breakfast sofa at night by the Christmas tree, holding a huge mug of hot cocoa piled high with marshmallows in both hands, gazing dreamily off to the side with a lovestruck, swooning smile. Same face: long wavy auburn hair, light freckles, warm green-brown eyes, a burgundy cable-knit sweater. Warm firelight and soft tree-light bokeh behind her. [camera line, but "warm firelight" instead of golden-hour backlight]
+**Motion:** she sighs dreamily and clutches the mug to her chest; marshmallows tumble over the rim and she scrambles to catch them, laughing.
+
+## 4. MARCUS BELL: the hammer
+Attach: Marcus close-up, Marcus full body, S9 side-yard set.
+> A medium close-up of Marcus, the man from the Marcus references, in the snowy side yard of the bed-and-breakfast by the sawhorses at golden hour, pointing a hammer straight at the camera with a knowing, wry smirk and one raised eyebrow. Same face: a handsome light-skinned Black man around thirty, short tapered dark hair, a neatly trimmed beard, warm brown eyes, a carpenter's pencil behind his ear, an olive-green canvas work jacket over a navy henley. [camera line]
+**Line (needs ElevenLabs):** `Marcus: [smirking, to camera] 'Subsequential Consequences.' Total banger.` *(song easter egg)*, or `Marcus: [smirking, to camera] Don't overthink it, Cal.`
+
+## 5. "and introducing" MILLY ALWOOD: the snow
+Attach: Milly portrait, S10 field set (or the B&B front yard).
+> A medium close-up of Milly, the woman from the Milly reference, standing perfectly still and upright in gently falling snow in front of the bed-and-breakfast at golden hour. Same face: a sleek glossy chestnut-brown bob, flawless, very symmetrical features, large calm brown eyes, a perfectly pressed camel wool coat over a cream turtleneck. Snowflakes fall all around her, but not a single flake has landed on her hair or coat; she is spotless. She looks straight at the camera with a pleasant, completely neutral expression. [camera line]
+**Motion:** snow falls around her and never touches her; after a beat she smiles one beat too late, and holds the smile far too long without blinking.
