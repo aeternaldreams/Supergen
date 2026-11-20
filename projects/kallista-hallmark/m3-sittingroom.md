@@ -41,4 +41,30 @@ Keep this exact sitting room, camera position, furniture, Christmas tree and fir
 Kallista in the foreground right at the frosted window, mug at her chin, a dark cardigan. Becca reclining on the sofa, arms crossed, teasing smile. Milly in the armchair by the fire, reading a hardcover, a teacup on the table. Christmas tree centre.
 
 ## Audio: take 1 (`m3_sittingroom_take1_v4.mp3`, 9.0s) → `m3_sittingroom_10s.mp3`
-0.4s lead; an extra 0.55s before Milly (her "beat late"). Becca "You're watching him again." 0.4–2.2 · Kallista "I'm drinking coffee." 2.5–3.65 · Becca "Your mug is empty." 4.05–5.3 · Milly "Textbook denial." 5.9–7.05 · "Honestly, it's embarrassing." 7.3–9.95.
+0.4s lead; an extra 0.55s before Milly (her "beat late"). Becca "You're watching him again." 0.44–2.22 · Kallista "I'm drinking coffee." 2.5–3.66 · Becca "Your mug is empty." 4.05–5.3 · Milly "Textbook denial." 6.05–7.63 · "Honestly, it's embarrassing." 7.89–9.77.
+
+## Supergen (website, Reference to video, 10s): @1 S1, @2 Kallista headshot, @3 Becca headshot, @4 Milly headshot, scene audio `m3_sittingroom_10s.mp3`
+```
+Create a 10-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio. The scene begins on @1 exactly as shown: a cozy bed-and-breakfast sitting room on a bright winter morning, frosted windows, a decorated Christmas tree and a low fire. Keep all three faces, the clothes and the room exactly as in @1. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, soft cool morning window light with warm accents, shallow depth of field and organic film grain.
+Kallista @2 stands at the frosted window in the foreground on the right, a white mug held at her chin, gazing outside: pale skin, a longer face, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair, a dark charcoal cardigan. Dry and deadpan; a soft, low, dry voice. Becca @3 reclines on the sofa with her arms crossed: long wavy auburn hair, freckles, a cream cable-knit sweater. Teasing and warm; a brighter voice. Milly @4 sits upright in the armchair by the fireplace reading a hardcover book: a sleek chestnut-brown bob, a pressed cream turtleneck. Unbothered and superior; a calm, even voice. Milly never looks up from her book.
+Only the character named for each line speaks it; when Becca speaks only Becca's lips move, when Kallista speaks only Kallista's lips move, and when Milly speaks only Milly's lips move. Use only clean hard cuts between shots; never zoom or swing the camera. Nobody looks into the camera.
+0–0.4 seconds: Kallista sips from her mug, gazing out the window.
+0.4–2.2 seconds: Becca says, teasing: "You're watching him again."
+2.5–3.7 seconds: without turning from the window, Kallista says flatly: "I'm drinking coffee."
+4.0–5.3 seconds: Becca says, dry: "Your mug is empty." Kallista glances down into her empty mug.
+5.3–6.0 seconds: silence. Kallista slowly lowers the mug.
+6.0–9.8 seconds: without looking up from her book, Milly turns a page and says, snarky and unbothered: "Textbook denial." Milly takes a casual sip of tea and says: "Honestly, it's embarrassing."
+9.8–10 seconds: Becca bites back a grin; Kallista turns back to the window.
+Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
+```
+
+## Omni Flash (Ingredients, simplified, 10s; attach S1 + the three headshots)
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 in a cozy bed-and-breakfast sitting room on a bright winter morning: frosted windows, a decorated Christmas tree, a low fire.
+
+Kallista stands at the frosted window holding a white mug at her chin, gazing outside: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair with a center part, a dark charcoal cardigan. Dry and deadpan; a soft, low, dry American voice, a little husky. Becca reclines on the sofa with her arms crossed: long wavy auburn hair, freckles, a cream cable-knit sweater. Warm and teasing; a bright, warm American voice. Milly sits perfectly upright in the armchair by the fireplace, reading a hardcover book: a sleek glossy chestnut-brown bob, flawless symmetrical features, a pressed cream turtleneck. Superior and unbothered; a calm, even, slightly snarky American voice.
+
+Becca says, teasing: "You're watching him again." Without turning from the window, Kallista says flatly: "I'm drinking coffee." Becca says, dry: "Your mug is empty." Kallista glances down into her empty mug and slowly lowers it. Without looking up from her book, Milly turns a page, takes a casual sip of tea, and Milly says: "Textbook denial. Honestly, it's embarrassing." Becca bites back a grin; Kallista turns back to the window.
+
+Only the character named for each line speaks it. Milly never looks up from her book. Nobody looks into the camera. Keep all three faces and the room consistent in every shot. Sound: a crackling fire, a page turning, a teacup clinking on its saucer, soft room hum. No music, no subtitles, no text, no watermark, no extra people.
+```
