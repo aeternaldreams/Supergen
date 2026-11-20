@@ -30,3 +30,6 @@ Kallista in the doorway, and Cal on the steps. These are the @2/@3 face referenc
 
 ## Supergen (website, Reference to video, @1 = P1, @2 = Kallista crop, @3 = Cal crop, scene audio = the M1 track)
 Written once the audio is measured (named speakers on every line).
+
+## Audio: take 1 (`m1_porch_take1_v4.mp3`, 4.75s) → `m1_porch_10s.mp3`
+Opening beat 0–1.5 (silent: door opens, she sees him) · Kallista "Are you following me?" 1.5–2.85 · Cal "I was hired..." 3.2–5.0 · "...in August." 5.4–6.25 · silent reaction 6.25–10.
