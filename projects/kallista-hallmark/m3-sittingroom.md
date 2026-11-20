@@ -73,3 +73,9 @@ Only the character named for each line speaks it. Milly never looks up from her 
 Clean hard cuts this time (no swishes): wide 0–2.92 (Becca line 1) · Kallista close-up 2.92–6.0 ("I'm drinking coffee", Becca's "Your mug is empty" off screen, she lowers the mug) · Becca close-up 6.0–7.92 · Milly close-up 7.92–10. Faces all hold.
 **Problem: Milly's lines are given to Becca.** Becca visibly mouths "Textbook denial" (6.0–7.9), and in Milly's own shot her mouth stays closed (she looks up from the book).
 **Fix prepared (not run, waiting on the member):** a 5s Image to video Milly pickup from `m3_milly_pickup_start.png` (the first clean frame of her shot, eyes on the book) with `m3_milly_pickup_5s.mp3` (her two lines, starting at 0.5s). Edit: wide 0–2.92 → Kallista close-up 2.92–6.0 → Milly pickup (her lines) → end.
+
+## M3 v1 (`m3_sittingroom_v1.mp4`, 11.3s): pickups fixed the line ownership
+- Kallista pickup `f96ef0e49131` (5s Image to video from `m3_kallista_pickup_start.png`): her line only, then she lowers the mug, mouth closed during Becca's off-screen line.
+- Milly pickup `f03db89b30c5` (5s Image to video from `m3_milly_pickup_start.png`): both lines, eyes on the book.
+- Edit: render `b3fdaf66d35f` wide 0–2.42 (Becca, "You're watching him again.") → Kallista pickup 0–4.25 → Milly pickup 0–4.65. B&B tone at −4 dB.
+**Lesson:** with three speakers, Reference to video gets line ownership wrong even with named speakers. Use it for the wide or establishing shot, then single-speaker Image to video pickups for the lines.
