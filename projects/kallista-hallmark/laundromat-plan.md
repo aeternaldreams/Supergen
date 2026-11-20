@@ -21,3 +21,9 @@ Cal: [shy grin, sweetly awkward] Not with one this nice.
 **Clip split** (max 4 lines per Supergen clip):
 - **L1 (F6 frame):** lines 1–3. He pats his shoulders and turns in circles; she says it's hers. He peels it off and they freeze (silent).
 - **L2 (F7 frame):** lines 4–6. She snatches it back; she almost smiles, catches herself, and leaves (silent).
+
+## Cal's voice: designed via the API
+"Cal Whitaker" `gxA3o4egfqrUI7soPxqX` (Voice Design, eleven_ttv_v3, preview 3 of 3), saved to the member's account.
+
+## Take 1: `voices/holiday-reservations/laundromat_dialogue_take1.mp3` (21.8s, Text to Dialogue eleven_v3)
+Speech blocks (pauses longer than 0.3s): 0–0.47 · 1.51–2.27 · 3.94–4.92 · 6.67–8.80 · 10.19–10.64 · 11.87–12.33 · 14.02–16.13 · 17.12–17.81 · 18.44–19.78. The pauses are long, so they'll be tightened when the clip tracks are built.
