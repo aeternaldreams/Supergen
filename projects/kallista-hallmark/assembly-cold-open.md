@@ -63,3 +63,4 @@ White flashes are 3 frames (0.125s) of white with silence.
 - Flashes at 14.3, 18.08, 23.87, 27.85, 34.83, 46.58, 66.21 and 81.38s.
 
 ## v8: laundromat room tone (`roomtone_laundromat.mp3`, ElevenLabs Sound Effects, 15s, mixed at −15 dB to match the other locations).
+- v9: laundromat ends at 14.4s (her hand on the bra), cutting the tug where Cal seems to yank it back.
