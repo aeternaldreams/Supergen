@@ -110,3 +110,46 @@ Sound: dryers tumbling, a soft machine hum. No dialogue, no music, no subtitles,
 Script: "Oh my god." (whisper) / "Um... excuse me. You have something." / Cal: "Where?" / "It's... mine." / Cal: "[embarrassed laugh] Guess we used the same dryer. ... I'd like to say this has never happened to me before." / "Has it?" / Cal: "Not with one this nice."
 Approximate map: whisper 0.3–1.3 · "Um... excuse me. You have something." 2.0–5.75 · "Where?" 6.1–6.6 · "It's... mine." 7.0–about 8.4 · laugh + "Guess we used the same dryer." about 8.8–11.4 · "I'd like to say..." 12.3–15.4 · "Has it?" 15.8–16.4 · "Not with one this nice." 16.7–18.75.
 The setup frame LM0 is now Cal alone (the member's image; he glances off toward Kallista, then puts the shirt on).
+
+## FINAL (take 3) Supergen setup: three clips
+Frames: `laundromat_LM0_setup.png`, `laundromat_LM1_reveal.png`, `laundromat_LM2_holdup.png` (the member's). Crops for close-ups: `laundromat_LM3_cal_cu.png`, `laundromat_LM4_kallista_cu.png`.
+
+### C0: setup (LM0, 5s, no audio)
+```
+Create a 5-second cinematic live-action romantic comedy shot in 16:9, beginning directly from the supplied first frame: a young man alone in a small-town laundromat on a snowy day, holding a red-and-black buffalo-check flannel shirt fresh out of the dryer. One continuous shot, locked camera, no cuts. Keep his face, the room and the black lace bra stuck to the back of the flannel exactly as in the first frame. CAL is sweet and easygoing: tousled brown hair, light stubble, a grey thermal henley and jeans.
+0–1 second: He gives a polite little glance across the room to the left, off screen, then looks back at his shirt.
+1–3.5 seconds: He gives the warm flannel one quick shake and shrugs it on over his henley, one arm then the other, completely unaware that the black lace bra stays stuck flat to the back of it, between his shoulder blades.
+3.5–5 seconds: He turns to the wooden folding counter and starts folding a towel, oblivious.
+Sound: dryers tumbling, a soft machine hum. No dialogue, no music, no other people, no subtitles, no watermarks.
+```
+
+### C1: L1 (LM1, 10s, `laundromat_L1_v3_10s.mp3`)
+Map: double-take 0–1.4 · "Oh my god." (whisper) 1.4–2.5 · "Um... excuse me. You have something." 3.2–6.95 · Cal "Where?" 7.3–7.8 · he circles 7.8–10.
+```
+Create a 10-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: a small-town laundromat on a snowy winter day. Keep both faces, the clothes, the black lace bra stuck to the back of his flannel, and the room exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm winter daylight, shallow depth of field and organic film grain.
+KALLISTA (left, at the dryer with her laundry basket) has a soft, low, dry voice: pale skin, a longer face, large pale blue-grey eyes, straight sleek pale platinum-blonde hair, a black mock-neck. Reserved and mortified. CAL (right, at the folding counter, his back half turned) has a warm, boyish voice with a slight rasp: tousled brown hair, light stubble, a red-and-black buffalo-check flannel. Sweet, earnest, a little awkward, completely oblivious.
+If you cut, always cut to whoever is speaking so their face is on camera; only the person speaking moves their lips. Nobody looks into the camera.
+0–1.4 seconds: silence. Kallista glances at Cal's back, looks away, then does a double-take, her eyes going wide as she recognizes the bra.
+1.4–2.5 seconds: she whispers to herself, mortified: "Oh my god."
+3.2–7.0 seconds: she gathers herself and says awkwardly: "Um... excuse me. You have something."
+7.3–7.8 seconds: Cal turns toward her, confused and friendly: "Where?"
+7.8–10 seconds: silence. He pats his own shoulders and turns in a slow circle trying to see his back, like a dog chasing its tail, while Kallista watches, mouth closed.
+Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
+```
+
+### C2: L2 (LM2, 15s, `laundromat_L2_v3_15s.mp3`)
+Map: "It's... mine." 0.3–1.55 · **silent freeze 1.55–3.3** · Cal [embarrassed laugh] "Guess we used the same dryer." 3.3–5.95 · "I'd like to say this has never happened to me before." 6.85–10.0 · "Has it?" 10.35–10.95 · "Not with one this nice." 11.25–13.3 · her almost-smile, then she leaves, 13.3–15.
+```
+Create a 15-second cinematic live-action romantic comedy scene in 16:9 using the supplied dialogue audio, beginning directly from the supplied first frame: a man and a woman facing each other in a small-town laundromat on a snowy day, the man holding up a black lace bra by one strap between them. Keep both faces, the clothes and the room exactly as in the first frame. Shot on 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm winter daylight, shallow depth of field and organic film grain.
+KALLISTA (left) has a soft, low, dry voice: pale skin, a longer face, large pale blue-grey eyes, straight sleek pale platinum-blonde hair, a black mock-neck, cheeks slightly flushed. Reserved and deadpan. CAL (right) has a warm, boyish voice with a slight rasp: tousled brown hair, light stubble, a red-and-black buffalo-check flannel. Sweet, earnest, trying very hard to be a gentleman.
+If you cut, always cut to whoever is speaking so their face is on camera; only the person speaking moves their lips. Nobody looks into the camera.
+0.3–1.6 seconds: Kallista, mortified and flat: "It's... mine."
+1.6–3.3 seconds: silence. Both freeze, staring at the bra between them.
+3.3–6.0 seconds: Cal realizes, with an embarrassed laugh: "Guess we used the same dryer."
+6.8–10.0 seconds: Cal, sheepish and earnest: "I'd like to say this has never happened to me before."
+10.3–11.0 seconds: Kallista snatches the bra out of his hand and says, dry and suspicious: "Has it?"
+11.2–13.3 seconds: Cal, with a shy grin: "Not with one this nice."
+13.3–15 seconds: silence. Kallista almost smiles, catches herself, picks up her laundry basket and walks out past the camera, leaving him smiling at the counter.
+Throughout: keep the supplied audio unchanged; add no music or voices. No other people, no subtitles, no watermarks.
+```
+Costs: C0 about 36 XCE, C1 about 66, C2 about 99 (about 200 in total).
