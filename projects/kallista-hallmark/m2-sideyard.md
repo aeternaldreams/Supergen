@@ -14,3 +14,6 @@ Cal: [quiet, gently correcting, still not looking up] ...That's not what it's ca
 ```
 (The real song is "Subsequent Consequence"; Marcus mangles it, and Cal knowing the real title means he's listened to it too.)
 Scene track: `m2_sideyard_15s.mp3` (+0.1s, trimmed to fit 15s). Approximate map: Marcus 0.1–5.1 · Cal 5.4–7.2 · Marcus 7.5–13.1 · Cal 13.45–15.0.
+
+## Take 2 (`m2_sideyard_take2_v4.mp3`, 13.8s); take 1 had Cal saying "You looked her up" twice
+Simplified tags, and the beat inside Marcus's second line removed. Scene track `m2_sideyard_15s.mp3` rebuilt: 0.6s lead, padded to 15s.
