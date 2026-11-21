@@ -11,7 +11,7 @@ An empty white Victorian bed-and-breakfast at blue-hour dusk in winter, seen fro
 ```
 
 ## Built (finale v1, `finale_v1.mp4`, 37.2s, scratchpad)
-- `title_card_sfx.mp4` (4.6s): B&B night frame (`keyframes/.../title_bnb_night.jpg`), centre darkened, slow push-in 1.08→1.02, 260 snowflakes, fade-ins Holiday 0.35s / RESERVATIONS 0.75s / rule + tagline 1.6s, gold glint across "Holiday" 1.3–2.3s, fade out from 4.15s. `sfx_bell_v3.mp3` (ElevenLabs SFX v3) at 0.45s, −6 dB.
+- `title_card_sfx.mp4` (4.6s): B&B night frame (`keyframes/.../title_bnb_night.jpg`), centre darkened, slow push-in 1.08→1.02, 260 snowflakes, fade-ins Holiday 0.35s / RESERVATIONS 0.75s / rule + tagline 1.6s, gold glint across "Holiday" 1.3–2.3s, fade out from 4.15s. `sfx_bell_v3_take1_up7.mp3` (v3 take 1, pitched up 7 semitones) at 0.45s, −3 dB, fading out with the card. (finale v2)
 - `tunein_card_sfx.mp4` (4.6s): evergreen bokeh + snow; the card slides up 0–0.8s; the CONFIRMED stamp slams at 1.6s (scale 1.7→1, shake 0.18s), top-right corner; `sfx_stamp_v3.mp3` (v3, hit at 0.35s into the file) placed at 1.25s, −3 dB.
 - Order: Kallista 3.1 → Cal 4.6 → Becca 4.1 → Marcus 4.2 → Milly 5.6 → title 4.6 → tune-in 4.6 → black 0.6 → stinger 5.7.
 - Generator script: `cards.py` (copy in this folder).
