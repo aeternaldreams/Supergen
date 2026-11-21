@@ -38,3 +38,9 @@ Cut `cast_cal_v1.mp4` (4.6s): swing 0–1.1 (impact at about 0.52, the log split
 - v4 cut (`cast_cal_v4.mp4`): v3 thunk at 0.52s (−14 dB) + `sfx_wood_crack_v3.mp3` (v3, crack onset 0.12s in the file) placed so the crack hits at 0.58s, as the log visibly splits (−15 dB), with the halves landing after.
 
 **LOCKED:** Cal = `cast_cal_v4.mp4` (v3 thunk + v3 crack).
+
+## Becca: `5d018dff48b2` (5s Image to video from `castroll/cast_becca.png`)
+Cut `cast_becca_v1.mp4` (3.9s, clip 1.0–4.9): dreamy smile → hugs the mug → catches a marshmallow and pops it in, laughing. Name "BECCA / HARTLEY" over the tree bokeh with a stronger left shade (alpha 165). B&B tone at −4 dB.
+
+## Marcus (idea agreed): secret fan
+Earbuds in, eyes closed, earnestly vibing to Kallista's song on the sawhorse; senses the camera, freezes mid-nod, plays it cool with a slow nod and a smirk. Silent. Escalates the M2 joke instead of repeating the apple.
