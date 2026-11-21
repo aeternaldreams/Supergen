@@ -31,3 +31,6 @@ Attach: Milly portrait, S10 field set (or the B&B front yard).
 
 ## Kallista cast clip: `a24225960583` (5s, Image to video from `castroll/cast_kallista.png`)
 Clean, no cuts. Use 0–3.1s (the turn and the smile; after about 4s she starts to part her lips as if speaking). Name test `cast_kallista_name_test.mp4`: "KALLISTA  VANE" in letter-spaced cream serif with a gold rule, left third; fades in at 0.6s over 0.45s, drifts 3 px/s, fades out from 2.75s.
+
+## Cal: `4e1352575a32` (swing) + `6737c0456ece` (grin), both 5s Image to video
+Cut `cast_cal_v1.mp4` (4.6s): swing 0–1.1 (impact at about 0.52, the log splits, chips fly) → hard cut → grin 0.2–3.7 (breath, grin, bashful duck, looks back up). `sfx_axe_split.mp3` at 0.5s (−3 dB), winter tone. Name "CAL / WHITAKER" fades in at 0.5s into the grin, same template as Kallista (top-left over the trees).
