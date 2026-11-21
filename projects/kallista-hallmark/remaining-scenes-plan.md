@@ -69,3 +69,6 @@ Each start frame is a close or medium single, so Image to video holds the face. 
 Adrian: [quietly, to himself, defeated] ...Beautifully dark.
 ```
 Smash to black.
+
+## STINGER: done (`stinger_v1.mp4`, 5.45s)
+Render `7a8f6a73836d` (5s Image to video from `stinger_closing.png`, the member's "closing time" edit, with `stinger_5s.mp3`). Mix: `bossa1.mp3` (sped 1.15x, tinny band-pass, −4 dB) 0–2.3, then cut dead · `woo.mp3` at 2.0 · Adrian "...Beautifully dark." 3.24–4.56 in silence plus store tone (−8 dB) · smash to black at 4.75 (0.7s of black).
