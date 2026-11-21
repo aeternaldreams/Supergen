@@ -46,3 +46,4 @@ Cut `cast_becca_v1.mp4` (3.9s, clip 1.0–4.9): dreamy smile → hugs the mug �
 Earbuds in, eyes closed, earnestly vibing to Kallista's song on the sawhorse; senses the camera, freezes mid-nod, plays it cool with a slow nod and a smirk. Silent. Escalates the M2 joke instead of repeating the apple.
 **Marcus props:** small white wireless earbuds (generic, no logo), plus a phone in one hand with a dark, moody album cover on screen (a pale platinum-haired woman in shadow, i.e. Kallista's album) and no readable text, so the gag reads at a glance.
 - Becca v2 (`cast_becca_v2.mp4`, 2.7s): clip 0–2.7 only (dreamy swoon and sigh); the marshmallow catch from 2.75s on looked AI/uncanny, so it is cut.
+- Becca v3 (`cast_becca_v3.mp4`, 4.1s): reroll `cf89e06f0166` (sip version), clip 0.5–4.6: raises the mug, sips, lowers it, a contented sigh, starts to lean back. No flying marshmallows.
