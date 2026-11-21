@@ -56,6 +56,6 @@ Cut `cast_marcus_v1.mp4` (3.6s, clip 0.8–4.4): smiling at his phone with a lit
 The outdoor snow gag is dropped (she has no reason to be outside, and the snow landed on her in the test frame). Instead: at the B&B dining table, finishing a gift with a flawless bow next to a stack of identically wrapped boxes in perfect alignment; she trims both ribbon tails to exactly the same length, looks up at the camera, smiles a beat too late and holds it too long. Base: Nano Banana edit of `castroll/cast_milly_outdoor_ref.png` (her face, bob and turtleneck).
 
 ## Milly: `529e629def58` (wide) + `59031269cdd6` (close-up)
-Cut `cast_milly_v1.mp4` (5.6s): wide 0–1.6 (the snip and the perfect gift stack) → hard cut → close-up 0–4.0 (unblinking stare → a symmetrical smile arrives a beat late and holds). Card: gold italic "and introducing" + "MILLY / ALWOOD", lower-left below the lamp, strong left shade. B&B tone.
+Cut `cast_milly_v1.mp4` (5.6s): wide 0–1.6 (the snip and the perfect gift stack) → hard cut → close-up 0–4.0 (unblinking stare → a symmetrical smile arrives a beat late and holds). Card: gold italic "and introducing" (32 px, letter-spaced, about 3/4 of the name size; enlarged from 26) + "MILLY / ALWOOD", lower-left below the lamp, strong left shade. B&B tone.
 
 ## CAST ROLL COMPLETE: Kallista (a24225960583) · Cal v4 · Becca v3 · Marcus v2 · Milly v1
