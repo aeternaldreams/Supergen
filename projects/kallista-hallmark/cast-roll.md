@@ -50,3 +50,4 @@ Earbuds in, eyes closed, earnestly vibing to Kallista's song on the sawhorse; se
 
 ## Marcus: `b5efdfd34b21` (5s Image to video from `castroll/cast_marcus.png`)
 Cut `cast_marcus_v1.mp4` (3.6s, clip 0.8–4.4): smiling at his phone with a little bob → looks up at the camera with a sly, knowing smirk. The "eyes closed, vibing" part did not really happen. A small Carhartt patch is on his chest pocket (blurry at 576p); remove it with a Nano Banana edit if he is rerolled.
+- Marcus v2 (`cast_marcus_v2.mp4`, 4.2s): reroll `22a356b50e87` from the logo-free `cast_marcus_v2.png`, clip 0.3–4.5: eyes shut, vibing → eyes open, caught, a little "oh" → slow grin. Name fades in late (2.0s) so the vibing reads first.
