@@ -54,3 +54,10 @@ Measured loudness: steady 0–33s. Section 4 became a fade (33–40s), 41–54s 
 - Score 0–43s at −11 dB, ducked under the preview's own audio (sidechain: threshold 0.025, ratio 8, attack 15 ms, release 450 ms), then a fade 40.5–43s.
 - Hard silence through the music store.
 - Score 54.0–63.0s placed at 54.5s, so the burst lands on the title card (55.0s), at −5 dB with no ducking.
+
+## Finale score options (ElevenLabs Music, composition plan, instrumental, 30.8s)
+Sections map to `finale_v2`: Cast Roll Chorus 21.6s · Title Swell 4.6s (bell ~22.05) · Confirmed Button 4.6s (stamp ~27.8, ring-out).
+- **A acoustic folk-pop** (`score_finale_A_acoustic_folkpop.mp3`): 110 BPM D major, strummed/fingerpicked guitars, glockenspiel hook, sleigh bells, claps, upright bass.
+- **B orchestral Hallmark** (`score_finale_B_orchestral_hallmark.mp3`): 96 BPM E-flat major, soaring strings, horn countermelody, celesta, harp, sleigh bells.
+- **C dream-pop holiday** (`score_finale_C_dreampop_holiday.mp3`): 100 BPM A major, chiming reverb guitars, analog pads, glockenspiel, soft drums.
+Mix: music −5 dB, dipped to 60% under the bell (21.95–22.7) and stamp (27.7–28.4), fade 30.1–30.8, silent for the stinger. Plan JSONs kept in the session scratchpad (`el/music_*.json`).
