@@ -61,3 +61,7 @@ Sections map to `finale_v2`: Cast Roll Chorus 21.6s · Title Swell 4.6s (bell ~2
 - **B orchestral Hallmark** (`score_finale_B_orchestral_hallmark.mp3`): 96 BPM E-flat major, soaring strings, horn countermelody, celesta, harp, sleigh bells.
 - **C dream-pop holiday** (`score_finale_C_dreampop_holiday.mp3`): 100 BPM A major, chiming reverb guitars, analog pads, glockenspiel, soft drums.
 Mix: music −5 dB, dipped to 60% under the bell (21.95–22.7) and stamp (27.7–28.4), fade 30.1–30.8, silent for the stinger. Plan JSONs kept in the session scratchpad (`el/music_*.json`).
+
+## Suno: "Snow on Every Conversation" (member's render, 43s, ~99.4 BPM)
+Song map (from speech-to-text): vocals 1.92–20.3 ("I made holiday reservations… never planned on you, no.") · ooh section 22.3 · **Hey! 25.82** · oohs · Hey! 30.62 · instrumental 31–38.1 · final hit 38.13 with a ring-out to ~41.5.
+**Finale fit (`finale_v3_suno.mp4`):** song 0–26.76 placed at +1.98s, so the first **Hey! lands on the stamp (27.8)** and "...on you, no." lands on the title (22.08). Spliced on the beat at finale 28.71 to the song's ending (38.10 on). Ring-out fades out by 31.3, black stays silent, then the stinger. Song −3 dB, dipped to 65% under the bell.
