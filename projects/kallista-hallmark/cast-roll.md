@@ -28,3 +28,6 @@ Attach: Marcus close-up, Marcus full body, S9 side-yard set.
 Attach: Milly portrait, S10 field set (or the B&B front yard).
 > A medium close-up of Milly, the woman from the Milly reference, standing perfectly still and upright in gently falling snow in front of the bed-and-breakfast at golden hour. Same face: a sleek glossy chestnut-brown bob, flawless, very symmetrical features, large calm brown eyes, a perfectly pressed camel wool coat over a cream turtleneck. Snowflakes fall all around her, but not a single flake has landed on her hair or coat; she is spotless. She looks straight at the camera with a pleasant, completely neutral expression. [camera line]
 **Motion:** snow falls around her and never touches her; after a beat she smiles one beat too late, and holds the smile far too long without blinking.
+
+## Kallista cast clip: `a24225960583` (5s, Image to video from `castroll/cast_kallista.png`)
+Clean, no cuts. Use 0–3.1s (the turn and the smile; after about 4s she starts to part her lips as if speaking). Name test `cast_kallista_name_test.mp4`: "KALLISTA  VANE" in letter-spaced cream serif with a gold rule, left third; fades in at 0.6s over 0.45s, drifts 3 px/s, fades out from 2.75s.
