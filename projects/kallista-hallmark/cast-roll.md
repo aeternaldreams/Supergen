@@ -44,3 +44,4 @@ Cut `cast_becca_v1.mp4` (3.9s, clip 1.0–4.9): dreamy smile → hugs the mug �
 
 ## Marcus (idea agreed): secret fan
 Earbuds in, eyes closed, earnestly vibing to Kallista's song on the sawhorse; senses the camera, freezes mid-nod, plays it cool with a slow nod and a smirk. Silent. Escalates the M2 joke instead of repeating the apple.
+**Marcus props:** small white wireless earbuds (generic, no logo), plus a phone in one hand with a dark, moody album cover on screen (a pale platinum-haired woman in shadow, i.e. Kallista's album) and no readable text, so the gag reads at a glance.
