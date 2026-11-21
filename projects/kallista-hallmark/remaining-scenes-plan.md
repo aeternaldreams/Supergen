@@ -72,3 +72,5 @@ Smash to black.
 
 ## STINGER: done (`stinger_v1.mp4`, 5.45s)
 Render `7a8f6a73836d` (5s Image to video from `stinger_closing.png`, the member's "closing time" edit, with `stinger_5s.mp3`). Mix: `bossa1.mp3` (sped 1.15x, tinny band-pass, −4 dB) 0–2.3, then cut dead · `woo.mp3` at 2.0 · Adrian "...Beautifully dark." 3.24–4.56 in silence plus store tone (−8 dB) · smash to black at 4.75 (0.7s of black).
+
+**Stinger v2** (`stinger_v2.mp4`, 5.65s): render `4dce2887dcb1` (a frozen deadpan stare into the lens, chin on hand) + line take 1 (exhale 2.1–3.3, "...Beautifully dark." 3.4–4.8). Bossa 0–1.9 (cut dead), WOO at 1.6, smash to black at 4.95. Replaces v1.
