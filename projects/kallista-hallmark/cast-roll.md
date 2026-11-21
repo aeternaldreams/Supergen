@@ -34,3 +34,4 @@ Clean, no cuts. Use 0–3.1s (the turn and the smile; after about 4s she starts 
 
 ## Cal: `4e1352575a32` (swing) + `6737c0456ece` (grin), both 5s Image to video
 Cut `cast_cal_v1.mp4` (4.6s): swing 0–1.1 (impact at about 0.52, the log splits, chips fly) → hard cut → grin 0.2–3.7 (breath, grin, bashful duck, looks back up). v2: only the soft thunk of `sfx_axe_split.mp3` (first 0.26s, lowpass 2.5 kHz, −16 dB) at 0.5s; the crack was too loud, winter tone. Name "CAL / WHITAKER" fades in at 0.5s into the grin, same template as Kallista (top-left over the trees).
+- v3 cut (`cast_cal_v3.mp4`): `sfx_axe_thunk_v3.mp3` (ElevenLabs sound **v3**, "soft, muffled thunk"), −14 dB, hit aligned to 0.52s. **Use model `eleven_text_to_sound_v3` for all SFX from now on.**
