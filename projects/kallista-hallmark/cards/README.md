@@ -15,3 +15,9 @@ An empty white Victorian bed-and-breakfast at blue-hour dusk in winter, seen fro
 - `tunein_card_sfx.mp4` (4.6s): evergreen bokeh + snow; the card slides up 0–0.8s; the CONFIRMED stamp slams at 1.6s (scale 1.7→1, shake 0.18s), top-right corner; `sfx_stamp_v3.mp3` (v3, hit at 0.35s into the file) placed at 1.25s, −3 dB.
 - Order: Kallista 3.1 → Cal 4.6 → Becca 4.1 → Marcus 4.2 → Milly 5.6 → title 4.6 → tune-in 4.6 → black 0.6 → stinger 5.7.
 - Generator script: `cards.py` (copy in this folder).
+
+## Story text cards (concept, `text_cards_concept.png`)
+The same world as the tune-in card: evergreen #0E201C bokeh in warm gold, falling snow, a soft dark band behind the text. Line in Playfair Display Italic (cream), with the key word in Playball gold to echo "Holiday", plus a short gold rule.
+- Pair 1 (after the cold open, into the montage): "This winter…" / "…**love** was in the last place she'd look."
+- Pair 2 (after M7): "She came for a quiet getaway…" / "…not a **thaw**."
+Planned motion: each line fades in with a gentle 3 px/s drift (like the name cards), held ~2s. On card 2 the gold word arrives last, with a soft glint; "thaw" starts frosty blue-white and warms to gold. Snow continues across each pair so the two cards read as one thought.
