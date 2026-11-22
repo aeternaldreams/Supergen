@@ -5,12 +5,12 @@
 - [x] Montage M1–M3
 - [x] Finale **v8** (cast roll → title → tune-in → stinger), with the music, chime and timing in `music-score-plan.md`
 
-## Remaining clips (plans in `remaining-scenes-plan.md`)
-- [ ] M4: cocoa break, all five (Web, 10s): Marcus line, group laugh, Milly's "Ha. Ha."
-- [ ] M5: town-square piano (Web, 10s): Cal / Kallista
-- [ ] M6: icy sidewalk (Web, 15s): Kallista / Cal, four lines and a laugh
-- [ ] M7: half-open door (MCP, 5s, silent): I can run it once the keyframe exists
-- [ ] Text cards: "She came for a quiet getaway…" / "…not a thaw."
+## Remaining clips: easiest → hardest
+- [ ] 0. Text cards: "She came for a quiet getaway…" / "…not a thaw." (no render, no credits; I build them in code)
+- [ ] 1. **M7 half-open door** (MCP, 5s, silent): one face, Cal tiny in the distance. Needs the member's keyframe; I run it here (confirm cost first).
+- [ ] 2. **M5 town-square piano** (10s): 2 people, 2 lines. Safest as single-speaker pickups (Cal line, then Kallista line), with the piano notes added in post.
+- [ ] 3. **M6 icy sidewalk** (15s): 2 people, 4 lines and a laugh, plus a slip-and-catch (body contact and physics). Split it: catch shot (no lines), then single-speaker pickups.
+- [ ] 4. **M4 cocoa break** (10s): five faces, a group laugh, comic timing. Wide establishing shot, then singles (Marcus line, Milly's "Ha. Ha."); expect face passes.
 - [ ] Omni Flash guide: add the new scenes
 
 ## Music
