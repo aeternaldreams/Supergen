@@ -76,3 +76,5 @@
 - **Adrian's line:** voice it in ElevenLabs (British, low, velvety).
 - **Bossa nova and "WOO!":** add in the edit, not generated.
 - **Then:** the couch line "He was perfect... until the bossa nova." / Milly's "Statistically, most people meet at work." / the laundromat.
+
+**Running to-do list:** see `TODO.md`.
