@@ -145,7 +145,7 @@ She laughs for real for the first time.
 Cal walks her back to the porch. She says goodnight, goes inside and starts to close the door... then stops with it half open. Through the gap she watches him walk down the snowy path. He looks back. Almost-smile.
 
 **TITLE CARD:** She came for a quiet getaway...
-**TITLE CARD:** ...not a thaw.
+**TITLE CARD:** ...but she had her reservations.
 
 ---
 
