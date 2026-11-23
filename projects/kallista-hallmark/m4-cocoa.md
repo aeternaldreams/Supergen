@@ -60,3 +60,9 @@ New raw-pine treads and risers installed, unpainted, with a hammer left on a ste
 ## FINAL scene audio `m4_cocoa_10s_final.mp3` (retimed so the stare has room)
 Marcus "Four days... same porch step." 0.1–2.45 → group laugh 2.45–~5.1 (Cal's chuckle and one "Yeah." overlapped at 3.9) → **silence ~5.15–6.45** → Milly squeal 3 "Ha ha!" ~6.6–8.2 → **silent stare 8.2–10.0**.
 **E3 TURN delivered: `m4_cocoa_E3_turn.jpg` (GPT Images; Cal holds his own mug, Becca both hands on the tray). Member is fine with Kallista as is. Render: ONE 10s website Reference to video, 4 scripted shots (@1 W3, @2 E1, @3 E2, @4 E3) + `m4_cocoa_10s_final.mp3`.**
+
+## Supergen version fix (member makes two versions: Omni Flash and Supergen)
+The member's Supergen render `4a7882915c7c` fell apart (Marcus's MCU ran 6s; in the wide, Kallista wandered off and vanished; no Milly shot; snow at the end). Omni Flash's Scene 11 nailed it and stays the Omni Flash version.
+- **Group laugh rebuilt with our voices:** separate eleven_v4 TTS laughs (`m4_laugh_becca/cal/marcus/kallista.mp3`), layered and staggered → `m4_group_laugh_v2.wav` (3.05s; Becca's tail burst trimmed so nothing reads as a late Milly). Member: Milly squeals ~0.3–0.4s after the laugh dies; anything longer feels forced.
+- MCP pickups (5s, 480p): laugh `864fae96757f` (from W3, laugh audio) · Milly `6bf94bd6382b` (from E2, squeal 3 at 1.0s) · stare `522ef00093db` (from E3, silent). All held faces and positions, with no snow.
+- **Edit `m4_cocoa_sg_v1.mp4` (10.7s):** Supergen render 0–2.5 (Marcus line) → laugh pickup 0.25–3.45 → Milly pickup 0.7–3.3 → stare pickup 0.3–2.7. Audio: clean Marcus line, group laugh at 2.55, squeal 3 at 6.0 (~0.4s after the laugh), porch tone; Supergen audio muted.
