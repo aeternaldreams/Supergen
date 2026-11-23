@@ -58,3 +58,6 @@ SOUND: only the two voices, the skid on the ice and the quiet night street. Ther
 ## Render `06b69c8eba30` (member's, website): near flawless, except the opening (0–1.0s, Cal lunges and there's no real slip)
 - Image-to-video recovery pickup from A: **failed twice on Supergen's content check ("too intimate")**, no charge. Not reworded to get past the check.
 - **Edit v1 (`m6_sidewalk_v1.mp4`, 14.08s):** the render from 1.0s, opening on them already in each other's arms (the recovery and hold). Audio rebuilt to match: the catch half of `sfx_ice_slip_v3_take2` at 0–0.85, a hold of ~1.1s, dialogue from 1.66 (same tight2 dialogue).
+## Website pickup `2f395cafcb1e` (member's, 5s Image to video from A, passed the check; 6.59s)
+0–0.67 tipped back · 0.67–1.0 a fast, intense yank up · 1.0–2.0 settling · 2.0+ hold with a slow push-in (some breath vapor behind her head; reads as wind).
+**Edit v2 (`m6_sidewalk_v2.mp4`, 15.17s):** pickup 0.45–1.25 **slowed to 0.7x** (softens the yank) + pickup 1.25–2.6 (the settle and hold) = 2.5s → hard cut into the render at 2.42 (Kallista close-up) to the end. Audio: slip take 2 from 0.8s in the file (slide → catch on the yank), hold, tight2 dialogue at 2.74s; pickup audio muted.
