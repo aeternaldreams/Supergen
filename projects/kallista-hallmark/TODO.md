@@ -9,7 +9,7 @@
 - [ ] 0. Text cards: "She came for a quiet getaway…" / "…not a thaw." (no render, no credits; I build them in code)
 - [x] 1. **M7 half-open door**: v2 `624ea3621e71` LOCKED (face/eye fix in the LTX refine pass) (MCP, 5s, silent): one face, Cal tiny in the distance. Needs the member's keyframe; I run it here (confirm cost first).
 - [x] 2. **M5 town-square piano**: edit v1 LOCKED (R2 wide + medium → R1 bench) (10s): 2 people, 2 lines. Safest as single-speaker pickups (Cal line, then Kallista line), with the piano notes added in post.
-- [ ] 3. **M6 icy sidewalk** (15s): 2 people, 4 lines and a laugh, plus a slip-and-catch (body contact and physics). Split it: catch shot (no lines), then single-speaker pickups.
+- [x] 3. **M6 icy sidewalk**: edit v2 LOCKED (website pickup, 0.7x recovery → render `06b69c8eba30` from 2.42) (15s): 2 people, 4 lines and a laugh, plus a slip-and-catch (body contact and physics). Split it: catch shot (no lines), then single-speaker pickups.
 - [ ] 4. **M4 cocoa break** (10s): five faces, a group laugh, comic timing. Wide establishing shot, then singles (Marcus line, Milly's "Ha. Ha."); expect face passes.
 - [ ] Omni Flash guide: add the new scenes
 
