@@ -19,6 +19,7 @@ For the head-to-head with the Supergen cut: the same scenes, keyframes and chara
 - **Adrian:** a low, velvety British voice; self-serious and slow.
 - **Milly:** a flat, even, pleasant American voice that answers a beat late.
 - **Cal:** a warm, boyish American voice, gentle and mid-low with a slight rasp; earnest, a little awkward, quick to a shy laugh.
+- **Marcus:** a smooth, warm, mid-to-low American voice; dry, always smirking.
 
 ---
 
@@ -243,3 +244,168 @@ Sound: dryers tumbling, a soft machine hum, quiet winter street outside. No musi
 Look: 35mm Kodak Vision3 500T film with a 1/4 Pro-Mist filter, warm winter daylight, shallow depth of field, film grain. No subtitles, no text, no watermark, no extra people.
 ```
 For a like-for-like comparison with Supergen, mute Omni Flash's audio and lay in `laundromat_L1_v5_15s.mp3` / `laundromat_L2_v4_15s.mp3` (these match the Supergen takes).
+
+---
+
+# PART 2: MONTAGE
+
+Same rules as above. Character faces: attach your identity headshots (Kallista, Cal, Becca, Milly, Marcus). M4 (cocoa break) and M6 (icy sidewalk) are added once their keyframes exist.
+
+## Scene M1: Porch, "Are you following me?" (10s)
+
+| Image | File | Thumbnail | Role |
+|---|---|---|---|
+| 1 | `keyframes/holiday-reservations/m1_porch_P1.png` (or the new step-repair keyframe from the keeper render) | ![](omni-flash/thumbs/m1_porch_P1.jpg) | Opening composition |
+| 2 | Kallista identity headshot | ![](omni-flash/thumbs/char_kallista_face.jpg) *stand-in* | Kallista's face |
+| 3 | Cal identity headshot | — | Cal's face |
+
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 on the front porch of a white Victorian bed-and-breakfast on a snowy winter morning, wreaths on the doors, garland on the porch rail, a green "Hearthstone Carpentry" pickup truck parked by the house. Open on Image 1.
+
+Kallista (Image 2) stands on the porch steps holding a white coffee mug: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair with a center part, a long charcoal wool coat, a black turtleneck and a dark grey chunky knit scarf. Dry, deadpan, suspicious; a soft, low, dry American voice, a little husky. Cal (Image 3) kneels in front of the steps, nailing a new pine tread board flat into the gap where a step is missing, a hammer in his hand: tousled brown hair, light stubble, warm hazel eyes, a tan canvas work jacket with a sherpa collar over a red-and-black flannel, a leather tool belt. Sweet, a little sheepish, quick to grin; a warm, boyish American voice with a slight rasp.
+
+Kallista stops on the steps and stares down at Cal, who is busy nailing the new tread into the step. Kallista says, dry and suspicious: "Are you following me?" Cal stops mid-swing, freezes, and slowly looks up at Kallista. After a beat, Cal holds up the hammer as evidence and says, sheepish with a small grin: "I was hired... in August." Kallista narrows her eyes and takes a slow sip of coffee; Cal goes back to nailing the new tread into the step, still grinning.
+
+Only the character named for each line speaks it. Nobody looks into the camera. Keep both faces and the porch consistent in every shot. Sound: a hammer tapping wood, a soft winter breeze, distant birds. No music, no subtitles, no text, no watermark, no extra people.
+```
+
+## Scene M2: Side yard, "Dark dream-pop" (10s)
+
+| Image | File | Thumbnail | Role |
+|---|---|---|---|
+| 1 | `keyframes/holiday-reservations/m2_sideyard_Y1.png` | ![](omni-flash/thumbs/m2_sideyard_Y1.jpg) | Opening composition |
+| 2 | Marcus identity headshot | — | Marcus's face |
+| 3 | Cal identity headshot | — | Cal's face |
+
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 in the snowy side yard of a white Victorian bed-and-breakfast, set up as a carpentry work area: sawhorses with a pine board, lumber under a blue tarp, a thermos and a red toolbox. Open on Image 1.
+
+Marcus (Image 2) sits on the end of the sawhorse plank eating a red apple: a handsome light-skinned Black man around thirty, short tapered dark hair, a neatly trimmed beard, warm brown eyes, an olive-green canvas work jacket over a navy henley, a carpenter's pencil behind his ear. Relaxed, quick-witted and dry, always smirking; a smooth, warm, mid-to-low American voice. Cal (Image 3) stands at the other end measuring and marking the board with a yellow tape measure and a pencil: tousled brown hair, light stubble, a tan canvas work jacket with a sherpa collar over a red-and-black flannel. Focused and quietly confident, eyes on his work; a warm, boyish American voice with a slight rasp.
+
+Marcus takes a crunchy bite of the apple and, chewing, Marcus says, amused and dry: "Dark dream-pop. That's just pop... that didn't get enough sleep." Without looking up, Cal says with a knowing half-smile: "You looked her up." Marcus freezes mid-chew, caught, then shrugs it off with swagger, points the apple at Cal and Marcus says mid-chew: "She's got style." Cal keeps measuring, hiding a smile.
+
+Only the character named for each line speaks it. Nobody looks into the camera. Keep both faces and the yard consistent in every shot. Sound: a pencil scratching wood, a tape measure snapping back, a soft winter breeze. No music, no subtitles, no text, no watermark, no extra people.
+```
+
+## Scene M3: Sitting room, "You're watching him again." (10s)
+
+| Image | File | Thumbnail | Role |
+|---|---|---|---|
+| 1 | `keyframes/holiday-reservations/m3_sittingroom_S1.png` | ![](omni-flash/thumbs/m3_sittingroom_S1.jpg) | Opening composition |
+| 2 | Kallista identity headshot | ![](omni-flash/thumbs/char_kallista_face.jpg) *stand-in* | Kallista's face |
+| 3 | Becca indoor portrait | ![](omni-flash/thumbs/char_becca_face.jpg) *stand-in* | Becca's face |
+| 4 | Milly portrait | ![](omni-flash/thumbs/milly_mcu_crop.jpg) *stand-in* | Milly's face |
+
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 in a cozy bed-and-breakfast sitting room on a clear winter morning: frosted windows, a decorated Christmas tree, a low fire. Open on Image 1.
+
+Kallista (Image 2) stands at the frosted window holding a white mug at her chin, gazing outside: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, sad down-turned brows, straight sleek pale platinum-blonde hair with a center part, a dark charcoal cardigan. Dry and deadpan; a soft, low, dry American voice, a little husky. Becca (Image 3) reclines on the sofa with her arms crossed: long wavy auburn hair, freckles, a cream cable-knit sweater. Warm and teasing; a bright, warm American voice. Milly (Image 4) sits perfectly upright in the armchair by the fireplace, reading a hardcover book: a sleek glossy chestnut-brown bob, flawless symmetrical features, a pressed cream turtleneck. Superior and unbothered; a calm, even, slightly snarky American voice.
+
+Becca says, teasing: "You're watching him again." Without turning from the window, Kallista says flatly: "I'm drinking coffee." Becca says, dry: "Your mug is empty." Kallista glances down into her empty mug and slowly lowers it. Without looking up from her book, Milly turns a page, takes a casual sip of tea, and Milly says: "Textbook denial. Honestly, it's embarrassing." Becca bites back a grin; Kallista turns back to the window.
+
+Only the character named for each line speaks it. Milly never looks up from her book. Nobody looks into the camera. Keep all three faces and the room consistent in every shot. Sound: a crackling fire, a page turning, a teacup clinking on its saucer, soft room hum. No music, no subtitles, no text, no watermark, no extra people.
+```
+(The original said "bright winter morning"; "bright" is on the watch-word list, so it is "clear" here.)
+
+## Scene M5: Town-square piano, "Some things are supposed to sound... a little broken." (10s)
+
+| Image | File | Thumbnail | Role |
+|---|---|---|---|
+| 1 | `keyframes/holiday-reservations/m5_piano_A_master.jpg` | ![](omni-flash/thumbs/m5_piano_A_master.jpg) | Opening composition |
+| 2 | `keyframes/holiday-reservations/m5_piano_B_bench.jpg` | ![](omni-flash/thumbs/m5_piano_B_bench.jpg) | Final position (on the bench) |
+| 3 | Kallista identity headshot | ![](omni-flash/thumbs/char_kallista_face.jpg) *stand-in* | Kallista's face |
+| 4 | Cal identity headshot | — | Cal's face |
+
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 at dusk at a small-town winter holiday fair: an old weathered upright piano with snow on its lid beside a tall Christmas tree strung with warm lights, wooden market stalls glowing behind. Open on Image 1.
+
+Kallista (Image 3) sits at the piano playing quietly, eyes on the keys: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, straight sleek pale platinum-blonde hair with a center part, a charcoal wool coat and a dark grey chunky knit scarf. Reserved and absorbed; a soft, low, dry American voice, a little husky. Cal (Image 4) stands just behind her, hands in his pockets: tousled brown hair, light stubble, warm hazel eyes, a tan sherpa-collar work jacket over a red-and-black flannel. Warm and gently teasing; a warm, boyish American voice with a slight rasp.
+
+Shot 1 (about 3s), the two-shot from Image 1: Kallista plays a few soft, slightly out-of-tune notes. Cal leans in a little and Cal says, gently teasing: "I could fix that."
+Cut to Shot 2 (about 4s), a closer three-quarter shot of Kallista at the keys, Cal soft behind her shoulder. She keeps playing and does not look up, and Kallista says softly, almost to herself: "Some things are supposed to sound... a little broken."
+Cut to Shot 3 (about 3s), matching Image 2: Cal sits beside her on the piano bench, shoulder to shoulder, looking at her with a soft, sincere expression, saying nothing. She keeps playing, a small private almost-smile on her lips.
+
+Only the character named for each line speaks it. The two of them only ever look at each other or at the piano; nobody looks into the camera. Keep both faces consistent in every shot. Fair-goers in winter coats stroll between the stalls, chatting and sipping from paper cups; snow falls gently throughout. Sound: a few soft, slightly out-of-tune piano notes, the murmur of the fair in the distance. No music beyond her playing, no subtitles, no text, no watermark.
+```
+
+## Scene M7: Half-open door (5s, silent)
+
+| Image | File | Thumbnail | Role |
+|---|---|---|---|
+| 1 | `keyframes/holiday-reservations/m7_door_D1.jpg` | ![](omni-flash/thumbs/m7_door_D1.jpg) | Opening composition |
+| 2 | Kallista identity headshot | ![](omni-flash/thumbs/char_kallista_face.jpg) *stand-in* | Kallista's face |
+| 3 | Cal identity headshot | — | Cal's face |
+
+```
+A 5-second cinematic live-action romantic drama shot in 16:9, one continuous shot with a locked camera. Night, inside the dim front hallway of a Victorian bed-and-breakfast: a staircase with garland, a lamp glowing on a side table. Open on Image 1.
+
+Kallista (Image 2) stands at the half-open front door with her hand on its edge, watching Cal through the gap: pale skin, a longer face with defined cheekbones, large pale blue-grey eyes, straight sleek pale platinum-blonde hair with a center part, a charcoal wool coat and a dark grey chunky knit scarf. Her head and body stay where they are for the whole shot; her face stays turned toward the camera in three-quarter view, and only her eyes move, following Cal. Outside in the softly falling snow, Cal (Image 3), in a tan work jacket, holds her gaze, gives a small shy nod, then turns and walks slowly away down the snowy path, glancing back once over his shoulder. Kallista's fingers tighten on the door's edge as if to close it, but she hesitates and the door stays half open. Her small closed-lip almost-smile slowly deepens, just slightly. Subtle, restrained performance.
+
+Nobody speaks. Nobody looks into the camera. Keep both faces as in the references. Sound: a quiet winter night, soft wind, a distant wind chime. No music, no subtitles, no text, no watermark.
+```
+
+---
+
+# PART 3: CAST ROLL AND STINGER
+
+Each cast shot is its own 5s clip (use 2–4s in the edit; name cards are added afterwards). Attach the cast frame first, then the character's headshot.
+
+## Cast 1: KALLISTA VANE (5s)
+| Image | File | Thumbnail |
+|---|---|---|
+| 1 | `keyframes/holiday-reservations/castroll/cast_kallista.png` | ![](omni-flash/thumbs/cast_kallista.jpg) |
+| 2 | Kallista identity headshot | ![](omni-flash/thumbs/char_kallista_face.jpg) *stand-in* |
+```
+A 5-second cinematic live-action medium close-up in 16:9, one continuous shot, locked camera. Open on Image 1: Kallista (Image 2) in a quiet snowy field at golden hour, pine trees soft behind her, light snow glowing in the warm backlight: pale skin, a longer face, large pale blue-grey eyes, straight sleek pale platinum-blonde hair with a center part, a charcoal coat and a dark grey knit scarf. She slowly turns her head toward the camera and the faintest half-smile appears, one she is trying to hide. This is a trailer cast-roll shot, so she may look into the lens. She says nothing. Sound: soft winter wind. No music, no subtitles, no text, no watermark.
+```
+
+## Cast 2: CAL WHITAKER (two 5s clips: the swing, then the grin)
+| Image | File | Thumbnail |
+|---|---|---|
+| 1 (swing) | `castroll/cast_cal_A_swing.png` | ![](omni-flash/thumbs/cast_cal_A_swing.jpg) |
+| 1 (grin) | `castroll/cast_cal_B_grin.png` | ![](omni-flash/thumbs/cast_cal_B_grin.jpg) |
+| 2 | Cal identity headshot | — |
+```
+SWING: A 5-second cinematic live-action medium shot in 16:9, locked camera. Open on Image 1: Cal (Image 2) at a chopping block in a snowy clearing at golden hour, a red-and-black buffalo-check flannel with the sleeves rolled up over a grey thermal henley, work gloves. He brings the axe down in one clean swing; the log splits and the two halves fall away, wood chips flying. Sound: a soft, muffled axe thunk and a wood crack. No music, no subtitles, no text, no watermark.
+
+GRIN: A 5-second cinematic live-action medium close-up in 16:9, locked camera. Open on Image 1: Cal (Image 2), axe resting on his shoulder, breath fogging in the cold, tousled brown hair, light stubble, warm hazel eyes. He catches his breath, breaks into a warm, boyish grin, ducks his head bashfully, then looks back up toward the camera. He says nothing. Sound: soft winter wind. No music, no subtitles, no text, no watermark.
+```
+
+## Cast 3: BECCA HARTLEY (5s)
+| Image | File | Thumbnail |
+|---|---|---|
+| 1 | `castroll/cast_becca.png` | ![](omni-flash/thumbs/cast_becca.jpg) |
+| 2 | Becca indoor portrait | ![](omni-flash/thumbs/char_becca_face.jpg) *stand-in* |
+```
+A 5-second cinematic live-action medium close-up in 16:9, locked camera. Open on Image 1: Becca (Image 2) curled up on the cozy bed-and-breakfast sofa at night by the Christmas tree, a big mug of hot cocoa in both hands: long wavy auburn hair, light freckles, warm green-brown eyes, a burgundy cable-knit sweater, warm firelight. Gazing dreamily off to the side, she raises the mug, takes a slow sip, lowers it with a contented, lovestruck sigh and starts to lean back into the cushions. The marshmallows stay in the mug. She says nothing. Sound: a crackling fire, a soft sigh. No music, no subtitles, no text, no watermark.
+```
+
+## Cast 4: MARCUS BELL (5s)
+| Image | File | Thumbnail |
+|---|---|---|
+| 1 | `castroll/cast_marcus_v2.png` (logo-free) | ![](omni-flash/thumbs/cast_marcus_v2.jpg) |
+| 2 | Marcus identity headshot | — |
+```
+A 5-second cinematic live-action medium close-up in 16:9, locked camera. Open on Image 1: Marcus (Image 2) sits on a sawhorse in the snowy side yard at golden hour, small white wireless earbuds in, a phone in one hand: a handsome light-skinned Black man around thirty, short tapered dark hair, a neatly trimmed beard, an olive-green canvas work jacket. Eyes closed, he earnestly vibes to the music with small nods; then his eyes open, he realizes he is being watched, freezes with a little "oh", and slowly breaks into a sly grin toward the camera. He says nothing. Sound: soft winter wind, faint tinny music leaking from the earbuds. No other music, no subtitles, no text, no logos, no watermark.
+```
+
+## Cast 5: "and introducing" MILLY ALWOOD (two 5s clips: wide, then close-up)
+| Image | File | Thumbnail |
+|---|---|---|
+| 1 (wide) | `castroll/cast_milly_A_wide.png` | ![](omni-flash/thumbs/cast_milly_A_wide.jpg) |
+| 1 (close-up) | `castroll/cast_milly_B_closeup.png` | ![](omni-flash/thumbs/cast_milly_B_closeup.jpg) |
+| 2 | Milly portrait | ![](omni-flash/thumbs/milly_mcu_crop.jpg) *stand-in* |
+```
+WIDE: A 5-second cinematic live-action shot in 16:9, locked camera. Open on Image 1: Milly (Image 2) at the bed-and-breakfast dining table, finishing a gift with a flawless bow beside a stack of identically wrapped boxes in perfect alignment: a sleek glossy chestnut-brown bob, flawless symmetrical features, a pressed cream turtleneck. With small scissors she trims both ribbon tails to exactly the same length: snip, snip. Sound: two crisp scissor snips, soft room tone. No music, no subtitles, no text, no watermark.
+
+CLOSE-UP: A 5-second cinematic live-action close-up in 16:9, locked camera. Open on Image 1: Milly (Image 2) looks up from the gift and stares into the lens, completely still and unblinking; a perfectly symmetrical smile arrives a beat too late and holds a little too long. She says nothing. Sound: soft room tone. No music, no subtitles, no text, no watermark.
+```
+
+## Stinger: Adrian, "...Beautifully dark." (5s)
+| Image | File | Thumbnail |
+|---|---|---|
+| 1 | `keyframes/holiday-reservations/stinger_closing.png` | ![](omni-flash/thumbs/stinger_closing.jpg) |
+| 2 | Adrian headshot | ![](omni-flash/thumbs/char_adrian_headshot.jpg) |
+```
+A 5-second cinematic live-action comedy shot in 16:9, one continuous shot, locked camera. Night in a closed, dark music store, lit only by the glow of a keyboard screen, a desk lamp and street lamps through the windows. Open on Image 1: Adrian (Image 2) sits alone behind the keyboard, chin on his hand, defeated. The keyboard is still playing a cheerful, tinny bossa nova demo loop; it cuts off and the keyboard chirps a cheesy synthesized "WOO!". Adrian stays frozen in a deadpan stare straight into the lens, lets out one long exhale, and then Adrian says quietly, to himself, in a low, velvety British voice: "...Beautifully dark." He does not move after the line. Sound: the tinny bossa loop, the "WOO!", then near silence and the store's soft hum. No subtitles, no text, no watermark.
+```
