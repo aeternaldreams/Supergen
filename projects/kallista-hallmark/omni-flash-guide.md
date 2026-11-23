@@ -249,7 +249,7 @@ For a like-for-like comparison with Supergen, mute Omni Flash's audio and lay in
 
 # PART 2: MONTAGE
 
-Same rules as above. Character faces: attach your identity headshots (Kallista, Cal, Becca, Milly, Marcus). Numbering matches the member's render files: Scene 8 = M1, 9 = M2, 10 = M3, **11 = M4 (cocoa break, pending)**, 12 = M5, **13 = M6 (icy sidewalk, pending)**, 14 = M7, 15–19 = cast roll, 20 = stinger.
+Same rules as above. Character faces: attach your identity headshots (Kallista, Cal, Becca, Milly, Marcus). Numbering matches the member's render files: Scene 8 = M1, 9 = M2, 10 = M3, 11 = M4 (cocoa break), 12 = M5, 13 = M6 (icy sidewalk), 14 = M7, 15–19 = cast roll, 20 = stinger.
 
 ## Scene 8 (M1): Porch, "Are you following me?" (10s)
 
@@ -307,6 +307,26 @@ Only the character named for each line speaks it. Milly never looks up from her 
 ```
 (The original said "bright winter morning"; "bright" is on the watch-word list, so it is "clear" here.)
 
+## Scene 11 (M4): Cocoa break, "Four days... same porch step." (10s)
+
+| Image | File | Thumbnail | Role |
+|---|---|---|---|
+| 1 | `keyframes/holiday-reservations/m4_cocoa_W3_wide.jpg` | ![](omni-flash/thumbs/m4_cocoa_W3_wide.jpg) | Opening composition (all five) |
+| 2 | `m4_cocoa_E1_marcus.jpg` | ![](omni-flash/thumbs/m4_cocoa_E1_marcus.jpg) | Marcus close-up |
+| 3 | `m4_cocoa_E2_milly.jpg` | ![](omni-flash/thumbs/m4_cocoa_E2_milly.jpg) | Milly close-up |
+| 4 | `m4_cocoa_E3_turn.jpg` | ![](omni-flash/thumbs/m4_cocoa_E3_turn.jpg) | The turn / stare |
+
+```
+A 10-second cinematic live-action romantic comedy scene in 16:9 on a sunny winter morning in front of a white Victorian bed-and-breakfast, the porch steps newly rebuilt in raw unpainted pine with a hammer still lying on a step. Open on Image 1: five friends holding glass mugs of cocoa. Cal in a tan sherpa-collar work jacket and tool belt; Marcus (Image 2) in an olive-green canvas jacket, a smooth, warm, mid-to-low American voice, dry and smug; Becca in an orange knit hat and scarf holding a wooden tray, a bright, warm American voice; Kallista with very pale platinum hair in a charcoal coat, deadpan; Milly (Image 3) in a camel coat standing slightly apart on the right, a sleek dark chestnut bob, pleasant and blank.
+
+Shot 1 (about 2.5s), Marcus's medium close-up (Image 2): he nods toward Cal with a dry, smug smirk and Marcus says: "Four days... same porch step."
+Cut to Shot 2 (about 3s), the wide (Image 1): everyone bursts out laughing; Becca laughs hardest, Cal laughs sheepishly and rubs the back of his neck, Kallista hides a small smirk behind her mug. The laughter dies away into complete silence.
+Cut to Shot 3 (about 2.5s), Milly's medium close-up (Image 3): after the silence, Milly lets out a sudden, high-pitched, squealy, way-too-cheerful "Ha ha!", a beat too late, then instantly stops and returns to her polite, blank expression.
+Cut to Shot 4 (about 2s), the wide matching Image 4: everyone has turned to stare at Milly in total silence, puzzled; Milly calmly sips her cocoa, unbothered.
+
+Only the character named for each line speaks it. Nobody looks into the camera. Keep all five faces consistent in every shot. Sound: the voices and laughter, a quiet winter morning, breath and mugs. No music, no subtitles, no text, no watermark, no extra people.
+```
+
 ## Scene 12 (M5): Town-square piano, "Some things are supposed to sound... a little broken." (10s)
 
 | Image | File | Thumbnail | Role |
@@ -326,6 +346,28 @@ Cut to Shot 2 (about 4s), a closer three-quarter shot of Kallista at the keys, C
 Cut to Shot 3 (about 3s), matching Image 2: Cal sits beside her on the piano bench, shoulder to shoulder, looking at her with a soft, sincere expression, saying nothing. She keeps playing, a small private almost-smile on her lips.
 
 Only the character named for each line speaks it. The two of them only ever look at each other or at the piano; nobody looks into the camera. Keep both faces consistent in every shot. Fair-goers in winter coats stroll between the stalls, chatting and sipping from paper cups; snow falls gently throughout. Sound: a few soft, slightly out-of-tune piano notes, the murmur of the fair in the distance. No music beyond her playing, no subtitles, no text, no watermark.
+```
+
+## Scene 13 (M6): Icy sidewalk, "I don't do... falling." (15s)
+
+| Image | File | Thumbnail | Role |
+|---|---|---|---|
+| 1 | `keyframes/holiday-reservations/m6_sidewalk_A_catch.jpg` | ![](omni-flash/thumbs/m6_sidewalk_A_catch.jpg) | Opening composition (the catch) |
+| 2 | `m6_sidewalk_B_steady.jpg` | ![](omni-flash/thumbs/m6_sidewalk_B_steady.jpg) | Steadied, close together |
+| 3 | Kallista identity headshot | ![](omni-flash/thumbs/char_kallista_face.jpg) *stand-in* | Kallista's face |
+| 4 | Cal identity headshot | — | Cal's face |
+
+```
+A 15-second cinematic live-action romantic comedy scene in 16:9 at night on a small-town winter sidewalk outside a laundromat whose big front windows glow warm yellow, old street lamps with wreaths, light snow falling, a glossy patch of ice. Open on Image 1: Kallista (Image 3), very pale platinum-blonde hair, a charcoal coat and grey knit scarf, a soft, low, dry American voice, has slipped on the ice and Cal (Image 4), tan sherpa-collar work jacket over buffalo-check flannel, a warm, boyish American voice with a slight rasp, has caught her by the arms.
+
+Shot 1 (about 3s), the side two-shot: her boot skids, Cal catches her and draws her back up onto her feet, ending close together as in Image 2. They hold the moment in silence, looking at each other.
+Cut to Shot 2 (about 2s), close on Kallista over Cal's shoulder: barely above a whisper, rattled, Kallista says: "I don't do... falling."
+Cut to Shot 3 (about 3s), close on Cal: amused, half-smiling, Cal says softly: "In love? What's the worst that can happen?"
+Cut to Shot 4 (about 2s), on Kallista: totally serious, matter-of-fact, Kallista says: "Umm... you could die?"
+Cut to Shot 5 (about 3s), on Cal: caught off guard, a soft laugh, Cal says: "Okay... but besides that?"
+Cut to Shot 6 (about 2s), the two-shot: Kallista lets out one short, surprised laugh and covers her mouth; Cal grins.
+
+Only the character named for each line speaks it. They only look at each other; nobody looks into the camera. Sound: a soft boot skid on ice, the quiet night street, a distant laundromat hum. No music, no subtitles, no text, no watermark.
 ```
 
 ## Scene 14 (M7): Half-open door (5s, silent)
