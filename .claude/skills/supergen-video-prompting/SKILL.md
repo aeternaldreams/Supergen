@@ -179,6 +179,30 @@ paste into the website.
   showed only the doctor, Gary's line was lip-synced onto the doctor. Make
   sure whoever speaks is visible in that shot.
 
+## 1c. ElevenLabs takes (making the dialogue audio)
+
+- **Models:** dialogue with `eleven_v4` (Text to Dialogue / TTS), sound effects
+  with `eleven_text_to_sound_v3` (the member asks for v3 sound effects every time).
+  Get the member's OK before generating dialogue.
+- **v4 vs v3 (member's finding, Nov 2026):** v4 gives the better emotional
+  delivery, but re-running the same input returns nearly identical takes.
+  v3 varies more per take but reads flatter. **Re-rolling v4 is wasted
+  effort: change the input instead.**
+- **To get a different v4 take,** make 2–3 variants of the input, one change each:
+  - **Emotion tag:** `[gentle, a little teasing]` → `[gently amused]` /
+    `[warm, half-smiling]`; `[soft, almost to herself]` →
+    `[barely above a whisper]`.
+  - **Subtle line changes and mannerisms:** a hesitation or filler (`Umm...`,
+    `Eh...`, `Well...`), a breath or `[soft laugh]`, a small rewording that keeps
+    the meaning ("I could fix that." → "I mean... I could fix that.").
+  - **Punctuation:** move the ellipses or commas to shift the pauses
+    ("Some things... are supposed to sound... a little broken.").
+  - **Stability:** lower it for more variation.
+  Label each take with what changed, so the member can pick by ear and the
+  winning recipe gets written in the scene doc.
+- Keep any wording change in the script if the member picks that take, since
+  Supergen lip-syncs to what is said.
+
 ## 2. Dialogue and pacing
 
 There is no separate dialogue box. Spoken lines go inside the scene
