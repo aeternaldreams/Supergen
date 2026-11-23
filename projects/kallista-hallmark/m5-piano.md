@@ -42,3 +42,9 @@ Reason: a single 10s scene with real cuts and a moving crowd. Reference mode hol
 > SOUND: only the two voices and the soft murmur of the fair in the distance. There is no music.
 Post: piano notes (out of tune) added in the edit; mute any invented sounds or duplicate lines; the score swells into Shot 3.
 **Audio note:** v4 takes come out nearly identical from run to run (strong emotional read, little variety); v3 varies more per take but with flatter emotion. To get v4 variety, change the input rather than re-rolling: rephrase the audio tag ([gently amused] vs [teasing, warm]), adjust the punctuation or ellipses, or change the stability setting.
+
+## Renders (member's, website Reference to video, both with `m5_piano_10s_take1.mp3`; audio kept sample-accurate)
+- **R1 `cb2631e2235c`:** wide 0–2.83 → tight two-shot 2.83–7.17 (her face built from the full-body portrait; a weird eye roll) → bench wide 7.17–10.1 (matches @4).
+- **R2 `6c74969737f8`:** wide 0–3.92 → medium of Kallista over the piano top 3.92–8.67 (closer face reference, better face) → reversed-angle wide 8.67–10.1 (Cal sits from the other side, doesn't match @4).
+## Edit v1 (`m5_piano_v1.mp4`, 9.17s, scratchpad)
+Both renders share the same audio timeline, so the cut is seamless: **R2 1.0–7.8** (trimmed head; Cal's line in the wide, her line in the medium) → **R1 7.8–10.125** (the bench two-shot). Audio: the clean scene track 1.0→10.125 + `sfx_piano_outoftune_v3.mp3` (v3) at −15 dB, ducked −6 dB under both lines, fading out from 8.0 for the score swell.
