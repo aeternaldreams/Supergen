@@ -54,3 +54,7 @@ Always cut to the person who is speaking so their face is on camera while they t
 BACKGROUND LIFE: snow drifts down through the lamplight; inside the laundromat window a dryer drum slowly turns; far down the street a car's taillights pass.
 SOUND: only the two voices, the skid on the ice and the quiet night street. There is no music.
 ```
+
+## Render `06b69c8eba30` (member's, website): near flawless, except the opening (0–1.0s, Cal lunges and there's no real slip)
+- Image-to-video recovery pickup from A: **failed twice on Supergen's content check ("too intimate")**, no charge. Not reworded to get past the check.
+- **Edit v1 (`m6_sidewalk_v1.mp4`, 14.08s):** the render from 1.0s, opening on them already in each other's arms (the recovery and hold). Audio rebuilt to match: the catch half of `sfx_ice_slip_v3_take2` at 0–0.85, a hold of ~1.1s, dialogue from 1.66 (same tight2 dialogue).
