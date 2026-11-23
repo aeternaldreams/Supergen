@@ -48,3 +48,11 @@ Untouched Supergen downloads, named by library ID, for re-cutting from scratch (
 | 2:37.1–2:41.7 | Card pair 2 | final/17 |
 | 2:41.7–3:18.8 | Finale | reference/finale_v8 (cast roll → title → tune-in → black → stinger; Suno song + chime) |
 Montage score: `montage_score_A.mp3` from the start of card pair 1, −11 dB, sidechain-ducked under the clip audio (threshold 0.015, ratio 5, 25/400 ms). Sections: card 4.58 · montage bounce 41.42 (M1–M4) · the turn 9.17 (M5) · falling 15.17 (M6) · half-open door 6.0 (M7) · reservations lift 4.58 (card 2, ends on a held chord that cuts into the finale's sleigh bells).
+
+## Rough cut v2: score from the first frame (score A family)
+`reference/HolidayReservations_Supergen_rough_v2.mp4`. The cold-open score (ElevenLabs Music, C major / 100 BPM, same instruments as montage score A) is in `audio/score/`:
+- `cold_open_bed.mp3` (67s): the cozy couch bed, laid on the cold-open timeline at 0 (bed time = cut time), −13 dB, **muted during the flashes and the music store** (14.27–18.10, 23.85–27.90, 34.90–46.69), out at 66.29.
+- `cold_open_stings.mp3`: the cheesy romance swell. Rink flash = 0.9–4.69 at 14.29 (−7 dB); café flash = 1.0–4.98 at 23.875 (−5 dB). Each is cut dead at the white flash back to the couch (that's the gag).
+- `cold_open_laundromat.mp3` (14.6s): the sincere meet-cute cue at 66.29 → 80.875, −12 dB; it hands off to montage score A's card intro.
+- All score is sidechain-ducked under the clip audio (threshold 0.015, ratio 4–5). Montage score A is +4 dB on both story cards.
+- The music store keeps only its diegetic bossa nova (no score).
