@@ -14,3 +14,9 @@
 
 ## Motion prompt (I run it via MCP once the frame exists; confirm the cost first)
 Drafted once the frame is in, so it matches what's actually in the picture. Plan: locked camera; she begins to ease the door closed, then stops with it half open; far down the path Cal looks back; her almost-smile. Silent; the sound (night wind, a distant wind chime) is added in post.
+
+## Chosen keyframe: `keyframes/holiday-reservations/m7_door_D1.jpg` (Nano Banana Pro)
+Platinum hair, soft almost-smile, door half open, stairs, lamp and garland. Cal has stopped on the path and is looking back (larger than planned). The motion is rewritten around that: a shared look, then he goes.
+
+## Motion prompt (Image to video, 5s, 480p: 30 XCE)
+> A 5-second cinematic live-action romantic comedy shot in 16:9, continuing directly from the supplied first frame. One continuous shot, locked camera, no cuts, no camera movement. Night, inside the dim front hallway of the bed-and-breakfast. Kallista, the platinum-blonde woman in the charcoal coat and grey knit scarf, stands at the half-open front door with her hand on its edge, watching Cal through the gap. Outside in the softly falling snow, Cal, the man in the tan work jacket, holds her gaze for a moment, gives a small shy nod, then turns and walks slowly away down the snowy path, glancing back once over his shoulder. Kallista's fingers tighten on the door's edge as if she is about to close it, but she hesitates and doesn't; the door stays half open. Her small closed-lip almost-smile slowly deepens, just slightly, and she lowers her eyes for a second, then looks back out after him. Subtle, restrained performance. No one speaks. Keep both faces, the door, the hallway, the lamp and the lighting exactly as in the first frame. Snow keeps falling gently outside.
