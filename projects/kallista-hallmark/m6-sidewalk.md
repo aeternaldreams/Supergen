@@ -26,3 +26,13 @@ Check: both faces lit and three-quarter or better; hands and arms read clearly (
 
 ## Keyframe B: steadied, still in his arms (an EDIT of A)
 > Keep this exact street, lighting and camera. Kallista is now back on her feet, still standing very close to Cal, her hands resting on his forearms; he still holds her lightly by the arms. They look at each other, faces close: she looks flustered and a little embarrassed, he looks soft and amused. Keep both faces exactly the same.
+
+## Keyframes delivered
+`m6_sidewalk_A_catch.jpg` · `m6_sidewalk_B_steady.jpg` (retouched locally: a dark cheek spot inpainted, a red cheek blotch toned to the surrounding skin; original kept as `_orig`).
+
+## Line change (the member's): Cal: "In love? What's the worst that can happen?" (turns "falling" into the pun, so "you could die?" lands)
+
+## Dialogue: one Text to Dialogue request per variant (Speaker 1 Kallista, Speaker 2 Cal, eleven_v4)
+- **A deadpan sincere** (13.6s raw) · **B rattled, matter-of-fact** (15.2s raw; whisper start, "Umm...") · **C Cal leans in** (12.0s raw, "incredulous")
+- The laugh line needs real text (the API rejects tag-only input): "Ha... haha." / "Ha... ha." / "Ha!"
+- 15s tracks `m6_sidewalk_15s_<variant>.mp3`: `sfx_ice_skid_v3.mp3` (v3) at 0.15s, dialogue from 1.6s, `roomtone_night_street_v3.mp3` (v3) at about −47 dB.
