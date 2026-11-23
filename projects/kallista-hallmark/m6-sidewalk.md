@@ -36,3 +36,4 @@ Check: both faces lit and three-quarter or better; hands and arms read clearly (
 - **A deadpan sincere** (13.6s raw) · **B rattled, matter-of-fact** (15.2s raw; whisper start, "Umm...") · **C Cal leans in** (12.0s raw, "incredulous")
 - The laugh line needs real text (the API rejects tag-only input): "Ha... haha." / "Ha... ha." / "Ha!"
 - 15s tracks `m6_sidewalk_15s_<variant>.mp3`: `sfx_ice_skid_v3.mp3` (v3) at 0.15s, dialogue from 1.6s, `roomtone_night_street_v3.mp3` (v3) at about −47 dB.
+**Member picked B.** Fixes: (1) the first skid sounded like a car skid. There is no v4 sound model (`eleven_text_to_sound_v4` and `eleven_sfx_v4` both return 422), so three new v3 takes were made with human-scale prompts (boot sole, coat rustle, "no vehicles"): `sfx_ice_slip_v3_take1–3.mp3`. (2) Kallista's laugh "Ha... ha.": the second burst is cut, so the dialogue is trimmed at 13.85s (`m6_sidewalk_dialogue_B_cut.mp3`). Tracks: `m6_sidewalk_15s_B_slip1–3.mp3`.
