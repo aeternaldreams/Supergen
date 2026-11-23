@@ -41,3 +41,6 @@ Check: all five faces visible and front or three-quarter, about 1/6 of the frame
 - A dry: Milly said "Ha." four times; only the first two are used. B smug: the first run duplicated Marcus's line and garbled the laughs; re-run without "sipping his cocoa" (the tag made a slurp and a repeat).
 - 10s tracks `m4_cocoa_10s_A_dry.mp3` / `_B_smug.mp3`: Marcus 0.1–2.6 → group laugh (Cal's "Okay, okay" / "Yeah, yeah" overlapped onto the tail) to ~6.0 → **~1.1s silence** → Milly "Ha. Ha." A 7.0–8.3 / B 7.5–8.6 → silent stare to 10s; porch winter tone underneath.
 **Milly pick: squeal 3** ("[high-pitched, perky, way too cheerful, quick] Ha ha!") → scene audio `m4_cocoa_10s_B_squeal3.mp3`.
+
+## Wide v2: `m4_cocoa_W2_wide.jpg` (member's, built on the M1 porch plate), the chosen base
+New raw-pine treads and risers installed, unpainted, with a hammer left on a step (still not finished); the same porch, doors and wreaths as M1; Marcus's jacket is clean (no patch). Cal is in three-quarter profile toward Becca (fine, he has no spoken line). **Milly's bob reads coppery-auburn in the sun** against her glossy chestnut elsewhere: a hair-only pass suggested.
