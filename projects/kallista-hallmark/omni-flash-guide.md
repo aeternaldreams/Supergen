@@ -249,9 +249,9 @@ For a like-for-like comparison with Supergen, mute Omni Flash's audio and lay in
 
 # PART 2: MONTAGE
 
-Same rules as above. Character faces: attach your identity headshots (Kallista, Cal, Becca, Milly, Marcus). M4 (cocoa break) and M6 (icy sidewalk) are added once their keyframes exist.
+Same rules as above. Character faces: attach your identity headshots (Kallista, Cal, Becca, Milly, Marcus). Numbering matches the member's render files: Scene 8 = M1, 9 = M2, 10 = M3, **11 = M4 (cocoa break, pending)**, 12 = M5, **13 = M6 (icy sidewalk, pending)**, 14 = M7, 15–19 = cast roll, 20 = stinger.
 
-## Scene M1: Porch, "Are you following me?" (10s)
+## Scene 8 (M1): Porch, "Are you following me?" (10s)
 
 | Image | File | Thumbnail | Role |
 |---|---|---|---|
@@ -269,7 +269,7 @@ Kallista stops on the steps and stares down at Cal, who is busy nailing the new 
 Only the character named for each line speaks it. Nobody looks into the camera. Keep both faces and the porch consistent in every shot. Sound: a hammer tapping wood, a soft winter breeze, distant birds. No music, no subtitles, no text, no watermark, no extra people.
 ```
 
-## Scene M2: Side yard, "Dark dream-pop" (10s)
+## Scene 9 (M2): Side yard, "Dark dream-pop" (10s)
 
 | Image | File | Thumbnail | Role |
 |---|---|---|---|
@@ -287,7 +287,7 @@ Marcus takes a crunchy bite of the apple and, chewing, Marcus says, amused and d
 Only the character named for each line speaks it. Nobody looks into the camera. Keep both faces and the yard consistent in every shot. Sound: a pencil scratching wood, a tape measure snapping back, a soft winter breeze. No music, no subtitles, no text, no watermark, no extra people.
 ```
 
-## Scene M3: Sitting room, "You're watching him again." (10s)
+## Scene 10 (M3): Sitting room, "You're watching him again." (10s)
 
 | Image | File | Thumbnail | Role |
 |---|---|---|---|
@@ -307,7 +307,7 @@ Only the character named for each line speaks it. Milly never looks up from her 
 ```
 (The original said "bright winter morning"; "bright" is on the watch-word list, so it is "clear" here.)
 
-## Scene M5: Town-square piano, "Some things are supposed to sound... a little broken." (10s)
+## Scene 12 (M5): Town-square piano, "Some things are supposed to sound... a little broken." (10s)
 
 | Image | File | Thumbnail | Role |
 |---|---|---|---|
@@ -328,7 +328,7 @@ Cut to Shot 3 (about 3s), matching Image 2: Cal sits beside her on the piano ben
 Only the character named for each line speaks it. The two of them only ever look at each other or at the piano; nobody looks into the camera. Keep both faces consistent in every shot. Fair-goers in winter coats stroll between the stalls, chatting and sipping from paper cups; snow falls gently throughout. Sound: a few soft, slightly out-of-tune piano notes, the murmur of the fair in the distance. No music beyond her playing, no subtitles, no text, no watermark.
 ```
 
-## Scene M7: Half-open door (5s, silent)
+## Scene 14 (M7): Half-open door (5s, silent)
 
 | Image | File | Thumbnail | Role |
 |---|---|---|---|
@@ -350,7 +350,7 @@ Nobody speaks. Nobody looks into the camera. Keep both faces as in the reference
 
 Each cast shot is its own 5s clip (use 2–4s in the edit; name cards are added afterwards). Attach the cast frame first, then the character's headshot.
 
-## Cast 1: KALLISTA VANE (5s)
+## Scene 15, Cast 1: KALLISTA VANE (5s)
 | Image | File | Thumbnail |
 |---|---|---|
 | 1 | `keyframes/holiday-reservations/castroll/cast_kallista.png` | ![](omni-flash/thumbs/cast_kallista.jpg) |
@@ -359,7 +359,7 @@ Each cast shot is its own 5s clip (use 2–4s in the edit; name cards are added 
 A 5-second cinematic live-action medium close-up in 16:9, one continuous shot, locked camera. Open on Image 1: Kallista (Image 2) in a quiet snowy field at golden hour, pine trees soft behind her, light snow glowing in the warm backlight: pale skin, a longer face, large pale blue-grey eyes, straight sleek pale platinum-blonde hair with a center part, a charcoal coat and a dark grey knit scarf. She slowly turns her head toward the camera and the faintest half-smile appears, one she is trying to hide. This is a trailer cast-roll shot, so she may look into the lens. She says nothing. Sound: soft winter wind. No music, no subtitles, no text, no watermark.
 ```
 
-## Cast 2: CAL WHITAKER (two 5s clips: the swing, then the grin)
+## Scene 16, Cast 2: CAL WHITAKER (two 5s clips: the swing, then the grin)
 | Image | File | Thumbnail |
 |---|---|---|
 | 1 (swing) | `castroll/cast_cal_A_swing.png` | ![](omni-flash/thumbs/cast_cal_A_swing.jpg) |
@@ -371,7 +371,7 @@ SWING: A 5-second cinematic live-action medium shot in 16:9, locked camera. Open
 GRIN: A 5-second cinematic live-action medium close-up in 16:9, locked camera. Open on Image 1: Cal (Image 2), axe resting on his shoulder, breath fogging in the cold, tousled brown hair, light stubble, warm hazel eyes. He catches his breath, breaks into a warm, boyish grin, ducks his head bashfully, then looks back up toward the camera. He says nothing. Sound: soft winter wind. No music, no subtitles, no text, no watermark.
 ```
 
-## Cast 3: BECCA HARTLEY (5s)
+## Scene 17, Cast 3: BECCA HARTLEY (5s)
 | Image | File | Thumbnail |
 |---|---|---|
 | 1 | `castroll/cast_becca.png` | ![](omni-flash/thumbs/cast_becca.jpg) |
@@ -380,7 +380,7 @@ GRIN: A 5-second cinematic live-action medium close-up in 16:9, locked camera. O
 A 5-second cinematic live-action medium close-up in 16:9, locked camera. Open on Image 1: Becca (Image 2) curled up on the cozy bed-and-breakfast sofa at night by the Christmas tree, a big mug of hot cocoa in both hands: long wavy auburn hair, light freckles, warm green-brown eyes, a burgundy cable-knit sweater, warm firelight. Gazing dreamily off to the side, she raises the mug, takes a slow sip, lowers it with a contented, lovestruck sigh and starts to lean back into the cushions. The marshmallows stay in the mug. She says nothing. Sound: a crackling fire, a soft sigh. No music, no subtitles, no text, no watermark.
 ```
 
-## Cast 4: MARCUS BELL (5s)
+## Scene 18, Cast 4: MARCUS BELL (5s)
 | Image | File | Thumbnail |
 |---|---|---|
 | 1 | `castroll/cast_marcus_v2.png` (logo-free) | ![](omni-flash/thumbs/cast_marcus_v2.jpg) |
@@ -389,7 +389,7 @@ A 5-second cinematic live-action medium close-up in 16:9, locked camera. Open on
 A 5-second cinematic live-action medium close-up in 16:9, locked camera. Open on Image 1: Marcus (Image 2) sits on a sawhorse in the snowy side yard at golden hour, small white wireless earbuds in, a phone in one hand: a handsome light-skinned Black man around thirty, short tapered dark hair, a neatly trimmed beard, an olive-green canvas work jacket. Eyes closed, he earnestly vibes to the music with small nods; then his eyes open, he realizes he is being watched, freezes with a little "oh", and slowly breaks into a sly grin toward the camera. He says nothing. Sound: soft winter wind, faint tinny music leaking from the earbuds. No other music, no subtitles, no text, no logos, no watermark.
 ```
 
-## Cast 5: "and introducing" MILLY ALWOOD (two 5s clips: wide, then close-up)
+## Scene 19, Cast 5: "and introducing" MILLY ALWOOD (two 5s clips: wide, then close-up)
 | Image | File | Thumbnail |
 |---|---|---|
 | 1 (wide) | `castroll/cast_milly_A_wide.png` | ![](omni-flash/thumbs/cast_milly_A_wide.jpg) |
@@ -401,7 +401,7 @@ WIDE: A 5-second cinematic live-action shot in 16:9, locked camera. Open on Imag
 CLOSE-UP: A 5-second cinematic live-action close-up in 16:9, locked camera. Open on Image 1: Milly (Image 2) looks up from the gift and stares into the lens, completely still and unblinking; a perfectly symmetrical smile arrives a beat too late and holds a little too long. She says nothing. Sound: soft room tone. No music, no subtitles, no text, no watermark.
 ```
 
-## Stinger: Adrian, "...Beautifully dark." (5s)
+## Scene 20, Stinger: Adrian, "...Beautifully dark." (5s)
 | Image | File | Thumbnail |
 |---|---|---|
 | 1 | `keyframes/holiday-reservations/stinger_closing.png` | ![](omni-flash/thumbs/stinger_closing.jpg) |
