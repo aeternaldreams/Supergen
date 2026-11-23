@@ -59,3 +59,4 @@ New raw-pine treads and risers installed, unpainted, with a hammer left on a ste
 ## Edits delivered: `m4_cocoa_E1_marcus.jpg` (Marcus MCU, Cal's shoulder at frame left, door and wreath behind) · `m4_cocoa_E2_milly.jpg` (Milly MCU, porch rail and bows behind, eyes to frame left). E3 TURN pending (GPT Images).
 ## FINAL scene audio `m4_cocoa_10s_final.mp3` (retimed so the stare has room)
 Marcus "Four days... same porch step." 0.1–2.45 → group laugh 2.45–~5.1 (Cal's chuckle and one "Yeah." overlapped at 3.9) → **silence ~5.15–6.45** → Milly squeal 3 "Ha ha!" ~6.6–8.2 → **silent stare 8.2–10.0**.
+**E3 TURN delivered: `m4_cocoa_E3_turn.jpg` (GPT Images; Cal holds his own mug, Becca both hands on the tray). Member is fine with Kallista as is. Render: ONE 10s website Reference to video, 4 scripted shots (@1 W3, @2 E1, @3 E2, @4 E3) + `m4_cocoa_10s_final.mp3`.**
