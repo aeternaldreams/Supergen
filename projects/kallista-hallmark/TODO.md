@@ -7,8 +7,8 @@
 
 ## Remaining clips: easiest → hardest
 - [ ] 0. Text cards: "She came for a quiet getaway…" / "…not a thaw." (no render, no credits; I build them in code)
-- [ ] 1. **M7 half-open door** (MCP, 5s, silent): one face, Cal tiny in the distance. Needs the member's keyframe; I run it here (confirm cost first).
-- [ ] 2. **M5 town-square piano** (10s): 2 people, 2 lines. Safest as single-speaker pickups (Cal line, then Kallista line), with the piano notes added in post.
+- [x] 1. **M7 half-open door**: v2 `624ea3621e71` LOCKED (face/eye fix in the LTX refine pass) (MCP, 5s, silent): one face, Cal tiny in the distance. Needs the member's keyframe; I run it here (confirm cost first).
+- [x] 2. **M5 town-square piano**: edit v1 LOCKED (R2 wide + medium → R1 bench) (10s): 2 people, 2 lines. Safest as single-speaker pickups (Cal line, then Kallista line), with the piano notes added in post.
 - [ ] 3. **M6 icy sidewalk** (15s): 2 people, 4 lines and a laugh, plus a slip-and-catch (body contact and physics). Split it: catch shot (no lines), then single-speaker pickups.
 - [ ] 4. **M4 cocoa break** (10s): five faces, a group laugh, comic timing. Wide establishing shot, then singles (Marcus line, Milly's "Ha. Ha."); expect face passes.
 - [ ] Omni Flash guide: add the new scenes
@@ -21,6 +21,7 @@
 - [ ] Full trailer assembly (cold open → montage → cards → finale v8)
 
 ## Finishing / post (in this order)
+0. [ ] **LTX refine/upscale** of all footage: original keyframe as the first frame + a half-strength face-corrected anchor where faces drift (M7: end anchor with closed lips). Check lip sync on dialogue clips after the refine.
 1. [ ] **Upscale** all footage first (planned elsewhere)
 2. [ ] **Re-render all text at final resolution** (name cards, title, tune-in): from `cards.py` and the name-card overlays, composited over the upscaled footage
 3. [ ] **Light unifying grade:** warm Marcus's cast shot to sit with the others. Optional gentle glow on practical lights, slightly lifted warm blacks. Leave the stinger cold and dark.
