@@ -44,3 +44,14 @@ Check: all five faces visible and front or three-quarter, about 1/6 of the frame
 
 ## Wide v2: `m4_cocoa_W2_wide.jpg` (member's, built on the M1 porch plate), the chosen base
 New raw-pine treads and risers installed, unpainted, with a hammer left on a step (still not finished); the same porch, doors and wreaths as M1; Marcus's jacket is clean (no patch). Cal is in three-quarter profile toward Becca (fine, he has no spoken line). **Milly's bob reads coppery-auburn in the sun** against her glossy chestnut elsewhere: a hair-only pass suggested.
+**Wide v3 (`m4_cocoa_W3_wide.jpg`): W2 with Milly's hair corrected to a darker chestnut. This is @1 for M4.**
+
+## Edit prompts (Nano Banana Pro / Flow; attach W3 FIRST each time)
+**E1 Marcus MCU** (refs: W3, Marcus identity headshot)
+> Keep this exact scene, porch, lighting and wardrobe. Reframe as a medium close-up of Marcus, the man from the Marcus reference, from the chest up, the camera at the same angle as the wide, the white porch door and wreath softly out of focus behind him. Cal's tan sherpa-collar shoulder and the back of his head are just visible at the left edge of frame. Marcus holds his glass mug of cocoa at chest height and looks toward Cal at frame left with a dry, deadpan smirk, one eyebrow slightly raised. Same face exactly as in the reference: short tapered dark hair, neatly trimmed beard, warm brown eyes; the plain olive-green canvas jacket with no patches or logos over a navy henley. 16:9. No text, no logos, no watermark.
+
+**E2 Milly MCU** (refs: W3, Milly portrait)
+> Keep this exact scene, porch, lighting and wardrobe. Reframe as a medium close-up of Milly, the woman from the Milly reference, from the chest up, the white porch railing with green garland softly out of focus behind her. She stands perfectly upright holding her glass mug of cocoa in both hands at her chest, her body angled slightly toward the group at frame left, her eyes on them (not on the camera), with a polite, pleasant, perfectly composed blank expression. Same face exactly as in the reference: a sleek glossy dark chestnut-brown bob, flawless symmetrical features, large calm brown eyes; the pressed camel wool coat over a cream turtleneck. 16:9. No text, no logos, no watermark.
+
+**E3 TURN** (refs: W3 only; face passes afterwards if anyone drifts)
+> Keep this exact scene, framing, porch, lighting and wardrobe, and all five people in the same places. Becca, Cal, Marcus and Kallista have all turned their heads toward Milly at the far right and stare at her, frozen mid-moment, with puzzled, slightly alarmed expressions; Cal at the far left now faces more toward the camera as he turns, so his face is clearly visible. Milly, at the far right, calmly takes a sip of her cocoa, eyes down, completely unbothered. Keep all five faces exactly the same. No text, no logos, no watermark.
