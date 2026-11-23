@@ -18,7 +18,7 @@
 - [ ] Cut the cast roll on the beat of the finale song (optional polish)
 
 ## Assembly
-- [ ] Full trailer assembly (cold open → montage → cards → finale v8)
+- [x] Full trailer rough cut v1 (Supergen version, 3:19): cold open v9 → card pair 1 → M1–M7 → card pair 2 → finale v8; montage score A/B (ElevenLabs Music). Masters v2 package (clean, no flashes) + README/EDL (`masters-v2-README.md`).
 
 ## Finishing / post (in this order)
 0. [ ] **LTX refine/upscale** of all footage: original keyframe as the first frame + a half-strength face-corrected anchor where faces drift (M7: end anchor with closed lips). Check lip sync on dialogue clips after the refine.
