@@ -25,3 +25,7 @@ Platinum hair, soft almost-smile, door half open, stairs, lamp and garland. Cal 
 - 0–2s: face visible; her almost-smile, then she lowers her eyes (as prompted). Cal nods and turns.
 - ~2.5s on: she turns into pure profile toward the gap, watching him go; a slight smile in profile at the end. Cal walks away down the path. Locked camera held; the door stays put.
 - Mix (`m7_door_v1.mp4`, scratchpad): `roomtone_porch_winter.mp3` −6 dB + `sfx_windchime_night_v3.mp3` (v3) −10 dB.
+
+## Render v2: `624ea3621e71` (~36 XCE; 6.58s), the face-hold reroll
+The prompt adds "her head and body stay exactly where they are… never turns away… only her eyes move." Result: her face holds in three-quarter view toward the camera for the whole clip. A soft smile early, settling to a wistful, warm look as Cal walks away and glances back; the door stays put; the camera is locked. Mix as v1, giving `m7_door_v2.mp4` (scratchpad).
+**Lesson:** to keep a face on camera while a character watches something leave, say explicitly that the head stays put and only the eyes follow.
