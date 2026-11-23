@@ -40,3 +40,4 @@ Check: all five faces visible and front or three-quarter, about 1/6 of the frame
 ## Dialogue (eleven_v4 Text to Dialogue)
 - A dry: Milly said "Ha." four times; only the first two are used. B smug: the first run duplicated Marcus's line and garbled the laughs; re-run without "sipping his cocoa" (the tag made a slurp and a repeat).
 - 10s tracks `m4_cocoa_10s_A_dry.mp3` / `_B_smug.mp3`: Marcus 0.1–2.6 → group laugh (Cal's "Okay, okay" / "Yeah, yeah" overlapped onto the tail) to ~6.0 → **~1.1s silence** → Milly "Ha. Ha." A 7.0–8.3 / B 7.5–8.6 → silent stare to 10s; porch winter tone underneath.
+**Milly pick: squeal 3** ("[high-pitched, perky, way too cheerful, quick] Ha ha!") → scene audio `m4_cocoa_10s_B_squeal3.mp3`.
