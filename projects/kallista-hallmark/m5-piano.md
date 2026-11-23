@@ -25,3 +25,19 @@ Check: both faces at least ~1/5 of the frame height, lit, three-quarter or bette
 ## Keyframe B: bench
 Made **as an edit of A** (keeps the square identical):
 > Keep this exact scene, lighting and camera. Cal now sits beside Kallista on the piano bench, close, shoulder to shoulder, both facing the piano; he looks at her with a soft, sincere expression, no joke, and she keeps playing with a small, private almost-smile, eyes on the keys. Keep both faces exactly the same.
+
+## UPDATE: route changed to website Reference to video (member's call)
+Frames: `m5_piano_A_master.jpg` (Cal standing behind, Kallista playing) · `m5_piano_B_bench.jpg` (Cal seated beside her).
+Reason: a single 10s scene with real cuts and a moving crowd. Reference mode holds faces in new angles and gives extras life (BACKGROUND LIFE line). This follows the proven 4d recipe plus scene audio (laundromat update).
+
+**Setup:** 10s · @1 = `m5_piano_A_master.jpg` (first frame) · @2 = Kallista identity close-up · @3 = Cal identity close-up · @4 = `m5_piano_B_bench.jpg` · scene audio = `m5_piano_10s.mp3` (Cal line ~2.0s, Kallista ~4.3–7.6s, room tone; pending the member's OK to generate).
+
+**Prompt:**
+> The scene begins on @1 exactly as shown: dusk at a small-town winter holiday fair, an old weathered upright piano with snow on its lid beside a tall lit Christmas tree. Kallista @2, the platinum-blonde woman in the charcoal coat and grey knit scarf, sits at the piano playing quietly, eyes on the keys. Cal @3, the man in the tan sherpa-collar work jacket and buffalo-check flannel, stands just behind her, hands in his pockets, watching her with a warm, teasing smile.
+> SHOT 1 (about 3 seconds): the wide two-shot from @1. Cal leans in a little and says, gently teasing: "I could fix that."
+> SHOT 2 (about 4 seconds): a closer three-quarter shot of Kallista at the keys, Cal soft in the background behind her shoulder. She keeps playing and does not look up, and says softly, almost to herself: "Some things are supposed to sound... a little broken."
+> SHOT 3 (about 3 seconds): matching @4: Cal has sat down beside her on the piano bench, shoulder to shoulder. He looks at her with a soft, sincere expression and says nothing; she keeps playing, a small private almost-smile on her lips, eyes on the keys.
+> The two of them only ever look at each other or at the piano; nobody ever looks into the camera.
+> BACKGROUND LIFE: fair-goers in winter coats stroll between the lit market stalls, chatting and sipping from paper cups; a vendor hands a mug across a stall counter; snow falls gently throughout.
+> SOUND: only the two voices and the soft murmur of the fair in the distance. There is no music.
+Post: piano notes (out of tune) added in the edit; mute any invented sounds or duplicate lines; the score swells into Shot 3.
