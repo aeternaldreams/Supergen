@@ -37,3 +37,20 @@ Check: both faces lit and three-quarter or better; hands and arms read clearly (
 - The laugh line needs real text (the API rejects tag-only input): "Ha... haha." / "Ha... ha." / "Ha!"
 - 15s tracks `m6_sidewalk_15s_<variant>.mp3`: `sfx_ice_skid_v3.mp3` (v3) at 0.15s, dialogue from 1.6s, `roomtone_night_street_v3.mp3` (v3) at about −47 dB.
 **Member picked B.** Fixes: (1) the first skid sounded like a car skid. There is no v4 sound model (`eleven_text_to_sound_v4` and `eleven_sfx_v4` both return 422), so three new v3 takes were made with human-scale prompts (boot sole, coat rustle, "no vehicles"): `sfx_ice_slip_v3_take1–3.mp3`. (2) Kallista's laugh "Ha... ha.": the second burst is cut, so the dialogue is trimmed at 13.85s (`m6_sidewalk_dialogue_B_cut.mp3`). Tracks: `m6_sidewalk_15s_B_slip1–3.mp3`.
+
+## FINAL track: `m6_sidewalk_15s_B_final.mp3` (15.0s)
+Slip take 2 (trimmed to its main slide and catch) 0.06–1.46 → **love-hold silence ~1.5s** → Kallista 2.94–4.68 "I don't do... falling." → (Cal's soft amused breath 4.7–5.6) → Cal 5.74–8.02 "In love? What's the worst that can happen?" → Kallista 8.52–10.10 "Umm... you could die?" → Cal's stunned soft laugh 10.1–11.0 → Cal 11.12–12.92 "Okay... but besides that?" → Kallista's laugh 12.92–14.5 (second "hhuh" cut at the source's 13.2s). Pauses tightened: −0.25s at 3.95, −0.2s at 5.85, −0.17s at 6.85, −0.32s at 9.7.
+
+## Website prompt (Reference to video, 15s): @1 A catch · @2 Kallista close face ref · @3 Cal face ref · @4 B steady · scene audio = the final track
+```
+The scene begins on @1 exactly as shown: night on a small-town sidewalk in winter, outside a laundromat whose big front windows glow warm yellow, old street lamps with wreaths, light snow falling, a glossy patch of ice on the pavement. Kallista @2, the platinum-blonde woman in the charcoal coat and grey knit scarf, has just slipped on the ice; Cal @3, the man in the tan sherpa-collar work jacket and buffalo-check flannel, has caught her by the arms.
+SHOT 1 (about 3 seconds), the side two-shot from @1: her boot skids on the ice, she tips backward and Cal catches her. He steadies her and she comes back up onto her feet, ending close together as in @4, his hands still on her arms, hers on his forearms. Then they simply hold the moment: they look into each other's eyes, very close, perfectly still and silent, snow falling around them.
+SHOT 2 (about 2 seconds), a close-up of Kallista over Cal's shoulder: flustered, breathless, she says softly: "I don't do... falling."
+SHOT 3 (about 3 seconds), a close-up of Cal over her shoulder: an amused breath, then he says softly, half-smiling: "In love? What's the worst that can happen?"
+SHOT 4 (about 2 seconds), back on Kallista: totally serious, matter-of-fact, she says: "Umm... you could die?"
+SHOT 5 (about 3 seconds), on Cal: caught off guard, a soft laugh, then he says: "Okay... but besides that?"
+SHOT 6 (about 2 seconds), the two-shot matching @4: Kallista breaks into a real, surprised laugh and covers her mouth with her hand; Cal grins at her.
+Always cut to the person who is speaking so their face is on camera while they talk; only the person speaking moves their lips. The two of them only ever look at each other; nobody ever looks into the camera.
+BACKGROUND LIFE: snow drifts down through the lamplight; inside the laundromat window a dryer drum slowly turns; far down the street a car's taillights pass.
+SOUND: only the two voices, the skid on the ice and the quiet night street. There is no music.
+```
