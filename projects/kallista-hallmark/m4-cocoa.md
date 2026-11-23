@@ -35,3 +35,8 @@ Check: all five faces visible and front or three-quarter, about 1/6 of the frame
 
 ## Keyframe TURN (an edit of W)
 > Keep this exact scene, camera and lighting. Becca, Cal, Marcus and Kallista have all turned their heads to stare at Milly, frozen mid-moment with puzzled, slightly alarmed expressions; Milly calmly takes a sip of her cocoa, unbothered. Keep all five faces exactly the same.
+
+## Wide delivered: `m4_cocoa_W_wide.jpg` (member's). All five faces clear, the Hearthstone truck, platinum Kallista, Milly apart at the rail. The new pine treads are the ones Cal hammered in M1 (raw, unpainted), so "Four days. Same porch step." still reads. Retouch: a brand-style patch on Marcus's chest pocket cloned out locally (original kept as `_orig`).
+## Dialogue (eleven_v4 Text to Dialogue)
+- A dry: Milly said "Ha." four times; only the first two are used. B smug: the first run duplicated Marcus's line and garbled the laughs; re-run without "sipping his cocoa" (the tag made a slurp and a repeat).
+- 10s tracks `m4_cocoa_10s_A_dry.mp3` / `_B_smug.mp3`: Marcus 0.1–2.6 → group laugh (Cal's "Okay, okay" / "Yeah, yeah" overlapped onto the tail) to ~6.0 → **~1.1s silence** → Milly "Ha. Ha." A 7.0–8.3 / B 7.5–8.6 → silent stare to 10s; porch winter tone underneath.
